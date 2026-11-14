@@ -1,6 +1,6 @@
 'use strict';
 /* Egzamin IOŚ – aplikacja do nauki. Bez zależności, dane tylko lokalnie (localStorage). */
-const APP_VERSION = '1.0.2';
+const APP_VERSION = '1.0.3';
 
 /* ---------- narzędzia ---------- */
 const $ = (s, el = document) => el.querySelector(s);
@@ -178,7 +178,7 @@ function showQuestion(i) {
   const p = session.queue[i];
   cur = { p, wrong: new Set(), solved: false, revealed: false, first: true, unverified: false, picked: null, retrying: false };
   if (session.mode === 'seq') { state.seq = p.id; saveState(); }
-  if (location.hash === '#/q') drawQ(); else location.hash = '#/q';
+  if (location.hash === '#/q') { drawQ(); window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); } else location.hash = '#/q';
 }
 function finishSession() {
   const s = session; s.done = true;
