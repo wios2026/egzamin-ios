@@ -1,0 +1,3474 @@
+{
+ "zbior": "ios-2026-vii",
+ "nazwa": "Egzamin IOŚ – część 1, VII edycja (2026)",
+ "wersja": "2026-11-14",
+ "pytania": [
+  {
+   "id": 1,
+   "pytanie": "Ustawa Prawo wodne reguluje zagadnienia:",
+   "odpowiedzi": {
+    "a": "gospodarowania wodami zgodnie z zasadą zrównoważonego rozwoju, w szczególności kształtowania i ochrony zasobów wodnych, korzystania z wód oraz zarządzania zasobami wodnymi",
+    "b": "zbiorowego zaopatrzenia w wodę i zbiorowego odprowadzania ścieków",
+    "c": "zasad ochrony środowiska oraz warunków korzystania z jego zasobów, z uwzględnieniem wymagań zrównoważonego rozwoju"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 2,
+   "pytanie": "Szczególnym korzystaniem z wód nie jest:",
+   "odpowiedzi": {
+    "a": "rolnicze wykorzystanie ścieków, jeżeli ich łączna ilość jest większa niż 5 m3 na dobę",
+    "b": "wprowadzanie ścieków do wód lub do ziemi w ilości nieprzekraczającej łącznie 5 m3 na dobę",
+    "c": "korzystanie z wód do nawadniania gruntów lub upraw, a także na potrzeby działalności rolniczej w rozumieniu art. 2 ust. 2 ustawy z dnia 15 listopada 1984 r. o podatku rolnym, w ilości większej niż średniorocznie 5 m3 na dobę"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 3,
+   "pytanie": "Kontrola odprowadzania ścieków z domów jednorodzinnych należy do:",
+   "odpowiedzi": {
+    "a": "wójta gminy",
+    "b": "wojewódzkiego inspektora ochrony środowiska",
+    "c": "obu wyżej wymienionych organów"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 4,
+   "pytanie": "Pozwolenie wodnoprawne jest wymagane na:",
+   "odpowiedzi": {
+    "a": "usługi wodne, szczególne korzystanie z wód, wykonanie urządzeń wodnych",
+    "b": "zwykłe korzystanie z wód",
+    "c": "obie odpowiedzi są prawidłowe"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 5,
+   "pytanie": "Kontrola z zakresu gospodarki wodno-ściekowej obejmuje:",
+   "odpowiedzi": {
+    "a": "tylko zaopatrzenie w wodę (źródło zaopatrzenia, zużycie, urządzenia do poboru, zgodność wielkości poboru wody z pozwoleniem, przestrzeganie innych warunków pozwolenia)",
+    "b": "zaopatrzenie w wodę (jak wyżej) i odprowadzanie ścieków (odbiornik, stan formalno- prawny, dotrzymywanie warunków pozwolenia wodnoprawnego)",
+    "c": "tylko całodobowy pobór próbek ścieków"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 6,
+   "pytanie": "Wojewódzki inspektor ochrony środowiska może nie uznać wyników pomiarów ilości, stanu i składu ścieków przedkładanych przez podmiot, gdy:",
+   "odpowiedzi": {
+    "a": "wyniki pomiarów nie zostały przekazane w terminie",
+    "b": "pomiary nasuwają zastrzeżenia",
+    "c": "wyniki pomiarów przekazano na nieobowiązujących wzorach dokumentów"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 7,
+   "pytanie": "Wydanie decyzji o opłacie podwyższonej następuje na podstawie wyników:",
+   "odpowiedzi": {
+    "a": "pomiarów kontrolnych wioś",
+    "b": "pomiarów wykonanych na zlecenie zakładu przez Centralne Laboratorium Badawcze GIOŚ",
+    "c": "pomiarów automonitoringowych zakładu, przesłanych do wioś"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 8,
+   "pytanie": "Kontrole korzystania z wód i ochrony zasobów wodnych oraz utrzymywania wód i urządzeń wodnych wykonują:",
+   "odpowiedzi": {
+    "a": "wojewódzcy inspektorzy ochrony środowiska",
+    "b": "marszałkowie województw",
+    "c": "Wody Polskie"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 9,
+   "pytanie": "Celem Krajowego programu oczyszczania ścieków komunalnych (KPOŚK) jest:",
+   "odpowiedzi": {
+    "a": "ograniczenie zrzutów nieoczyszczonych ścieków",
+    "b": "budowa oczyszczalni ścieków i systemów kanalizacyjnych",
+    "c": "obie odpowiedzi są prawdziwe"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 10,
+   "pytanie": "Opłatę podwyższoną za korzystanie z usług wodnych z przekroczeniem warunków pozwolenia wodnoprawnego wymierza:",
+   "odpowiedzi": {
+    "a": "właściwy organ Inspekcji Ochrony Środowiska",
+    "b": "właściwy organ Wód Polskich",
+    "c": "żadna z odpowiedzi nie jest prawidłowa"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 11,
+   "pytanie": "Za pobór wody z przekroczeniem warunków pozwolenia ustala się:",
+   "odpowiedzi": {
+    "a": "karę administracyjną",
+    "b": "opłatę stałą",
+    "c": "opłatę podwyższoną"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 12,
+   "pytanie": "Przez stan ścieków rozumie się:",
+   "odpowiedzi": {
+    "a": "ilość ścieków",
+    "b": "stężenie substancji zawartych w ściekach",
+    "c": "temperaturę, odczyn, poziom substancji promieniotwórczych i stopień rozcieńczenia ścieków eliminujący toksyczne oddziaływanie ścieków na ryby"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 13,
+   "pytanie": "Ponoszenia opłaty podwyższonej można uniknąć poprzez:",
+   "odpowiedzi": {
+    "a": "realizację jakiegokolwiek przedsięwzięcia z zakresu gospodarki wodno-ściekowej",
+    "b": "realizację przedsięwzięcia w celu usunięcia przyczyny ponoszenia opłaty",
+    "c": "złożenie wniosku o odroczenie terminu jej płatności w związku z realizowanym przedsięwzięciem mającym na celu usunięcie przyczyn ponoszenia opłaty"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 14,
+   "pytanie": "Program działań mających na celu zmniejszenie zanieczyszczenia wód azotanami pochodzącymi ze źródeł rolniczych, obejmuje:",
+   "odpowiedzi": {
+    "a": "teren całej Polski",
+    "b": "tylko 4 województwa największe pod względem powierzchni",
+    "c": "tylko województwa, w których dominują gospodarstwa powyżej 100 ha"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 15,
+   "pytanie": "Ograniczenia rolniczego wykorzystania nawozów dotyczą:",
+   "odpowiedzi": {
+    "a": "gleb zamarzniętych, zalanych wodą, nasyconych wodą lub przykrytych śniegiem",
+    "b": "terenów o dużym nachyleniu i terenów położonych w pobliżu wód powierzchniowych",
+    "c": "obie odpowiedzi są dobre"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 16,
+   "pytanie": "Wojewódzki inspektor ochrony środowiska na podstawie wyników kontroli dotyczącej stosowania Programu działań może:",
+   "odpowiedzi": {
+    "a": "tylko nakazać usunięcie nieprawidłowości",
+    "b": "tylko ustalić obowiązek uiszczenia opłaty za nieprawidłowości enumeratywnie wymienione w stosownym przepisie",
+    "c": "żadna z odpowiedzi nie jest prawidłowa"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 17,
+   "pytanie": "Zwykłe korzystanie z wód obejmuje:",
+   "odpowiedzi": {
+    "a": "pobór wód podziemnych lub wód powierzchniowych w ilości średniorocznie 15 m3/d",
+    "b": "wprowadzanie ścieków do wód lub do ziemi w ilości nieprzekraczającej łącznie 5 m3/d",
+    "c": "pobór wód na cele prowadzenia działalności gospodarczej przez osobę fizyczną"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 18,
+   "pytanie": "Postępowania w sprawie opłaty podwyższonej za korzystanie z usług wodnych polegających na poborze wód podziemnych lub wód powierzchniowych lub wprowadzaniu ścieków do wód lub do ziemi z przekroczeniem warunków określonych w pozwoleniu wodnoprawnym albo w pozwoleniu zintegrowanym, nie wszczyna się, jeżeli:",
+   "odpowiedzi": {
+    "a": "przewidywana wysokość tej opłaty nie przekracza 100 zł",
+    "b": "przewidywana wysokość tej opłaty nie przekracza 800 zł",
+    "c": "nie ma żadnej kwoty ograniczającej możliwość wszczęcia postepowania w takich sprawach"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 19,
+   "pytanie": "Opłatę stałą i zmienną za usługi wodne ustala:",
+   "odpowiedzi": {
+    "a": "podmiot eksploatujący urządzenie wodne",
+    "b": "właściwy wojewódzki inspektor ochrony środowiska",
+    "c": "właściwy organ Państwowego Gospodarstwa Wodnego Wody Polskie"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 20,
+   "pytanie": "Kontrolę gospodarowania wodami w zakresie przestrzegania nałożonych na właścicieli gruntów obowiązków oraz ograniczeń wynikających ze stosowania Programu działań mających na celu zmniejszenie zanieczyszczenia wód azotanami pochodzącymi ze źródeł rolniczych wykonują:",
+   "odpowiedzi": {
+    "a": "Agencja Restrukturyzacji i Modernizacji Rolnictwa",
+    "b": "Inspekcja Ochrony Środowiska",
+    "c": "Państwowe Gospodarstwo Wodne Wody Polskie"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 21,
+   "pytanie": "Plan nawożenia azotem muszą opracować podmioty:",
+   "odpowiedzi": {
+    "a": "posiadające gospodarstwo rolne o powierzchni powyżej 50 ha lub utrzymujące obsadę większą niż 50 dużych jednostek przeliczeniowych (DJP)",
+    "b": "nabywające nawóz naturalny lub produkt pofermentacyjny",
+    "c": "prowadzące chów lub hodowlę drobiu powyżej 40 000 stanowisk lub chów lub hodowlę świń powyżej 2000 stanowisk dla świń o wadze ponad 30 kg lub 750 stanowisk dla macior"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 22,
+   "pytanie": "Przez poważną awarię rozumie się:",
+   "odpowiedzi": {
+    "a": "zdarzenie z udziałem jednej substancji niebezpiecznej, prowadzące do powstania zagrożenia dla środowiska",
+    "b": "zdarzenie z udziałem co najmniej kilku niebezpiecznych substancji, prowadzące do powstania zagrożenia życia lub zdrowia ludzi",
+    "c": "zdarzenie z udziałem jednej lub więcej niebezpiecznych substancji, prowadzące do powstania zagrożenia życia lub zdrowia ludzi lub środowiska, natychmiast lub z opóźnieniem"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 23,
+   "pytanie": "Jeżeli kontrola w zakładzie ZDR lub ZZR wykaże istotne naruszenia wymagań w zakresie przeciwdziałania poważnej awarii, ponowną kontrolę przeprowadza się:",
+   "odpowiedzi": {
+    "a": "niezwłocznie",
+    "b": "w terminie 6 miesięcy od dnia zakończenia tej kontroli",
+    "c": "według uznania wojewódzkiego inspektora ochrony środowiska"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 24,
+   "pytanie": "Kompetencje Inspekcji Ochrony Środowiska w zakresie zapobiegania poważnym awariom (p.a.) obejmują:",
+   "odpowiedzi": {
+    "a": "kontrolę podmiotów, których działalność może stanowić przyczynę p.a.; badanie przyczyn powstawania oraz sposobów likwidacji skutków p.a. dla środowiska; prowadzenie rejestru zakładów, których działalność może być przyczyną wystąpienia p.a., w tym zakładów o zwiększonym ryzyku i zakładów o dużym ryzyku",
+    "b": "prowadzenie rejestru zakładów o zwiększonym i zakładów o dużym ryzyku oraz wydawanie zakazów i ograniczeń w korzystaniu ze środowiska",
+    "c": "kontrolę podmiotów korzystających ze środowiska oraz nadzór nad usuwaniem skutków awarii"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 25,
+   "pytanie": "Kontrole planowe w zakładach o dużym ryzyku (ZDR) wykonuje się z częstotliwością:",
+   "odpowiedzi": {
+    "a": "co najmniej raz na 3 lata",
+    "b": "co najmniej raz w roku",
+    "c": "uzgodnioną z komendantem wojewódzkim PSP"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 26,
+   "pytanie": "O zaliczeniu zakładu do zakładu o dużym ryzyku wystąpienia poważnej awarii lub do zakładu o zwiększonym ryzyku decydują:",
+   "odpowiedzi": {
+    "a": "zagrożenie stwarzane przez substancje znajdujące się w zakładzie",
+    "b": "wielkość produkcji",
+    "c": "ilość, kategoria i rodzaj substancji niebezpiecznej"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 27,
+   "pytanie": "Które niżej wymienione cechy awarii decydują o zaliczeniu jej do poważnej awarii:",
+   "odpowiedzi": {
+    "a": "wyłącznie rodzaj zdarzenia, którym może być emisja, pożar lub eksplozja",
+    "b": "wyłącznie wystąpienie zagrożenia dla życia lub zdrowia ludzi lub środowiska",
+    "c": "rodzaj zdarzenia, w szczególności emisja, pożar lub eksplozja; miejsce zdarzenia – w trakcie procesu przemysłowego, magazynowania lub transportu; występowanie jednej lub więcej niebezpiecznych substancji; skutek – powstanie zagrożenia życia lub zdrowia ludzi lub środowiska, natychmiast lub z opóźnieniem"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 28,
+   "pytanie": "W razie awarii wojewódzki inspektor ochrony środowiska może, w drodze decyzji, zarządzić:",
+   "odpowiedzi": {
+    "a": "przeprowadzenie właściwych badań dotyczących przyczyn, przebiegu i skutków awarii",
+    "b": "zaktualizowanie raportu o bezpieczeństwie",
+    "c": "przećwiczenie wewnętrznego planu operacyjno-ratowniczego"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 29,
+   "pytanie": "Uzyskanie decyzji o środowiskowych uwarunkowaniach realizacji inwestycji wymagane jest przed uzyskaniem:",
+   "odpowiedzi": {
+    "a": "pozwolenia na budowę",
+    "b": "zezwolenia na zbieranie odpadów, zezwolenia na przetwarzanie odpadów",
+    "c": "obie odpowiedzi są prawidłowe"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 30,
+   "pytanie": "Nowo zbudowany obiekt budowlany nie może być eksploatowany, jeżeli w okresie 30 dni od zakończenia rozruchu:",
+   "odpowiedzi": {
+    "a": "nie są dotrzymywane standardy emisyjne",
+    "b": "nie są dotrzymywane standardy jakości środowiska",
+    "c": "żadna z odpowiedzi nie jest prawidłowa"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 31,
+   "pytanie": "Celem kontroli inwestycyjnej jest:",
+   "odpowiedzi": {
+    "a": "ograniczenie nadmiernego rozwoju firm",
+    "b": "niedopuszczenie do użytkowania nowego lub przebudowanego obiektu budowlanego lub instalacji, które nie spełniają wymagań określonych w przepisach ochrony środowiska",
+    "c": "ochrona krajobrazu przed zaśmieceniem kolejnymi inwestycjami"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 32,
+   "pytanie": "Kontrola inwestycyjna przeprowadzana przez Inspekcję Ochrony Środowiska dotyczy:",
+   "odpowiedzi": {
+    "a": "przedsięwzięć mogących powodować znaczne zanieczyszczenie poszczególnych elementów przyrodniczych albo środowiska jako całości",
+    "b": "przedsięwzięć mogących zawsze znacząco lub potencjalnie znacząco oddziaływać na środowisko",
+    "c": "przedsięwzięć w gospodarce odpadami"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 33,
+   "pytanie": "Nowo zbudowany lub przebudowany obiekt budowlany może być oddany do użytku gdy:",
+   "odpowiedzi": {
+    "a": "przed rozpoczęciem procesu inwestycyjnego uzyskano pozwolenie na budowę",
+    "b": "zastosowano nowoczesne rozwiązania technologiczne",
+    "c": "spełnia wymagania ochrony środowiska, tj. zastosowano środki techniczne chroniące środowisko; zastosowano odpowiednie rozwiązania technologiczne; uzyskano wymagane decyzje na korzystanie ze środowiska"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 34,
+   "pytanie": "Inwestor, który zamierza oddać obiekt do użytkowania, realizowany jako przedsięwzięcie mogące znacząco oddziaływać na środowisko, winien poinformować o tym wojewódzkiego inspektora ochrony środowiska w terminie:",
+   "odpowiedzi": {
+    "a": "2 miesięcy przed terminem oddania do użytkowania",
+    "b": "30 dni przed terminem oddania do użytkowania",
+    "c": "7 dni przed terminem oddania do użytkowania"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 35,
+   "pytanie": "Czy wojewódzki inspektor ochrony środowiska ma uprawnienie do nakładania kar administracyjnych za naruszenia warunków, wymogów i obowiązków decyzji o środowiskowych uwarunkowaniach?",
+   "odpowiedzi": {
+    "a": "tak",
+    "b": "nie",
+    "c": "to zależy od wielkości inwestycji"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 36,
+   "pytanie": "Wojewódzki inspektor ochrony środowiska wydaje decyzję o wstrzymaniu oddania do użytkowania nowo zbudowanego lub przebudowanego obiektu budowlanego, gdy:",
+   "odpowiedzi": {
+    "a": "podczas kontroli stwierdzono, że obiekt nie spełnia wymagań ochrony środowiska",
+    "b": "kontrolowany odmówił podpisania protokołu kontroli",
+    "c": "kontrolowany nie okazał decyzji o środowiskowych wymaganiach"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 37,
+   "pytanie": "Specyfika kontroli bez ustalonego sprawcy polega na:",
+   "odpowiedzi": {
+    "a": "jednostronnych czynnościach inspektora z powodu braku kontrolowanego",
+    "b": "udziale skarżących w kontroli",
+    "c": "podejmowaniu kontroli tylko z udziałem pracownika CLB GIOŚ"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 38,
+   "pytanie": "Ph-metr służy do pomiaru:",
+   "odpowiedzi": {
+    "a": "tlenu rozpuszczonego",
+    "b": "przewodności właściwej",
+    "c": "odczynu"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 39,
+   "pytanie": "Pojęcie notoryjności mówi, że:",
+   "odpowiedzi": {
+    "a": "dowodu nie można uznać za niedopuszczalny wyłącznie na tej podstawie, że został uzyskany z naruszeniem przepisów postępowania lub za pomocą czynu zabronionego",
+    "b": "kara za czyn popełniany wielokrotnie powinna być sumą kar przewidzianych dla pojedynczego czynu karalnego",
+    "c": "fakty powszechnie znane nie wymagają dowodu"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 40,
+   "pytanie": "W protokole sporządzonym zgodnie z Kodeksem Postępowania Karnego:",
+   "odpowiedzi": {
+    "a": "można umieścić dane dotyczące miejsca zamieszkania i miejsca pracy pokrzywdzonych i świadków uczestniczących w czynności",
+    "b": "można umieścić numer telefonu, telefaksu i adresu poczty elektronicznej pokrzywdzonych i świadków uczestniczących w czynności",
+    "c": "nie można umieścić danych dotyczących miejsca zamieszkania i miejsca pracy pokrzywdzonych"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 41,
+   "pytanie": "W przypadku powzięcia uzasadnionego podejrzenia popełnienia przestępstwa przeciwko środowisku określonego w art. 182, art. 183 lub art. 186 Kodeksu karnego lub wykroczeń przeciwko środowisku określonych w przepisach odrębnych czynności polegające na ustalaniu tożsamości osób oraz żądaniu okazania dokumentów niezbędnych do wymierzenia grzywny może podjąć",
+   "odpowiedzi": {
+    "a": "pracownik Wojewódzkiego Inspektoratu Ochrony Środowiska",
+    "b": "Dyrektor Generalny Głównego Inspektoratu Ochrony Środowiska",
+    "c": "upoważniony przez Wojewódzkiego Inspektora Ochrony Środowiska inspektor Inspekcji Ochrony Środowiska"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 42,
+   "pytanie": "Odmowa podania inspektorowi Inspekcji Ochrony Środowiska wykonującemu czynności służbowe na podstawie przepisów określonych w ustawie o Inspekcji ochrony środowiska danych personalnych przez osobę legitymowaną jest:",
+   "odpowiedzi": {
+    "a": "wykroczeniem z art. 65 Kodeksu wykroczeń",
+    "b": "przestępstwem z art. 190a Kodeksu karnego",
+    "c": "prawem legitymowanej osoby zgodnie z przepisami rozporządzenia o ochronie danych osobowych"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 43,
+   "pytanie": "Wojewódzki inspektor ochrony środowiska może wystąpić z wnioskiem o udzielenie pomocy w ustalaniu tożsamości i przesłuchiwaniu osób w celu ustalenia stanu faktycznego istotnego dla prowadzonego postępowania do:",
+   "odpowiedzi": {
+    "a": "Policji lub organów administracji publicznej, w tym do Krajowej Administracji Skarbowej, Inspekcji Transportu Drogowego, urzędów nadzoru górniczego, Państwowej Inspekcji Pracy, Inspekcji Handlowej, Państwowej Inspekcji Sanitarnej, Inspekcji Weterynaryjnej, Państwowej Inspekcji Ochrony Roślin i Nasiennictwa, Straży Granicznej, Państwowej Straży Pożarnej",
+    "b": "wojewódzki inspektor ochrony środowiska zobowiązany jest podjąć czynności samodzielnie",
+    "c": "przedsiębiorcy prowadzącego działalność gospodarczą związaną z niszczeniem dokumentów"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 44,
+   "pytanie": "Wskaż zdanie zgodne z prawdą:",
+   "odpowiedzi": {
+    "a": "organy Inspekcji Ochrony Środowiska nie mogą składać wniosków o ukaranie, a jedynie popierać akty oskarżenia złożone przez uprawnionego oskarżyciela",
+    "b": "w sprawach o wykroczenia przeciwko środowisku organom Inspekcji Ochrony Środowiska przysługuje uprawnienie oskarżyciela publicznego także wtedy, gdy wniosek o ukaranie za wykroczenie złożył inny uprawniony oskarżyciel",
+    "c": "w przypadku stwierdzenia nieprawidłowości w zakresie wydawania przez organy ochrony środowiska decyzji ustalających warunki korzystania ze środowiska organ Inspekcji Ochrony Środowiska niezwłocznie wszczyna śledztwo w sprawie"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 45,
+   "pytanie": "Z domniemaniem faktycznym mamy do czynienia:",
+   "odpowiedzi": {
+    "a": "gdy przepis prawa nakazuje przyjmowanie faktów za stwierdzone",
+    "b": "gdy założenia dowodowe zaprzeczają faktom stwierdzonym",
+    "c": "gdy z istnienia określonych faktów wnioskuje się o innych faktach"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 46,
+   "pytanie": "Świadkami nie mogą być:",
+   "odpowiedzi": {
+    "a": "osoby niezdolne do spostrzegania lub komunikowania swych spostrzeżeń",
+    "b": "duchowni co do faktów dotyczących tajemnicy skarbowej",
+    "c": "funkcjonariusze KAS, ITD oraz UTK zaangażowani w zwalczanie przestępczości środowiskowej"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 47,
+   "pytanie": "W razie stwierdzenia nieprawidłowości w działaniach organów administracji publicznej w zakresie ochrony środowiska organ IOŚ może:",
+   "odpowiedzi": {
+    "a": "skierować wystąpienie o wyjaśnienie przyczyn nieprawidłowości lub o ich usunięcie lub zwrócić się o wszczęcie postępowania administracyjnego, wnieść skargę do sądu administracyjnego, a także uczestniczyć w tych postępowaniach - na prawach przysługujących prokuratorowi",
+    "b": "zwrócić się do NFOŚiGW o zablokowanie finansowania projektów prowadzonych przez organ ze środków pozyskanych z NFOŚiGW",
+    "c": "skierować wyłącznie wystąpienie o wyjaśnienie przyczyn nieprawidłowości"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 48,
+   "pytanie": "Katalog środków dowodowych dopuszczalnych w postepowaniu dowodowym w postępowaniu administracyjnym ma charakter:",
+   "odpowiedzi": {
+    "a": "katalogu otwartego",
+    "b": "katalogu zamkniętego",
+    "c": "żadne z powyższych"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 49,
+   "pytanie": "Podczas kontroli ruchu drogowego inspektorom ochrony środowiska przysługują uprawnienia w zakresie",
+   "odpowiedzi": {
+    "a": "legitymowania uczestnika ruchu i wydawania mu wiążących poleceń co do sposobu korzystania z drogi lub używania pojazdu",
+    "b": "zrywania plomb celem fizycznej kontroli przewożonych odpadów",
+    "c": "używania urządzeń nagłaśniających, sygnalizacyjnych lub świetlnych, służących do wydawania wiążących poleceń uczestnikowi ruchu"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 50,
+   "pytanie": "Czy Inspektor Inspekcji Ochrony Środowiska posiada uprawnienia do zrywania plomb zabezpieczających przewożony ładunek (odpady) założone na środkach transportu",
+   "odpowiedzi": {
+    "a": "nie",
+    "b": "tak",
+    "c": "tak, ale tylko przy spełnieniu wymagań określonych w przepisach umowy ADR"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 51,
+   "pytanie": "Dane zgromadzone w centralnej ewidencji pojazdów",
+   "odpowiedzi": {
+    "a": "mogą zostać udostępnione organom Inspekcji Ochrony Środowiska o ile są one niezbędne do realizacji ustawowych zadań",
+    "b": "dostępne są każdemu inspektorowi ochrony środowiska poprzez ISK",
+    "c": "jako dane wrażliwe dostępne są tylko funkcjonariuszom Policji, CBA oraz ABW"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 52,
+   "pytanie": "W celu przeprowadzenia kontroli w ruchu drogowym, Inspektor Inspekcji Ochrony Środowiska zatrzymuje pojazdy, poruszając się wyłącznie",
+   "odpowiedzi": {
+    "a": "oznakowanym pojazdem",
+    "b": "pieszo",
+    "c": "uprzywilejowanym pojazdem"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 53,
+   "pytanie": "Przepisy regulujące obowiązki i prawa przy kontroli pojazdów przez Inspektorów Inspekcji Ochrony Środowiska określone są:",
+   "odpowiedzi": {
+    "a": "wyłącznie w ustawie z dnia 20 lipca 1991 r. o Inspekcji Ochrony Środowiska",
+    "b": "w całości w ustawie z dnia 20 czerwca 1997 r. Prawo o ruchu drogowym",
+    "c": "między innymi w Rozporządzeniu Ministra Spraw Wewnętrznych i Administracji z dnia 5 listopada 2019 r. w sprawie kontroli ruchu drogowego"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 54,
+   "pytanie": "Pojazd transportujący odpady w ruchu transgranicznym powinien być oznaczony:",
+   "odpowiedzi": {
+    "a": "tablicą z literą „A”",
+    "b": "tablicą z napisem „Abfall”",
+    "c": "tablicą z napisem „TPO” – transgraniczne przemieszczanie odpadów"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 55,
+   "pytanie": "Zaznacz prawidłową odpowiedź. Pojazdy należące do sił zbrojnych wykonujące krajowy przewóz towarów niebezpiecznych:",
+   "odpowiedzi": {
+    "a": "nie muszą być oznakowane zgodnie z przepisami umowy ADR",
+    "b": "muszą być wyposażone zgodnie z przepisami umowy ADR",
+    "c": "muszą być przystosowane do przewozu towarów niebezpiecznych zgodnie z umową ADR"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 56,
+   "pytanie": "Jeżeli w trakcie kontroli transportu odpadów w międzynarodowym przemieszczaniu odpadów ujawniono nielegalne transgraniczne przemieszczanie odpadów to:",
+   "odpowiedzi": {
+    "a": "organ który stwierdził nielegalne międzynarodowe przemieszczanie odpadów, podejmuje niezwłocznie działania mające na celu zabezpieczenie przed oddziaływaniem odpadów na środowisko, w tym szczególnie życie i zdrowie ludzi",
+    "b": "za zabezpieczenie odpadów odpowiada Wojewódzki Inspektor Ochrony Środowiska właściwy dla miejsca zatrzymania odpadów",
+    "c": "odpady powinny zostać zabezpieczone jako dowód rzeczowy przez prokuratora prowadzące postepowanie w sprawie"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 57,
+   "pytanie": "Odpady drewna zawierające lub zanieczyszczone substancjami niebezpiecznymi (podkłady kolejowe):",
+   "odpowiedzi": {
+    "a": "ich przewóz nie podlega przepisom umowy ADR",
+    "b": "nie są odpadami niebezpiecznymi",
+    "c": "nadają się do bezpośredniego odzysku w piecach ogrzewania centralnego w gospodarstwach domowych"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 58,
+   "pytanie": "Zaznacz prawidłowe zdanie:",
+   "odpowiedzi": {
+    "a": "przepisów rozporządzenia Ministra Środowiska z dnia 7 października 2016 r. w sprawie szczegółowych wymagań dla transportu odpadów nie stosuje się do odpadów które nie stanowią towarów niebezpiecznych w rozumieniu ustawy z dnia 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych",
+    "b": "przepisów rozporządzenia Ministra Środowiska z dnia 7 października 2016 r. w sprawie szczegółowych wymagań dla transportu odpadów nie stosuje się do odpadów stanowiących towary niebezpieczne w rozumieniu ustawy z dnia 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych",
+    "c": "przepisów międzynarodowej konwencji dotyczącej drogowego przewozu towarów i ładunków niebezpiecznych nie stosuje się do odpadów stanowiących towary niebezpieczne w rozumieniu ustawy z dnia 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 59,
+   "pytanie": "Organami ochrony środowiska są:",
+   "odpowiedzi": {
+    "a": "wójt, burmistrz lub prezydent miasta; starosta; sejmik województwa; marszałek województwa; wojewoda; minister właściwy do spraw klimatu; Generalny Dyrektor Ochrony Środowiska; regionalny dyrektor ochrony środowiska",
+    "b": "wójt, burmistrz lub prezydent miasta; starosta; sejmik województwa; marszałek województwa; wojewoda; minister właściwy do spraw klimatu; Generalny Dyrektor Ochrony Środowiska; Prezes Państwowej Agencji Atomistyki",
+    "c": "wójt, burmistrz lub prezydent miasta; starosta, sejmik województwa; marszałek województwa; wojewoda; minister właściwy do spraw klimatu; Generalny Dyrektor Ochrony Środowiska; regionalny dyrektor ochrony środowiska, Instytut Ochrony Środowiska - Państwowy Instytut Badawczy"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 60,
+   "pytanie": "Czy wszystkie organy ochrony środowiska mają uprawnienia do prowadzenia kontroli przestrzegania i stosowania przepisów o ochronie środowiska:",
+   "odpowiedzi": {
+    "a": "tak",
+    "b": "nie",
+    "c": "wyłącznie minister właściwy do spraw klimatu, marszałek województwa, starosta oraz wójt, burmistrz lub prezydent miasta sprawują kontrolę przestrzegania i stosowania przepisów o ochronie środowiska w zakresie objętym właściwością tych organów oraz organy Inspekcji Ochrony Środowiska działające na podstawie przepisów ustawy o Inspekcji Ochrony Środowiska wykonują zadania w zakresie ochrony środowiska, jeżeli ustawa tak stanowi"
+   },
+   "poprawna": "c",
+   "komentarz": null,
+   "uwaga": "Odpowiedź c) potwierdzona art. 379 ust. 1 i art. 376 POŚ; zgodna z kluczem 2025."
+  },
+  {
+   "id": 61,
+   "pytanie": "Wójt, burmistrz lub prezydent miasta, starosta, marszałek województwa lub minister właściwy do spraw klimatu występują do wojewódzkiego inspektora ochrony środowiska o podjęcie odpowiednich działań będących w jego kompetencji, jeżeli:",
+   "odpowiedzi": {
+    "a": "zawsze gdy wpłynie do nich wniosek o interwencję",
+    "b": "w wyniku kontroli organy te stwierdzą naruszenie przez kontrolowany podmiot przepisów o ochronie środowiska lub występuje uzasadnione podejrzenie, że takie naruszenie mogło nastąpić, przekazując dokumentację sprawy",
+    "c": "nie występują do wojewódzkiego inspektora ochrony środowiska, ponieważ mają uprawnienia kontrolne i sami podejmują działania"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 62,
+   "pytanie": "Organami administracji publicznej są:",
+   "odpowiedzi": {
+    "a": "ministrowie, centralne organy administracji rządowej, wojewodowie oraz działające w ich imieniu lub we własnym inne organy administracji rządowej (zespolonej i niezespolonej), organy jednostek samorządu terytorialnego oraz organy i podmioty, które są powołane z mocy prawa lub na podstawie porozumień do rozstrzygania spraw indywidualnych w drodze decyzji administracyjnych",
+    "b": "nie są określone",
+    "c": "wyłącznie organy jednostek samorządu terytorialnego"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 63,
+   "pytanie": "Do realizacji jakich zadań powołana jest Inspekcja Ochrony Środowiska:",
+   "odpowiedzi": {
+    "a": "do kontroli odpowiedzialności za zapobieganie szkodom w środowisku i naprawę szkód w środowisku",
+    "b": "do kontroli przestrzegania przepisów o ochronie środowiska oraz badania i oceny stanu środowiska",
+    "c": "do współdziałania z organizatorami i innymi służbami w ochronie porządku podczas zgromadzeń i imprez publicznych"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 64,
+   "pytanie": "Organami Inspekcji Ochrony Środowiska są:",
+   "odpowiedzi": {
+    "a": "Główny Inspektor Ochrony Środowiska",
+    "b": "wojewódzki inspektor ochrony środowiska jako organ rządowej administracji zespolonej w województwie",
+    "c": "odpowiedź a i b jest prawidłowa"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 65,
+   "pytanie": "Główny Inspektor Ochrony Środowiska jest:",
+   "odpowiedzi": {
+    "a": "organem samorządowym",
+    "b": "centralnym organem administracji rządowej nadzorowanym przez ministra właściwego do spraw klimatu",
+    "c": "jednostką pomocniczą gminy"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 66,
+   "pytanie": "Które z zadań należą do właściwości Inspekcji Ochrony Środowiska?",
+   "odpowiedzi": {
+    "a": "kontrola podmiotów korzystających ze środowiska w rozumieniu ustawy Prawo ochrony środowiska",
+    "b": "wydawanie decyzji ustalających warunki korzystania ze środowiska",
+    "c": "wydawanie decyzji o przywróceniu środowiska do właściwego stanu"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 67,
+   "pytanie": "Inspektor Inspekcji Ochrony Środowiska przy wykonywaniu kontroli uprawniony jest między innymi do:",
+   "odpowiedzi": {
+    "a": "oceny sposobu eksploatacji instalacji lub urządzeń, wstępu przez całą dobę na teren kontrolowanej nieruchomości, środka transportu, na teren niezwiązany z prowadzeniem działalności gospodarczej, określenia składu morfologicznego odpadów, zatrzymania osoby podejrzanej o popełnienie czynu zabronionego, żądania wstrzymania ruchu instalacji",
+    "b": "oceny sposobu eksploatacji instalacji lub urządzeń, wstępu przez całą dobę na teren kontrolowanej nieruchomości, obiektu lub jego części, na którym prowadzona jest działalność gospodarcza, do środka transportu, na teren niezwiązany z prowadzeniem działalności gospodarczej, określenia składu morfologicznego odpadów w oparciu o wiedzę ekspercką, żądania wstrzymania ruchu lub uruchomienia instalacji",
+    "c": "oceny sposobu eksploatacji instalacji lub urządzeń, wstępu przez całą dobę wyłącznie na teren kontrolowanej nieruchomości, określenia składu morfologicznego odpadów, zatrzymania osoby podejrzanej o popełnienie czynu zabronionego, żądania wstrzymania ruchu instalacji"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 68,
+   "pytanie": "Co jest celem oględzin",
+   "odpowiedzi": {
+    "a": "spisanie oświadczeń osób biorących udział w oględzinach",
+    "b": "obiektywna rekonstrukcja przebiegu zdarzenia i zabezpieczenie rzeczowego materiału dowodowego",
+    "c": "domniemanie na podstawie przedstawionej dokumentacji fotograficznej stanu faktycznego"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 69,
+   "pytanie": "Ile i jakie są zasady prowadzenia oględzin",
+   "odpowiedzi": {
+    "a": "są 4 podstawowe zasad prowadzenia oględzin\n1) zasada ustnego ustalenia\n2) zasada pośredniości\n3) zasada wieloosobowego kierownictwa\n4) zasada podejmowania działań w wolnej chwili",
+    "b": "jest 12 podstawowych zasad prowadzenia oględzin\n1) zasada bezpośredniości\n2) zasada wszechstronności i dokładności\n3) zasada obiektywizmu\n4) zasada planowości\n5) zasada indywidualności\n6) zasada szybkości\n7) zasada zachowania wartości dowodowej śladów i przeciwdziałania kontaminacji\n8) zasada pisemności\n9) zasada ekonomiczności\n10) zasada tajności\n11) zasada przestrzegania wymogów bezpieczeństwa i higieny pracy\n12) zasada jednoosobowego kierownictwa",
+    "c": "nie są określone zasady prowadzenia oględzin"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 70,
+   "pytanie": "Ile jest i jakie są najważniejsze zasady sporządzania protokołu oględzin",
+   "odpowiedzi": {
+    "a": "są 3 najważniejsze zasady sporządzania protokołu oględzin\n1) zasada kolejności wykonywania czynności oględzinowych\n2) zasada stosowania odrębności protokołu oględzin od pozostałej dokumentacji\n3) zasada zawierania wniosków i przypuszczeń w podsumowującej części protokołu",
+    "b": "nie są określone zasady sporządzania protokołu oględzin",
+    "c": "jest 9 najważniejszych zasad sporządzania protokołu oględzin\n1) zasada komunikatywności\n2) zasada stosowania odpowiednich form gramatycznych\n3) zasada dokładności\n4) zasada zwięzłości opisu\n5) zasada bezpośredniości\n6) zasada obiektywizmu\n7) zasada zgodności dokumentacyjnej\n8) zasada jednolitego nazewnictwa\n9) zasada systematyczności"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 71,
+   "pytanie": "Z ilu i jakich części składa się protokół oględzin",
+   "odpowiedzi": {
+    "a": "protokół oględzin składa się z 3 części\n1) wstępnej\n2) wniosków\n3) faktów i okoliczności, które nie mają znaczenia dla przedmiotu oględzin",
+    "b": "nie można wyodrębnić żadnych części protokołu oględzin",
+    "c": "protokół oględzin składa się z 3 części\n1) wstępnej\n2) opisowej\n3) końcowej"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 72,
+   "pytanie": "Ile i jakie są metody dokonywania oględzin rozumianych jako taktyka postępowania na miejscu zdarzenia:",
+   "odpowiedzi": {
+    "a": "wyróżnić można 2 metody dokonywania oględzin rozumianych jako taktyka postępowania na miejscu zdarzenia:\n1) metodę obiektywną\n2) metodę subiektywną",
+    "b": "nie są określone metody dokonywania oględzin dotyczące taktyki postępowania na miejscu zdarzenia",
+    "c": "naprzemienne stosowanie metody obiektywnej i subiektywnej w miejscu poddanym oględzinom"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 73,
+   "pytanie": "Kiedy osoba wezwana na przesłuchanie może odmówić składania zeznań:",
+   "odpowiedzi": {
+    "a": "jeśli jest osobą najbliższą dla oskarżonego (np. małżonkiem, rodzicem, dzieckiem, osobą pozostającą we wspólnym pożyciu lub w stosunku przysposobienia)",
+    "b": "jeżeli odpowiedź mogłaby narazić przesłuchiwanego lub osobę dla niej najbliższą na odpowiedzialność za przestępstwo lub przestępstwo skarbowe",
+    "c": "odpowiedz a i b jest prawidłowa"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 74,
+   "pytanie": "Czy i kiedy należy zapoznać przesłuchiwanego z protokołem przesłuchania",
+   "odpowiedzi": {
+    "a": "tylko wtedy gdy w ocenie prowadzącego przesłuchanie przesłuchiwany zeznał coś ważnego",
+    "b": "na wyraźne żądanie przesłuchiwanego",
+    "c": "przed podpisaniem protokołu przesłuchania"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 75,
+   "pytanie": "Czy z przeprowadzonego przesłuchania należy sporządzić protokół",
+   "odpowiedzi": {
+    "a": "nie",
+    "b": "tak",
+    "c": "decyzja o tym czy sporządzany jest protokół należy do prowadzącego przesłuchanie"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 76,
+   "pytanie": "Tożsamość przesłuchiwanego inspektor Inspekcji Ochrony Środowiska ustalana na podstawie:",
+   "odpowiedzi": {
+    "a": "odebrania ustnej informacji od przesłuchiwanego",
+    "b": "dowodu osobistego lub innego dokumentu pozwalającego na wiarygodne ustalenie tożsamości",
+    "c": "informacji zamieszczonych w mediach społecznościowych"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 77,
+   "pytanie": "Przesłuchiwanego o odpowiedzialności karnej za zatajenie prawdy należy uprzedzić:",
+   "odpowiedzi": {
+    "a": "w trakcie swobodnej wypowiedzi przesłuchiwanego",
+    "b": "przed rozpoczęciem przesłuchania",
+    "c": "w fazie prowadzenia czynności końcowych"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 78,
+   "pytanie": "Przesłuchiwanemu należy umożliwić swobodną wypowiedź jeśli:",
+   "odpowiedzi": {
+    "a": "odpowiada na zadawane pytania",
+    "b": "udaje, że nie rozumie zadawanych pytań",
+    "c": "zawsze, nawet jeśli nie pamięta zdarzenia, które jest przedmiotem przesłuchania"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 79,
+   "pytanie": "Jaki organ prowadzi nadzór w zakresie programów ochrony powietrza oraz planów działań krótkoterminowych",
+   "odpowiedzi": {
+    "a": "wojewoda przy pomocy wojewódzkiego inspektora ochrony środowiska",
+    "b": "Wójt, burmistrz lub prezydent miasta, starosta lub marszałek województwa",
+    "c": "minister właściwy do spraw klimatu"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 80,
+   "pytanie": "Co to jest instalacja w rozumieniu ustawy z dnia 27 kwietnia 2001 r. - Prawo ochrony środowiska",
+   "odpowiedzi": {
+    "a": "instalacji to stacjonarne urządzenie techniczne, zespół stacjonarnych urządzeń technicznych powiązanych technologicznie, do których tytułem prawnym dysponuje ten sam podmiot i położonych na terenie jednego zakładu, budowle niebędące urządzeniami technicznymi ani ich zespołami, których eksploatacja może spowodować emisję",
+    "b": "ustawa Prawo ochrony środowiska nie określa definicji instalacji",
+    "c": "instalacja to stacjonarne urządzenie techniczne zespół stacjonarnych urządzeń technicznych powiązanych technologicznie, do których tytułem prawnym dysponują różne podmioty, budowle niebędące urządzeniami technicznymi ani ich zespołami, których eksploatacja może spowodować emisję"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 81,
+   "pytanie": "Eksploatacja instalacji lub urządzenia w rozumieniu ustawy z dnia 27 kwietnia 2001 r. - Prawo ochrony środowiska",
+   "odpowiedzi": {
+    "a": "powinna powodować przekroczenie standardów emisyjnych",
+    "b": "nie powinna powodować przekroczenia standardów emisyjnych",
+    "c": "może powodować przekroczenie standardów emisyjnych"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 82,
+   "pytanie": "Jaki organ może nałożyć na podmiot obowiązek utworzenia stanowiska pomiarowego na emitorze zwanego potocznie króćcem pomiarowym:",
+   "odpowiedzi": {
+    "a": "wojewódzki inspektor ochrony środowiska",
+    "b": "organ ochrony środowiska",
+    "c": "Główny Inspektor Ochrony Środowiska"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 83,
+   "pytanie": "Co oznacza skrót LCP i MCP w rozumieniu obiektów energetycznego spalania paliw",
+   "odpowiedzi": {
+    "a": "LCP - duże obiekty energetycznego spalania paliw o nominalne mocy cieplnej dostarczonej w paliwie powyżej 50 MW, MCP - średnie obiekty energetycznego spalania paliw o nominalnej mocy nominalnej cieplnej dostarczonej w paliwie od 1 do 50 MW",
+    "b": "źródła emisji z silosów do magazynowania materiałów sypkich",
+    "c": "źródła emisji opalane ekogroszkiem w zabudowie jednorodzinnej"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 84,
+   "pytanie": "Inspekcja Ochrony Środowiska podejmuje kontrole podmiotu w zakresie emisji hałasu jeżeli:",
+   "odpowiedzi": {
+    "a": "podmiot posiada decyzję o dopuszczalnym poziomie hałasu lub poziom ten został określony w pozwoleniu zintegrowanym",
+    "b": "podmiot nie posiada decyzji o dopuszczalnym poziomie hałasu",
+    "c": "podmiot nie posiada decyzji o dopuszczalnym poziomie hałasu, ale organ ochrony środowiska prowadzi postepowanie celem jego wydania"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 85,
+   "pytanie": "Dopuszczalny poziom hałasu wyrażony wskaźnikami hałasu LAeq D (dla pory dnia) i LAeq N (dla pory nocy) określony jest:",
+   "odpowiedzi": {
+    "a": "tylko w pozwoleniu zintegrowanym",
+    "b": "tylko w decyzji o dopuszczalnym poziomie hałasu",
+    "c": "w pozwoleniu zintegrowanym lub w decyzji o dopuszczalnym poziomie hałasu"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 86,
+   "pytanie": "Zgodnie z ustawą Prawo ochrony środowiska, w przypadku stwierdzenia przez organ ochrony środowiska, na podstawie pomiarów własnych, lub pomiarów podmiotu obowiązanego do ich prowadzenia, że poza zakładem, w wyniku jego działalności, przekroczone są dopuszczalne poziomy hałasu, organ ten:",
+   "odpowiedzi": {
+    "a": "wstrzymuje działalność zakładu",
+    "b": "wydaje zalecenie pokontrolne",
+    "c": "wydaje decyzję o dopuszczalnym poziomie hałasu"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 87,
+   "pytanie": "Okresowy pomiar hałasu, który jest wyrażony wskaźnikami hałasu mającymi zastosowanie do ustalania i kontroli warunków korzystania ze środowiska (LAeq D i LAeq N), prowadzi się:",
+   "odpowiedzi": {
+    "a": "dla zakładu, na którego terenie są eksploatowane instalacje lub urządzenia emitujące hałas, dla którego została wydana decyzja o dopuszczalnym poziomie hałasu lub dla instalacji, dla której zostało wydane pozwolenie zintegrowane",
+    "b": "raz na dwa lata, z uwzględnieniem specyfiki pracy źródeł hałasu. W przypadku źródeł hałasu pracujących sezonowo pomiary hałasu przeprowadza się w tym okresie",
+    "c": "odpowiedz a i b jest prawidłowa"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 88,
+   "pytanie": "Jaki organ wydaje decyzję o dopuszczalnym poziomie hałasu do środowiska",
+   "odpowiedzi": {
+    "a": "Wojewódzki Inspektor Ochrony Środowiska",
+    "b": "Generalny Dyrektor Ochrony Środowiska",
+    "c": "właściwy organ ochrony środowiska"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 89,
+   "pytanie": "W decyzji ustalającej wymiar kary biegnącej określa się:",
+   "odpowiedzi": {
+    "a": "wielkość stwierdzonego przekroczenia lub naruszenia odpowiednio w skali doby albo godziny, wymiar kary biegnącej",
+    "b": "termin, od którego kara biegnąca będzie naliczana, jako odpowiednio dzień albo pełną godzinę zakończenia wykonania pomiarów, pobrania próbek albo dokonania innych ustaleń stanowiących podstawę stwierdzenia przekroczenia lub naruszenia",
+    "c": "odpowiedź a i b jest prawidłowa"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 90,
+   "pytanie": "Jaka ustawa reguluje obowiązki pomiarowe dla prowadzących instalację oraz użytkowników urządzenia emitującego pola elektromagnetyczne w środowisku ogólnym?",
+   "odpowiedzi": {
+    "a": "ustawa o udostępnianiu informacji o środowisku i jego ochronie, udziale społeczeństwa w ochronie środowiska oraz o ocenach oddziaływania na środowisko",
+    "b": "ustawa Prawo ochrony środowiska",
+    "c": "ustawa o systemie zarządzania emisjami gazów cieplarnianych i innych substancji"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 91,
+   "pytanie": "Instalacje emitujące pola elektromagnetyczne podlegają:",
+   "odpowiedzi": {
+    "a": "uzyskaniu pozwolenia zintegrowanego",
+    "b": "decyzji o dopuszczalnym poziomie emitującym pola elektromagnetyczne",
+    "c": "zgłoszeniu organowi ochrony środowiska"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 92,
+   "pytanie": "Prowadzący instalację oraz użytkownik urządzenia emitującego pola elektromagnetyczne zobowiązany jest do wykonywania pomiarów poziomów pól elektromagnetycznych",
+   "odpowiedzi": {
+    "a": "bezpośrednio przed rozpoczęciem użytkowania instalacji lub urządzenia; każdorazowo w przypadku zmiany warunków pracy instalacji lub urządzenia, w tym zmiany spowodowane zmianami w wyposażeniu instalacji lub urządzenia, o ile zmiany te mogą mieć wpływ na zmianę poziomów pól elektromagnetycznych, których źródłem jest instalacja lub urządzenie; każdorazowo w przypadku zmiany istniejącego stanu zagospodarowania i zabudowy nieruchomości skutkującej zmianami w występowaniu miejsc dostępnych dla ludności w otoczeniu instalacji lub urządzenia - na pisemny wniosek właściciela lub zarządcy nieruchomości, na której nastąpiła ta zmiana",
+    "b": "przed likwidacją urządzenia emitującego pola elektromagnetyczne",
+    "c": "okresowo tzn. pomiary poziomów pól elektromagnetycznych prowadzi się dwa razy w roku, raz w sezonie zimowym (październik-marzec) oraz raz w sezonie letnim (kwiecień-wrzesień)"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 93,
+   "pytanie": "Zadania realizowane przez wojewódzkiego inspektora ochrony środowiska w zakresie pól elektromagnetycznych obejmują:",
+   "odpowiedzi": {
+    "a": "ocena poziomów pól elektromagnetycznych w środowisku i obserwacja zmian w ramach Państwowego Monitoringu Środowiska",
+    "b": "prowadzenie kontroli w terenie i ocena wyników pomiarów przedkładanych przez podmioty",
+    "c": "prowadzenie wykazu obowiązujących pozwoleń wydanych dla stacji bazowych telefonii komórkowych (tzw. pozwolenia radiowe, uprawniające do używania urządzeń radiowych w lokalizacji i z parametrami określonymi w danym pozwoleniu radiowym)"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 94,
+   "pytanie": "W Systemie Informacyjnym o Instalacjach wytwarzających Promieniowanie Elektro Magnetyczne SI2PEM są gromadzone m.in. dane o wynikach pomiarów wykonywanych przez:",
+   "odpowiedzi": {
+    "a": "przedsiębiorcy telekomunikacyjni prowadzący instalacje emitujące pola elektromagnetyczne lub będący użytkownikami takich instalacji lub planujący nowe instalacje emitujące pole elektromagnetyczne; akredytowane laboratoria Prezes UKE; organy Inspekcji Ochrony Środowiska; organy inspekcji sanitarnej,",
+    "b": "organy ochrony środowiska, podmioty prowadzące pomiary pola elektromagnetycznego wykonywane przez akredytowane laboratoria",
+    "c": "odpowiedź a i b jest prawidłowa"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 95,
+   "pytanie": "Kto zgodnie z art. 147 ustawy z dnia 27 kwietnia 2001 r. Prawo ochrony środowiska zobowiązany jest do wykonywania okresowych pomiarów wielkości emisji",
+   "odpowiedzi": {
+    "a": "prowadzący instalację oraz użytkownik urządzenia",
+    "b": "Główny Inspektorat Ochrony Środowiska",
+    "c": "Wojewódzkie Inspektoraty Ochrony Środowiska"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 96,
+   "pytanie": "Ocenie w ramach kontroli dokumentacyjnych automonitoringowych podlegają wyniki pomiarów i badania przedkładane przez podmioty do tego zobowiązane tj.:",
+   "odpowiedzi": {
+    "a": "pomiary i badania\n1) emisji pyłów i gazów do powietrza\n2) jakości i ilości odprowadzanych ścieków\n3) ilości pobieranej wody\n4) poziomu hałasu emitowanego do środowiska\n5) poziomu pól elektromagnetycznych w środowisku\n6) stanu środowiska w obszarze oddziaływania różnych obiektów (np. składowiska odpadów, stacje i bazy paliw)",
+    "b": "pomiary na potrzeby uzyskania decyzji wydawanych przez organy ochrony środowiska",
+    "c": "Inspekcja Ochrony Środowiska nie ocenia wyników i badań przedkładanych przez podmioty"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 97,
+   "pytanie": "W jakim przypadku inspektor Inspekcji Ochrony Środowiska może odstąpić od sporządzenia adnotacji z kontroli dokumentacyjnej automonitoringowej:",
+   "odpowiedzi": {
+    "a": "w przypadku gdy na podstawie przeprowadzonej analizy stwierdzi naruszenie warunków emisji w stosunku do posiadanej decyzji organu ochrony środowiska określającej warunki korzystania ze środowiska",
+    "b": "wyłącznie w przypadku podjęcia decyzji o przeprowadzeniu kontroli w terenie, wówczas prowadzona analiza dokumentacji traktowana jest jako przygotowanie do tej kontroli",
+    "c": "nie ma takiej możliwości"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 98,
+   "pytanie": "Czy wyniki pomiarów w związku z emisją gazów i pyłów do powietrza z eksploatacji instalacji lub urządzenia w wyniku monitorowania procesów technologicznych przekazywane są do WIOŚ:",
+   "odpowiedzi": {
+    "a": "dla wszystkich instalacji, na które został nałożony obowiązek ich prowadzenia",
+    "b": "dla wszystkich urządzeń, na które został nałożony obowiązek ich prowadzenia",
+    "c": "odpowiedź a i b jest prawidłowa"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 99,
+   "pytanie": "Z jaką częstotliwością eksploatujący instalację lub urządzenie przedkłada wynik pomiarów okresowych wykonywanych częściej niż jeden raz w miesiącu w związku z emisją gazów i pyłów do powietrza:",
+   "odpowiedzi": {
+    "a": "w ciągu 15 dni od dnia zakończenia kwartału, w którym pomiary zostały wykonane",
+    "b": "w ciągu 7 dni od dnia zakończenia kwartału, w którym pomiary zostały wykonane",
+    "c": "w ciągu 30 dni od dnia zakończenia kwartału, w którym pomiary zostały wykonane"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 100,
+   "pytanie": "Z jaką częstotliwością eksploatujący instalację lub urządzenie przedkłada wynik pomiarów ciągłych w związku z emisją gazów i pyłów do powietrza:",
+   "odpowiedzi": {
+    "a": "za I półrocze w ciągu 30 dni od dnia zakończenia półrocza, w którym pomiary zostały wykonane",
+    "b": "za rok kalendarzowy – do dnia 31 stycznia roku następującego po roku kalendarzowym, w którym pomiary zostały wykonane",
+    "c": "odpowiedź a i b jest prawidłowa"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 101,
+   "pytanie": "Z kontroli dokumentacyjnej sporządza się:",
+   "odpowiedzi": {
+    "a": "notatkę służbową",
+    "b": "adnotację z kontroli dokumentacyjnej",
+    "c": "protokół"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 102,
+   "pytanie": "W jakim przypadku służby celne mogą zwrócić się do WIOŚ z prośbą o opinię:",
+   "odpowiedzi": {
+    "a": "w przypadku gdy służby celne zatrzymają do kontroli przewożone produkty w celu ustalenia czy zatrzymane do kontroli celnej produkty spełniają wymagania określone w ustawie z dnia 24 kwietnia 2009 r. o bateriach i akumulatorach",
+    "b": "w przypadku gdy służby celne przewożą produkty niewiadomego pochodzenia",
+    "c": "w przypadku gdy służby celne wytworzą w wyniku swojej działalności zużyte baterie i akumulatory"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 103,
+   "pytanie": "Inspekcja Ochrony Środowiska może wykonywać czynności z użyciem bezzałogowych statków powietrznych:",
+   "odpowiedzi": {
+    "a": "wyłącznie w trakcie wykonywania kontroli przestrzegania wymagań ochrony środowiska",
+    "b": "wyłącznie w trakcie wykonywania czynności o których mowa w art. 10b ust. 2 ustawy o Inspekcji Ochrony Środowiska",
+    "c": "w trakcie wykonywania kontroli przestrzegania wymagań ochrony środowiska oraz wykonywania czynności o których mowa w art. 10b ust. 2 ustawy o Inspekcji Ochrony Środowiska"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 104,
+   "pytanie": "Celem stosowania urządzeń technicznych w pracy IOŚ jest:",
+   "odpowiedzi": {
+    "a": "ułatwienie i usprawnienie wykonywania kontroli przestrzegania wymagań ochrony środowiska oraz wykonywania czynności o których mowa w art. 10b ust. 2 ustawy o Inspekcji Ochrony Środowiska",
+    "b": "podniesienie efektywności kontroli przestrzegania wymagań ochrony środowiska oraz wykonywania czynności o których mowa w art. 10b ust. 2 ustawy o Inspekcji Ochrony Środowiska",
+    "c": "wszystkie odpowiedzi są prawidłowe"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 105,
+   "pytanie": "Czynności kontrolne prowadzone z użyciem bezzałogowych statków powietrznych mogą być wykonywane bez okazania legitymacji służbowej i poinformowania przedsiębiorcy lub osoby, wobec której podjęto czynności kontrolne, o przysługujących im prawach oraz obowiązkach w trakcie kontroli, tylko wówczas jeśli takie loty wykonywane są gdy operator bezzałogowego statku powietrznego:",
+   "odpowiedzi": {
+    "a": "znajduje się poza terenem, do którego prowadzący działalność posiada tytuł prawny",
+    "b": "znajduje się na terenie, do którego prowadzący działalność posiada tytuł prawny",
+    "c": "wszystkie wskazane odpowiedzi są prawidłowe"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 106,
+   "pytanie": "Loty bezzałogowymi statkami powietrznymi może wykonywać:",
+   "odpowiedzi": {
+    "a": "każdy pracownik Inspekcji Ochrony Środowiska",
+    "b": "pracownik Inspekcji Ochrony Środowiska posiadający stosowne uprawnienia do wykonywania takich lotów",
+    "c": "wyłącznie pracownik będący Inspektorem Inspekcji Ochrony Środowiska"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 107,
+   "pytanie": "W sprawach o wykroczenia przeciwko środowisku organom Inspekcji Ochrony Środowiska przysługuje uprawnienie oskarżyciela publicznego także wtedy, gdy:",
+   "odpowiedzi": {
+    "a": "wniosek o ukaranie za wykroczenie złożył inny uprawniony oskarżyciel",
+    "b": "wniosek o ukaranie za wykroczenie złoży nieuprawniony oskarżyciel",
+    "c": "akt oskarżenia złoży inny uprawniony oskarżyciel"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 108,
+   "pytanie": "Wojewódzki inspektor ochrony środowiska może zażądać od kierownika kontrolowanej jednostki organizacyjnej:",
+   "odpowiedzi": {
+    "a": "przeprowadzenia postępowania służbowego przeciwko osobom winnym dopuszczenia do uchybień i poinformowania go, w określonym terminie, o wynikach tego postępowania i o podjętych działaniach",
+    "b": "przeprowadzenia postępowania służbowego lub innego przewidzianego prawem postępowania przeciwko osobom winnym dopuszczenia do uchybień i poinformowania go, w określonym terminie, o wynikach tego postępowania i o podjętych działaniach",
+    "c": "przeprowadzenia postępowania służbowego lub innego przewidzianego prawem postępowania przeciwko osobom winnym dopuszczenia do uchybień"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 109,
+   "pytanie": "W razie stwierdzenia, że działanie lub zaniechanie kierownika jednostki organizacyjnej, jej pracownika lub innej osoby fizycznej wyczerpuje znamiona przestępstwa przeciwko środowisku, organy Inspekcji Ochrony Środowiska kierują:",
+   "odpowiedzi": {
+    "a": "do organu powołanego do ścigania przestępstw zawiadomienie o popełnieniu przestępstwa, dołączając dowody dokumentujące podejrzenie",
+    "b": "do organu powołanego do ścigania przestępstw zawiadomienie o popełnieniu przestępstwa bez konieczności dołączania dowodów dokumentujących podejrzenie",
+    "c": "do organu powołanego do ścigania przestępstw wniosek o ukaranie za popełnione przestępstwo, dołączając dowody dokumentujące podejrzenie"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 110,
+   "pytanie": "Adresatem zarządzenia pokontrolnego mogą być:",
+   "odpowiedzi": {
+    "a": "osoba fizyczna lub kierownik kontrolowanej jednostki organizacyjnej",
+    "b": "kontrolowana osoba prawna",
+    "c": "dowolny przedstawiciel kontrolowanego podmiotu korzystającego ze środowiska"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 111,
+   "pytanie": "O stwierdzeniu przekroczenia lub naruszenia na podstawie kontroli wojewódzki inspektor ochrony środowiska, zawiadamia podmiot korzystający ze środowiska, przekazując mu wyniki pomiarów:",
+   "odpowiedzi": {
+    "a": "w terminie 30 dni od wykonania pomiarów",
+    "b": "w terminie 14 dni od wykonania pomiarów",
+    "c": "w terminie 21 dni od wykonania pomiarów"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 112,
+   "pytanie": "Zgodnie z ustawą o postępowaniu egzekucyjnym w administracji środkami egzekucyjnymi obowiązków o charakterze niepieniężnym są:",
+   "odpowiedzi": {
+    "a": "grzywna w celu przymuszenia, wykonanie zastępcze, odebranie rzeczy ruchomej, odebranie nieruchomości (opróżnienie lokalu i innych pomieszczeń) i przymus bezpośredni",
+    "b": "wykonanie zastępcze, odebranie rzeczy ruchomej, odebranie nieruchomości (opróżnienie lokalu i innych pomieszczeń) i przymus bezpośredni",
+    "c": "zabór mienia, wstrzymanie działalności, grzywna w celu przymuszenia i wykonanie zastępcze"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 113,
+   "pytanie": "Jeśli cel egzekucji w administracji tego wymaga, organ egzekucyjny może zezwolić na piśmie egzekutorowi na dokonanie czynności egzekucyjnej:",
+   "odpowiedzi": {
+    "a": "w dni wolne od pracy lub w porze nocnej pomiędzy godziną 22 a godziną 9",
+    "b": "w dni pracujące lub w porze nocnej pomiędzy godziną 21 a godziną 7",
+    "c": "w dni wolne od pracy lub w porze nocnej pomiędzy godziną 21 a godziną 7"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 114,
+   "pytanie": "Grzywny w celu przymuszenia w postępowaniu egzekucyjnym w administracji nakładane wielokrotnie nie mogą łącznie przekroczyć:",
+   "odpowiedzi": {
+    "a": "w przypadku osób fizycznych kwoty 100 000 zł, a w stosunku do osób prawnych i jednostek organizacyjnych nieposiadających osobowości prawnej kwoty 200 000 zł",
+    "b": "w przypadku osób fizycznych kwoty 50 000 zł, a w stosunku do osób prawnych i jednostek organizacyjnych nieposiadających osobowości prawnej kwoty 200 000 zł",
+    "c": "w przypadku osób fizycznych kwoty 50 000 zł, a w stosunku do osób prawnych i jednostek organizacyjnych nieposiadających osobowości prawnej kwoty 500 000 zł"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 115,
+   "pytanie": "Zgodnie z ustawą Prawo ochrony środowiska w razie wystąpienia awarii wojewódzki inspektor ochrony środowiska może w drodze decyzji zarządzić:",
+   "odpowiedzi": {
+    "a": "przeprowadzenie właściwych badań dotyczących przyczyn, przebiegu i skutków awarii oraz wydać zakazy lub ograniczenia w korzystaniu ze środowiska",
+    "b": "przeprowadzenie właściwych działań nadzorczych i wydać zakazy lub ograniczenia w korzystaniu z instalacji",
+    "c": "przeprowadzenie postępowania służbowego wobec pracownika zakładu na terenie którego doszło do awarii oraz wydać zakazy i ograniczenia w poruszaniu się po tym zakładzie"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 116,
+   "pytanie": "Zgodnie z ustawą o odpadach wojewódzki inspektor ochrony środowiska w przypadku gdy posiadacz odpadów zbiera lub przetwarza odpady bez wymaganego zezwolenia na zbieranie odpadów lub zezwolenia na przetwarzanie odpadów:",
+   "odpowiedzi": {
+    "a": "zawiesza, w drodze decyzji, działalność posiadacza odpadów",
+    "b": "wstrzymuje, w drodze postanowienia, działalność posiadacza odpadów",
+    "c": "wstrzymuje, w drodze decyzji, działalność posiadacza odpadów"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 117,
+   "pytanie": "Kto uniemożliwia lub utrudnia organowi Inspekcji Ochrony Środowiska przeprowadzenie kontroli podlega:",
+   "odpowiedzi": {
+    "a": "karze pieniężnej w wysokości od 1 000 zł do 10 000 zł",
+    "b": "karze grzywny",
+    "c": "karze pieniężnej w wysokości od 10 000 zł do 100 000 zł"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 118,
+   "pytanie": "Zgodnie z ustawą Prawo ochrony środowiska wojewódzki inspektor ochrony środowiska nie wszczyna postępowania w sprawie wymierzenia kary, jeżeli przewidywana jej wysokość nie przekroczy:",
+   "odpowiedzi": {
+    "a": "500 zł",
+    "b": "800 zł",
+    "c": "100 zł"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 119,
+   "pytanie": "Zgodnie z ustawą o odpadach administracyjną wysokość kary jaką wymierza się za zbieranie odpadów lub przetwarzanie odpadów bez wymaganego zezwolenia wynosi:",
+   "odpowiedzi": {
+    "a": "nie mniej niż 1 000 zł i nie może przekroczyć 1 000 000 zł",
+    "b": "nie mniej niż 10 000 zł i nie może przekroczyć 1 000 000 zł",
+    "c": "nie mniej niż 100 000 zł i nie może przekroczyć 1 000 000 zł"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 120,
+   "pytanie": "Zgodnie z ustawą o odpadach administracyjną wysokość kary jaką wymierza się za gospodarowanie odpadami niezgodnie z posiadanym zezwoleniem wynosi:",
+   "odpowiedzi": {
+    "a": "nie mniej niż 1 000 zł i nie może przekroczyć 10 000 zł",
+    "b": "nie mniej niż 10 000 zł i nie może przekroczyć 2 000 000 zł",
+    "c": "nie mniej niż 1 000 zł i nie może przekroczyć 1 000 000 zł"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 121,
+   "pytanie": "Zgodnie z ustawą o odpadach administracyjne kary pieniężne wskazane w tej ustawie wymierza w drodze decyzji wojewódzki inspektor ochrony środowiska właściwy ze względu na:",
+   "odpowiedzi": {
+    "a": "miejsce wytwarzania lub gospodarowania odpadami",
+    "b": "siedzibę przedsiębiorcy",
+    "c": "miejsce zamieszkania strony postępowania"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 122,
+   "pytanie": "Zgodnie z ustawą o odpadach w decyzji wymierzającej administracyjną karę pieniężną określa się w szczególności:",
+   "odpowiedzi": {
+    "a": "rodzaj naruszenia i dzień stwierdzenia naruszenia",
+    "b": "wysokość administracyjnej kary pieniężnej",
+    "c": "wszystkie wskazane odpowiedzi są prawidłowe"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 123,
+   "pytanie": "Policja, na wniosek organu Inspekcji Ochrony Środowiska o udzielenie informacji lub udostępnienie dokumentów i danych związanych z ochroną środowiska, jest obowiązana przekazać te informacje, dokumenty i dane",
+   "odpowiedzi": {
+    "a": "niezwłocznie, nie później jednak niż w terminie 21 dni od dnia złożenia wniosku",
+    "b": "niezwłocznie, nie później jednak niż w terminie 14 dni od dnia złożenia wniosku",
+    "c": "niezwłocznie, nie później jednak niż w terminie 7 dni od dnia złożenia wniosku"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 124,
+   "pytanie": "Wojewódzki Inspektor Ochrony Środowiska wydaje zarządzenie pokontrolne na podstawie:",
+   "odpowiedzi": {
+    "a": "ustaleń kontroli",
+    "b": "ustaleń kontroli innego organu np. marszałka województwa",
+    "c": "informacji pozyskanych w wyniku złożenie wniosku o interwencję"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 125,
+   "pytanie": "Kto wbrew przepisom składuje, usuwa, przetwarza, zbiera, dokonuje odzysku, unieszkodliwia albo transportuje odpady lub substancje w takich warunkach lub w taki sposób, że może to zagrozić życiu lub zdrowiu człowieka lub spowodować obniżenie jakości wody, powietrza lub powierzchni ziemi lub zniszczenie w świecie roślinnym lub zwierzęcym podlega karze pozbawienia wolności:",
+   "odpowiedzi": {
+    "a": "od 6 miesięcy do lat 8",
+    "b": "od roku do lat 10",
+    "c": "do lat 2"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 126,
+   "pytanie": "Czynności o których mowa w art. 10b pkt 2 ust 6 ustawy o Inspekcji Ochrony Środowiska tj. dokonywanie oględzin pomieszczeń i innych miejsc dostępnych publicznie, mogą być podejmowane:",
+   "odpowiedzi": {
+    "a": "bez konieczności okazywania legitymacji",
+    "b": "po wcześniejszym zawiadomieniu kontrolowanego",
+    "c": "po okazaniu legitymacji"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 127,
+   "pytanie": "Kto bez wymaganego zgłoszenia lub zezwolenia, albo wbrew jego warunkom przywozi z zagranicy lub wywozi za granicę odpady niebezpieczne, podlega karze pozbawienia wolności",
+   "odpowiedzi": {
+    "a": "od 6 miesięcy do lat 8",
+    "b": "od lat 2 do 12",
+    "c": "od roku do lat 15"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 128,
+   "pytanie": "W ochronie środowiska możemy wyróżnić następujące odpowiedzialności:",
+   "odpowiedzi": {
+    "a": "administracyjną i karną",
+    "b": "cywilną, administracyjną i karną",
+    "c": "osobistą, cywilną i administracyjną"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 129,
+   "pytanie": "Przestępstwa przeciwko środowisku zostały wskazane w:",
+   "odpowiedzi": {
+    "a": "Kodeksie karnym",
+    "b": "Ustawach administracyjnego prawa materialnego z zakresu ochrony środowiska",
+    "c": "Kodeksie karnym i ustawach administracyjnego prawa materialnego z zakresu ochrony środowiska"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 130,
+   "pytanie": "Zgodnie z Kodeksem wykroczeń karami są:",
+   "odpowiedzi": {
+    "a": "areszt, ograniczenie wolności, grzywna i nagana",
+    "b": "areszt, grzywna i nagana",
+    "c": "areszt, pozbawienie wolności, grzywna i nagana"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 131,
+   "pytanie": "W stosunku do sprawcy wykroczenia można poprzestać na zastosowaniu:",
+   "odpowiedzi": {
+    "a": "pouczenia, zwróceniu uwagi lub na zastosowaniu innych środków oddziaływania wychowawczego",
+    "b": "zwróceniu uwagi, ostrzeżeniu lub na zastosowaniu innych środków oddziaływania wychowawczego",
+    "c": "pouczenia, zwróceniu uwagi, ostrzeżeniu lub na zastosowaniu innych środków oddziaływania wychowawczego"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 132,
+   "pytanie": "Karalność wykroczenia ustaje:",
+   "odpowiedzi": {
+    "a": "jeżeli od czasu jego popełnienia upłynął rok; jeżeli w tym okresie wszczęto postępowanie, karalność wykroczenia ustaje z upływem 2 lat od zakończenia tego okres",
+    "b": "jeżeli od czasu jego popełnienia upłynął rok; jeżeli w tym okresie wszczęto postępowanie, karalność wykroczenia ustaje z upływem 10 lat od zakończenia tego okres",
+    "c": "jeżeli od czasu jego popełnienia upłynął 5; jeżeli w tym okresie wszczęto postępowanie, karalność wykroczenia ustaje z upływem 20 lat od zakończenia tego okres"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 133,
+   "pytanie": "Uprawniony do uchylenia prawomocnego mandatu karnego jest:",
+   "odpowiedzi": {
+    "a": "sąd właściwy do rozpoznania sprawy, niezależnie od tego czy na jego obszarze działania została nałożona grzywna",
+    "b": "sąd właściwy do rozpoznania sprawy, na którego obszarze działania została nałożona grzywna",
+    "c": "sąd właściwy do rozpoznania sprawy"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 134,
+   "pytanie": "Kodeks postępowania administracyjnego stosujemy:",
+   "odpowiedzi": {
+    "a": "przed organami administracji publicznej w należących do właściwości tych organów sprawach indywidualnych rozstrzyganych w drodze decyzji administracyjnych",
+    "b": "w postępowaniach w sprawach karnych skarbowych",
+    "c": "we wszystkich sprawach uregulowanych w ustawie z dnia 29 sierpnia 1997 r. - Ordynacja podatkowa"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 135,
+   "pytanie": "Zgodnie z zasadą praworządności:",
+   "odpowiedzi": {
+    "a": "organy administracji publicznej działają na podstawie przepisów prawa",
+    "b": "organy administracji publicznej działają na podstawie wewnętrznych wytycznych dyrektora departamentu",
+    "c": "organy administracji działają na podstawie wewnętrznych okólników dyrektora generalnego urzędu"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 136,
+   "pytanie": "Postępowanie administracyjne jest:",
+   "odpowiedzi": {
+    "a": "jednoinstancyjne",
+    "b": "dwuinstancyjne, chyba że przepis szczególny stanowi inaczej",
+    "c": "trójinstancyjne"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 137,
+   "pytanie": "Stronami w postępowaniu administracyjnym mogą być:",
+   "odpowiedzi": {
+    "a": "tylko osoby fizyczne",
+    "b": "tylko osoby prawne",
+    "c": "stronami mogą być osoby fizyczne i osoby prawne"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 138,
+   "pytanie": "W postępowaniu administracyjnym:",
+   "odpowiedzi": {
+    "a": "strona może działać przez pełnomocnika, chyba że charakter czynności wymaga jej osobistego działania",
+    "b": "strona nie może działać przez pełnomocnika",
+    "c": "strona musi działać przez pełnomocnika"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 139,
+   "pytanie": "W razie uchybienia terminu do wniesienia odwołania, należy przywrócić termin:",
+   "odpowiedzi": {
+    "a": "na prośbę zainteresowanego, jeżeli uprawdopodobni, że uchybienie nastąpiło bez jego winy",
+    "b": "z urzędu, jeżeli organ uprawdopodobni, że uchybienie nastąpiło bez winy zainteresowanego",
+    "c": "na prośbę zainteresowanego lub z urzędy"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 140,
+   "pytanie": "W każdym przypadku niezałatwienia sprawy w terminie:",
+   "odpowiedzi": {
+    "a": "organ powinien sporządzić notatkę urzędową",
+    "b": "organ administracji publicznej jest obowiązany zawiadomić strony, podając przyczyny zwłoki, wskazując nowy termin załatwienia sprawy oraz pouczając o prawie do wniesienia ponaglenia",
+    "c": "niezałatwienie sprawy w terminie nie nakłada na organ żadnych obowiązków"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 141,
+   "pytanie": "Strona:",
+   "odpowiedzi": {
+    "a": "ma prawo wglądu w akta sprawy, sporządzania z nich notatek, kopii lub odpisów. Prawo to nie przysługuje po zakończeniu postępowania",
+    "b": "ma prawo wglądu w akta sprawy, sporządzania z nich notatek, kopii lub odpisów. Prawo to przysługuje również po zakończeniu postępowania",
+    "c": "nie ma prawa wglądu w akta sprawy, chyba że organ postanowi inaczej"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 142,
+   "pytanie": "Jeżeli podanie strony nie zawiera podpisu:",
+   "odpowiedzi": {
+    "a": "organ odrzuca podanie",
+    "b": "organ wydaje decyzję odmawiająca żądaniu strony",
+    "c": "organ wzywa wnoszącego podanie do usunięcia braków w wyznaczonym terminie, nie krótszym niż siedem dni, z pouczeniem, że nieusunięcie tych braków spowoduje pozostawienie podania bez rozpoznania"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 143,
+   "pytanie": "Jeżeli organ administracji publicznej, do którego podanie wniesiono, jest niewłaściwy w sprawie:",
+   "odpowiedzi": {
+    "a": "niezwłocznie przekazuje je do organu właściwego, zawiadamiając jednocześnie o tym wnoszącego podanie",
+    "b": "wydaje postanowienie o odmowie wszczęcia postępowania",
+    "c": "zwraca podanie"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 144,
+   "pytanie": "Dowodem w postępowaniu administracyjnym:",
+   "odpowiedzi": {
+    "a": "może być wszystko, co może przyczynić się do wyjaśnienia sprawy, a nie jest sprzeczne z prawem",
+    "b": "tylko opinie biegłych",
+    "c": "tylko zeznania świadków"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 145,
+   "pytanie": "W postępowaniu administracyjnym obowiązek zebrania w sposób wyczerpujący i rozpatrzenia całego materiału dowodowego:",
+   "odpowiedzi": {
+    "a": "spoczywa na organie",
+    "b": "spoczywa na stronie postępowania",
+    "c": "spoczywa na sądzie administracyjnym"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 146,
+   "pytanie": "Gdy postępowanie administracyjne z jakiejkolwiek przyczyny stało się bezprzedmiotowe w całości albo w części, organ administracji publicznej:",
+   "odpowiedzi": {
+    "a": "przekazuje sprawę do sądu powszechnego",
+    "b": "zwraca podanie",
+    "c": "wydaje decyzję o umorzeniu postępowania odpowiednio w całości albo w części"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 147,
+   "pytanie": "Organ administracji publicznej załatwia sprawę przez wydanie:",
+   "odpowiedzi": {
+    "a": "decyzji, chyba że przepisy kodeksu stanowią inaczej",
+    "b": "zawsze postanowienia",
+    "c": "zawsze ugody"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 148,
+   "pytanie": "Od decyzji wydanej w pierwszej instancji służy stronie:",
+   "odpowiedzi": {
+    "a": "odwołanie",
+    "b": "zażalenie",
+    "c": "powództwo do sądu powszechnego"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 149,
+   "pytanie": "Organ odwoławczy stwierdza uchybienie terminu do wniesienia odwołania:",
+   "odpowiedzi": {
+    "a": "w drodze decyzji",
+    "b": "w drodze postanowienia",
+    "c": "w drodze zawiadomienia"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 150,
+   "pytanie": "Zażalenie wnosi się w terminie:",
+   "odpowiedzi": {
+    "a": "30 dni od dnia doręczenia postanowienia stronie",
+    "b": "14 dni od dnia doręczenia postanowienia stronie",
+    "c": "7 dni od dni doręczenia postanowienie stronie, a gdy postanowienie zostało ogłoszone ustnie – od dnia jego ogłoszenia stronie"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 151,
+   "pytanie": "Wydanie decyzji administracyjnej bez podstawy prawnej lub z rażącym naruszeniem prawa to podstawa do:",
+   "odpowiedzi": {
+    "a": "wznowienia postępowania",
+    "b": "stwierdzenia nieważności decyzji",
+    "c": "zmiany decyzji ostatecznej"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 152,
+   "pytanie": "Jeżeli koniec terminu przypada na dzień uznany ustawowo za wolny od pracy lub na sobotę:",
+   "odpowiedzi": {
+    "a": "termin upływa tego dnia",
+    "b": "termin upływa w najbliższą niedzielę",
+    "c": "termin upływa następnego dnia, który nie jest dniem wolnym od pracy ani sobotą"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 153,
+   "pytanie": "Jeżeli w czasie wydawania decyzji w sprawie administracyjnej kary pieniężnej obowiązuje ustawa inna niż w czasie naruszenia prawa, w następstwie którego ma być nałożona kara, stosuje się ustawę:",
+   "odpowiedzi": {
+    "a": "nową, jednakże należy stosować ustawę obowiązującą poprzednio, jeżeli jest ona względniejsza dla strony",
+    "b": "surowszą dla strony",
+    "c": "obowiązującą poprzednio, w każdym przypadku"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 154,
+   "pytanie": "Zgodnie z KPA administracyjna kara pieniężna nie może zostać nałożona, jeżeli od dnia naruszenia prawa albo wystąpienia skutków naruszenia prawa upłynęło:",
+   "odpowiedzi": {
+    "a": "pięć lat",
+    "b": "trzy lata",
+    "c": "jeden rok"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 155,
+   "pytanie": "W sprawie zakończonej decyzją ostateczną wznawia się postępowanie, jeżeli:",
+   "odpowiedzi": {
+    "a": "decyzja została skierowana do osoby niebędącej stroną w sprawie",
+    "b": "decyzja wydana została z rażącym naruszeniem prawa",
+    "c": "strona bez własnej winy nie brała udziału w postępowaniu"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 156,
+   "pytanie": "Jeżeli przedmiotem postępowania administracyjnego jest nałożenie na stronę obowiązku bądź ograniczenie lub odebranie stronie uprawnienia, a w sprawie pozostają wątpliwości co do treści normy prawnej, wątpliwości te są rozstrzygane:",
+   "odpowiedzi": {
+    "a": "na korzyść organu",
+    "b": "w drodze losowania",
+    "c": "na korzyść strony"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 157,
+   "pytanie": "Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy są:",
+   "odpowiedzi": {
+    "a": "ostateczne",
+    "b": "prawomocne",
+    "c": "nieodwołalne"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 158,
+   "pytanie": "Jeżeli strona ustanowiła pełnomocnika pismo doręcza się:",
+   "odpowiedzi": {
+    "a": "pełnomocnikowi",
+    "b": "stronie",
+    "c": "pełnomocnikowi i stronie"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 159,
+   "pytanie": "Jeżeli organ I instancji, który wydał decyzję, uzna, że to odwołanie nie zasługuje w całości na uwzględnienie, to:",
+   "odpowiedzi": {
+    "a": "rozstrzyga sprawę ponownie",
+    "b": "przekazuje sprawę do sądu administracyjnego",
+    "c": "przesyła odwołanie wraz z aktami sprawy organowi odwoławczemu w terminie siedmiu dni od dnia, w którym otrzymał odwołanie"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 160,
+   "pytanie": "Organ administracji publicznej, który nałożył administracyjną karę pieniężną, w przypadkach uzasadnionych ważnym interesem publicznym lub ważnym interesem strony, może udzielić ulg w wykonaniu administracyjnej kary pieniężnej:",
+   "odpowiedzi": {
+    "a": "z urzędu",
+    "b": "na wniosek strony",
+    "c": "na wniosek sądu administracyjnego"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 161,
+   "pytanie": "Organ administracji publicznej przed wydaniem decyzji:",
+   "odpowiedzi": {
+    "a": "ma obowiązek umożliwić stronie wypowiedzenie się co do zebranych dowodów i materiałów oraz zgłoszonych żądań",
+    "b": "ma obowiązek umożliwić stronie wypowiedzenie się co do zebranych dowodów i materiałów oraz zgłoszonych żądań jedynie w przypadku zamiaru wydania decyzji negatywnej",
+    "c": "nie może umożliwić stronie wypowiedzenie się co do zebranych dowodów i materiałów oraz zgłoszonych żądań"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 162,
+   "pytanie": "Decyzje ostateczne, których nie można zaskarżyć do sądu administracyjnego, są:",
+   "odpowiedzi": {
+    "a": "nieodwołalne",
+    "b": "prawomocne",
+    "c": "prawidłowe"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 163,
+   "pytanie": "Załatwienie sprawy administracyjnej wymagającej postępowania wyjaśniającego powinno nastąpić:",
+   "odpowiedzi": {
+    "a": "w czasie dogodnym dla organu",
+    "b": "nie później niż w ciągu miesiąca, a sprawy szczególnie skomplikowanej - nie później niż w ciągu dwóch miesięcy od dnia wszczęcia postępowania",
+    "c": "nie później niż w ciągu dwóch miesięcy, a sprawy szczególnie skomplikowanej - nie później niż w ciągu trzech miesięcy od dnia wszczęcia postępowania"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 164,
+   "pytanie": "Zgodnie z ustawą o udostępnianiu informacji o środowisku i jego ochronie za wyszukiwanie informacji, a także za przekształcanie informacji w formę wskazaną we wniosku, sporządzanie kopii dokumentów lub danych oraz ich przesłanie władze publiczne:",
+   "odpowiedzi": {
+    "a": "nie pobierają opłaty",
+    "b": "pobierają opłaty w wysokości odzwierciedlającej związane z tym uzasadnione koszty",
+    "c": "pobierają opłatę w wysokości ustalonej przez akt wewnętrzny"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 165,
+   "pytanie": "Zgodnie z ustawą o udostępnianiu informacji o środowisku i jego ochronie odmowa udostępnienia informacji o środowisku i jego ochronie następuje:",
+   "odpowiedzi": {
+    "a": "poprzez ogłoszenie na stronie BIP organu",
+    "b": "pisemnie",
+    "c": "w drodze decyzji"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 166,
+   "pytanie": "Zgodnie z ustawą o dostępie do informacji publicznej, informacją publiczną jest:",
+   "odpowiedzi": {
+    "a": "każda informacja o sprawach publicznych",
+    "b": "informacja o sprawach będących przedmiotem zainteresowania mediów",
+    "c": "każda informacja o środowisku"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 167,
+   "pytanie": "Tajemnicą przedsiębiorstwa są informacje:",
+   "odpowiedzi": {
+    "a": "z którymi można się bez przeszkód zapoznać",
+    "b": "informacje techniczne, technologiczne, organizacyjne przedsiębiorstwa lub inne informacje posiadające wartość gospodarczą, które jako całość lub w szczególnym zestawieniu i zbiorze ich elementów nie są powszechnie znane osobom zwykle zajmującym się tym rodzajem informacji albo nie są łatwo dostępne dla takich osób, o ile uprawniony do korzystania z informacji lub rozporządzania nimi podjął, przy zachowaniu należytej staranności, działania w celu utrzymania ich w poufności",
+    "c": "informacje uznane przez przedsiębiorcę za niejawne"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 168,
+   "pytanie": "Organ może wyłączyć informację handlową z udostępniania:",
+   "odpowiedzi": {
+    "a": "z urzędu",
+    "b": "na wniosek zainteresowanego",
+    "c": "żadna z powyższych"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 169,
+   "pytanie": "Władze publiczne udostępniają informacje o środowisku i jego ochronie:",
+   "odpowiedzi": {
+    "a": "bez względnej zwłoki, nie później niż w ciągu miesiąca od dnia otrzymania wniosku",
+    "b": "bez względnej zwłoki, nie później niż w ciągu czternastu dni od dnia otrzymania wniosku",
+    "c": "w ciągu miesiąca od dnia otrzymania wniosku"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 170,
+   "pytanie": "Udostępnianie informacji o środowisku i jego ochronie następuje:",
+   "odpowiedzi": {
+    "a": "w sposób i w formie określonych we wniosku",
+    "b": "w sposób określony we wniosku",
+    "c": "w sposób i w formie określonych we wniosku chyba że środki techniczne, którymi dysponują władze publiczne, nie umożliwiają udostępnienia informacji w sposób i w formie określonych we wniosku"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 171,
+   "pytanie": "Od podmiotu żądającego informacji o środowisku i jego ochronie:",
+   "odpowiedzi": {
+    "a": "wymaga się wykazania interesu prawnego lub faktycznego",
+    "b": "nie wymaga się wykazania interesu prawnego lub faktycznego",
+    "c": "wymaga się wykazania interesu faktycznego"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 172,
+   "pytanie": "Definicja podmiotów korzystających ze środowiska została określona w ustawie:",
+   "odpowiedzi": {
+    "a": "o Inspekcji Ochrony Środowiska",
+    "b": "Prawo ochrony środowiska",
+    "c": "Prawo przedsiębiorców"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 173,
+   "pytanie": "W Informatycznym Systemie Kontroli (ISK) kontrole pozaplanowe z wyjazdem w teren z ustalonym podmiotem dzielą się na kontrole:",
+   "odpowiedzi": {
+    "a": "na wniosek, interwencyjne, inwestycyjne, inne",
+    "b": "na wniosek, interwencyjne",
+    "c": "rozpoznanie zanieczyszczenia w terenie, transport towarów lub odpadów"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 174,
+   "pytanie": "Kontrola problemowa swoim zakresem obejmuje:",
+   "odpowiedzi": {
+    "a": "jeden bądź dwa komponenty środowiskowe lub ich części",
+    "b": "minimum trzy komponenty środowiskowe lub ich części",
+    "c": "wyłącznie kontrole prowadzone w ramach cyku kontrolnego"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 175,
+   "pytanie": "Zmiana zakresu przedmiotowego kontroli:",
+   "odpowiedzi": {
+    "a": "może zostać wykonana po uzyskaniu zgody kontrolowanego",
+    "b": "nie może prowadzić do wydłużenia czasu trwania kontroli",
+    "c": "jest możliwa tylko w przypadku kontroli pozaplanowej"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 176,
+   "pytanie": "W przypadku utrudnionego kontaktu z kontrolowanym, inspektor Inspekcji Ochrony Środowiska może:",
+   "odpowiedzi": {
+    "a": "wezwać kontrolowanego do udziału w podejmowanych czynnościach kontrolnych",
+    "b": "odstąpić od prowadzenia działań kontrolnych",
+    "c": "przekazać sprawę organom ścigania"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 177,
+   "pytanie": "Czas trwania wszystkich kontroli organu kontroli u przedsiębiorcy w jednym roku kalendarzowym został określony w:",
+   "odpowiedzi": {
+    "a": "Kodeksie spółek handlowych",
+    "b": "Kodeksie pracy",
+    "c": "ustawie Prawo przedsiębiorców"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 178,
+   "pytanie": "W przypadku odmowy podpisania protokołu przez kierownika kontrolowanej jednostki organizacyjnej lub kontrolowaną osobę fizyczną, inspektor IOŚ:",
+   "odpowiedzi": {
+    "a": "czyni o tym wzmiankę w protokole kontroli",
+    "b": "ma obowiązek sporządzenia notatki służbowej",
+    "c": "może potraktować to jako utrudnianie kontroli"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 179,
+   "pytanie": "Wskaż zdanie prawdziwe:",
+   "odpowiedzi": {
+    "a": "inspektor IOŚ wykonuje kontrole wyłącznie po okazaniu legitymacji służbowej upoważniającej do wykonania kontroli",
+    "b": "inspektor IOŚ ma obowiązek posiadania upoważnienia do każdej kontroli",
+    "c": "w przypadku kontroli pozaplanowej interwencyjnej inspektor IOŚ musi dostarczyć kontrolowanemu upoważnienie do kontroli nie później niż w terminie 3 dni roboczych od dnia wszczęcia kontroli"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 180,
+   "pytanie": "Przepis mówiący o zakazie równoczesnego podejmowania i prowadzenia więcej niż jednej kontroli działalności przedsiębiorcy, stosuje się:",
+   "odpowiedzi": {
+    "a": "do wszystkich typów kontroli",
+    "b": "wyłącznie do kontroli planowych",
+    "c": "wyłącznie do kontroli pozaplanowych"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 181,
+   "pytanie": "Specjalny reżim prawny został określony dla kontroli prowadzonych w zakresie:",
+   "odpowiedzi": {
+    "a": "ochrony powietrza w zakładach zlokalizowanych w strefach dla których został uchwalony program ochrony powietrza",
+    "b": "przestrzegania przepisów dotyczących gospodarki odpadami",
+    "c": "przestrzegania przepisów dotyczących substancji chemicznych i ich mieszanin"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 182,
+   "pytanie": "Do podmiotów korzystających ze środowiska, w przypadku których nie stosuje się przepisów ustawy Prawo przedsiębiorców zalicza się:",
+   "odpowiedzi": {
+    "a": "jednoosobową działalność gospodarczą",
+    "b": "spółkę skarbu państwa",
+    "c": "gminę"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 183,
+   "pytanie": "Kontrolę planową przedsiębiorcy rozpoczyna się po uprzednim:",
+   "odpowiedzi": {
+    "a": "zawiadomieniu przedsiębiorcy o zamiarze wszczęcia kontroli",
+    "b": "sporządzeniu planu kontroli",
+    "c": "dokonaniu oględzin miejsca kontroli"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 184,
+   "pytanie": "Wskaż zdanie prawdziwe:",
+   "odpowiedzi": {
+    "a": "czynności kontrolne związane z pobieraniem próbek i dokonywaniem oględzin, w tym pojazdów i dokumentów, lub dokonywaniem pomiarów mogą być wykonywane przed upływem terminu 7 dni od doręczenia zawiadomienia o zamiarze wszczęcia kontroli",
+    "b": "czynności kontrolne związane z pobieraniem próbek i dokonywaniem oględzin, w tym pojazdów, lub dokonywaniem pomiarów mogą być wykonywane przed upływem terminu 7 dni od doręczenia zawiadomienia o zamiarze wszczęcia kontroli",
+    "c": "czynności kontrolne związane z pobieraniem próbek i dokonywaniem oględzin, w tym pojazdów, lub dokonywaniem pomiarów nie mogą być wykonywane przed upływem terminu 7 dni od doręczenia zawiadomienia o zamiarze wszczęcia kontroli"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 185,
+   "pytanie": "Co do zasady wniesienie przez przedsiębiorcę sprzeciwu wobec podjęcia czynności kontrolnych powoduje:",
+   "odpowiedzi": {
+    "a": "wstrzymanie czynności kontrolnych przez organ",
+    "b": "wstrzymania czasu trwania kontroli",
+    "c": "odpowiedzi a i b są poprawne"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 186,
+   "pytanie": "Informację o wykonaniu oględzin i sporządzeniu protokołu oględzin zamieszcza się w:",
+   "odpowiedzi": {
+    "a": "książce kontroli",
+    "b": "protokole kontroli",
+    "c": "adnotacji z kontroli"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 187,
+   "pytanie": "Zeznania pozyskane w ramach przesłuchania świadka zamieszcza się w:",
+   "odpowiedzi": {
+    "a": "protokole kontroli",
+    "b": "protokole oględzin",
+    "c": "protokole przesłuchania"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 188,
+   "pytanie": "W ramach udzielonego w czasie kontroli instruktażu inspektor IOŚ może:",
+   "odpowiedzi": {
+    "a": "wskazać kontrolowanemu na obowiązujące wymagania wynikające z przepisów prawa",
+    "b": "nałożyć na kontrolowanego obowiązki polegające na usunięciu stwierdzonych w ramach kontroli nieprawidłowości",
+    "c": "nałożyć na kontrolowanego sankcje karne"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 189,
+   "pytanie": "Inspektor IOŚ, żeby mieć wgląd do dokumentów stanowiących informacje niejawne musi posiadać:",
+   "odpowiedzi": {
+    "a": "certyfikat bezpieczeństwa wydany przez Biuro Bezpieczeństwa Narodowego",
+    "b": "imienne poświadczenie bezpieczeństwa wydane przez pełnomocnika ds. ochrony informacji niejawnych w wioś",
+    "c": "pisemną zgodę wojewódzkiego inspektora ochrony środowiska"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 190,
+   "pytanie": "Do stosowania sankcji za wykroczenia ujawnione w toku kontroli prowadzonych przez wioś uprawniony jest inspektor IOŚ:",
+   "odpowiedzi": {
+    "a": "posiadający specjalne upoważnienie wydane przez wojewódzkiego inspektora ochrony środowiska",
+    "b": "posiadający specjalne upoważnienie wydane przez ministra właściwego do spraw klimatu",
+    "c": "posiadający specjalne upoważnienie wydane przez wojewodę"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 191,
+   "pytanie": "Mandat karny kredytowany staje się prawomocny z chwilą:",
+   "odpowiedzi": {
+    "a": "pokwitowania jego odbioru przez ukaranego",
+    "b": "podpisania przez inspektora IOŚ",
+    "c": "jego opłacenia"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 192,
+   "pytanie": "Uzasadnienie braku zawiadomienia o zamiarze rozpoczęcia kontroli przedsiębiorcy należy umieścić w:",
+   "odpowiedzi": {
+    "a": "upoważnieniu do kontroli",
+    "b": "protokole kontroli",
+    "c": "protokole oględzin"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 193,
+   "pytanie": "W IOŚ obowiązuje:",
+   "odpowiedzi": {
+    "a": "dwustopniowa klasyfikacja naruszeń",
+    "b": "trzystopniowa klasyfikacja naruszeń",
+    "c": "czterostopniowa klasyfikacja naruszeń"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 194,
+   "pytanie": "Naruszenia klasyfikowane do 2 klasy naruszeń to:",
+   "odpowiedzi": {
+    "a": "naruszenia w wyniku których nie nastąpiło zagrożenie lub zanieczyszczenie środowiska",
+    "b": "naruszenia w wyniku których wymierzono administracyjną karę pieniężną",
+    "c": "naruszenia w wyniku których może nastąpić lub nastąpiło zagrożenie lub zanieczyszczenie środowiska"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 195,
+   "pytanie": "Kontrolę wykonują",
+   "odpowiedzi": {
+    "a": "Główny Inspektor Ochrony Środowiska",
+    "b": "Główny Inspektor Ochrony Środowiska, wojewódzcy inspektorzy ochrony środowiska oraz upoważnieni przez nich inspektorzy Inspekcji Ochrony Środowiska",
+    "c": "wojewódzcy inspektorzy ochrony środowiska oraz upoważnieni przez nich pracownicy Inspekcji Ochrony Środowiska"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 196,
+   "pytanie": "Kontrolę na wniosek organów administracji publicznej lub podmiotu zaliczamy do kontroli",
+   "odpowiedzi": {
+    "a": "planowej",
+    "b": "pozaplanowej",
+    "c": "interwencyjnej"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 197,
+   "pytanie": "Kontrole interwencyjne prowadzi się",
+   "odpowiedzi": {
+    "a": "w związku z rozpatrywaniem skarg i interwencji dotyczących zanieczyszczenia środowiska lub podejrzenia wystąpienia takiego zanieczyszczenia, wystąpienia poważnych awarii lub w celu przeciwdziałania popełnieniu przestępstwa lub wykroczenia",
+    "b": "wyłącznie w przypadku wystąpienia poważnych awarii lub w celu przeciwdziałania popełnieniu przestępstwa lub wykroczenia",
+    "c": "wyłącznie w przypadku rozpatrywaniem skarg i interwencji dotyczących zanieczyszczenia środowiska lub podejrzenia wystąpienia takiego zanieczyszczenia"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 198,
+   "pytanie": "Zespół kontrolny może powołać",
+   "odpowiedzi": {
+    "a": "Główny Inspektor Ochrony Środowiska",
+    "b": "wojewódzki inspektor ochrony środowiska",
+    "c": "Główny Inspektor Ochrony Środowiska po zasięgnięciu opinii wojewódzkiego inspektora ochrony środowiska"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 199,
+   "pytanie": "Sporządzanie programu kontroli, jest obligatoryjne w przypadku kontroli:",
+   "odpowiedzi": {
+    "a": "instalacji wymagających pozwolenia zintegrowanego (IED), zakładów zwiększonego ryzyka (ZZD), zakładów dużego ryzyka (ZDR)",
+    "b": "pozaplanowych interwencyjnych",
+    "c": "prowadzonej na podstawie ustawy z dnia 20 lipca 1991 r. o Inspekcji Ochrony Środowiska w zakresie gospodarki odpadami"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 200,
+   "pytanie": "Uprawnienia jakie posiada inspektor Inspekcji Ochrony Środowiska przy wykonywaniu kontroli przestrzegania wymagań ochrony środowiska zostały określone w",
+   "odpowiedzi": {
+    "a": "Zarządzeniu Głównego Inspektora Ochrony Środowiska w sprawie ustalenia zasad prowadzenia kontroli przez Inspekcję Ochrony Środowiska",
+    "b": "ustawie z dnia 20 lipca 1991 r. o Inspekcji Ochrony Środowiska",
+    "c": "ustawie z dnia 21 listopada 2008 r. o służbie cywilnej"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 201,
+   "pytanie": "W przypadku kontroli pozaplanowej przedsiębiorcy nie ma obowiązku",
+   "odpowiedzi": {
+    "a": "okazania przedsiębiorcy upoważnienia do wykonania kontroli",
+    "b": "przekazania kontrolowanemu przedsiębiorcy protokołu kontroli",
+    "c": "zawiadomienia przedsiębiorcy o zamiarze wszczęcia kontroli"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 202,
+   "pytanie": "Kierownik kontrolowanej jednostki organizacyjnej lub kontrolowana osoba fizyczna, może wnieść do protokołu kontroli umotywowane zastrzeżenia i uwagi",
+   "odpowiedzi": {
+    "a": "wyłącznie gdy kontrola wykazała naruszenia",
+    "b": "zawsze",
+    "c": "wyłącznie w przypadku, gdy wyrazi na to zgodę inspektor Inspekcji Ochrony Środowiska prowadzący przedmiotową kontrolę"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 203,
+   "pytanie": "Na podstawie ustaleń kontroli wojewódzki inspektor ochrony środowiska może:",
+   "odpowiedzi": {
+    "a": "wydać zarządzenie pokontrolne, wydać na podstawie odrębnych przepisów decyzję administracyjną, wszcząć egzekucję, jeżeli obowiązek wynika z mocy prawa lub decyzji administracyjnej",
+    "b": "wydać zarządzenie pokontrolne, wydać na podstawie odrębnych przepisów decyzję administracyjną dotyczącą zakresu korzystania ze środowiska, wszcząć egzekucję, jeżeli obowiązek wynika z mocy prawa lub decyzji administracyjnej",
+    "c": "wydać zarządzenie pokontrolne w zakresie zadań naprawczych, wydać decyzję administracyjną dotyczącą zakresu korzystania ze środowiska, wszcząć egzekucję decyzji wydanej przez wojewódzkiego inspektora ochrony środowiska"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 204,
+   "pytanie": "Organ kontroli może, po pisemnym zawiadomieniu przedsiębiorcy, przerwać kontrolę na czas niezbędny do",
+   "odpowiedzi": {
+    "a": "przeprowadzenia badań próbki produktu lub próbki kontrolnej, jeżeli jedyną czynnością kontrolną po otrzymaniu wyniku badania próbki będzie sporządzenie protokołu kontroli",
+    "b": "sporządzenia protokołu kontroli",
+    "c": "oceny sposobu eksploatacji instalacji lub urządzeń chroniących środowisko"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 205,
+   "pytanie": "Z czynności kontrolnych w terenie inspektor Inspekcji Ochrony Środowiska sporządza",
+   "odpowiedzi": {
+    "a": "notatkę służbową",
+    "b": "protokół kontroli",
+    "c": "adnotację z kontroli"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 206,
+   "pytanie": "Sporządzenie protokołu oględzin jest obowiązkowe",
+   "odpowiedzi": {
+    "a": "jeśli inspektor Inspekcji Ochrony Środowiska stwierdzi naruszenie wymagań ochrony środowiska",
+    "b": "wyłącznie w przypadku, gdy w ramach prowadzonych oględzin wykonywana była dokumentacja fotograficzna",
+    "c": "zawsze po wykonaniu oględzin przez inspektora Inspekcji Ochrony Środowiska"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 207,
+   "pytanie": "Inspektor Inspekcji Ochrony Środowiska jest uprawniony do zastosowania sankcji za ujawnione w toku kontroli wykroczenia w postaci",
+   "odpowiedzi": {
+    "a": "zarządzenia pokontrolnego, mandatu karnego, pouczenia",
+    "b": "mandatu karnego, pouczenia, wniosku o ukaranie do sądu rejonowego",
+    "c": "mandatu karnego, pouczenia, administracyjnej kary pieniężnej"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 208,
+   "pytanie": "Pracownik Centralnego Laboratorium Badawczego uczestniczący w kontroli powinien posiadać upoważnienie",
+   "odpowiedzi": {
+    "a": "wyłącznie w przypadku kontroli planowej",
+    "b": "wyłącznie w przypadku kontroli pozaplanowej",
+    "c": "zawsze niezależnie od rodzaju kontroli"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 209,
+   "pytanie": "Wojewódzki inspektor ochrony środowiska może wystąpić z wnioskiem do Policji lub organów administracji publicznej o udzielenie pomocy",
+   "odpowiedzi": {
+    "a": "jeżeli jest to niezbędne do przeprowadzenia czynności kontrolnych",
+    "b": "wyłącznie w przypadku, gdy w ramach prowadzonych czynności kontrolnych niezbędne jest zabezpieczenie dowodów popełnienia przestępstwa albo wykroczenia",
+    "c": "wyłącznie w przypadku, gdy kontrolowany podmiot utrudnia prowadzenie czynności kontrolnych"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 210,
+   "pytanie": "Przed rozpoczęciem czynności kontrolnych inspektor Inspekcji Ochrony Środowiska powinien",
+   "odpowiedzi": {
+    "a": "przeprowadzić oględziny dokumentów, obiektów, instalacji i urządzeń istotnych z punktu widzenia oddziaływania zakładu na środowisko",
+    "b": "zażądać od kontrolowanego pisemnych informacji dot. funkcjonowania zakładu",
+    "c": "poinformować kontrolowanego, o jego prawach i obowiązkach w trakcie kontroli"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 211,
+   "pytanie": "Informację o udzielonym w czasie kontroli instruktażu należy umieścić",
+   "odpowiedzi": {
+    "a": "w protokole kontroli, ze wskazaniem osoby wraz ze stanowiskiem, której udzielono instruktażu",
+    "b": "w sprawozdaniu z udzielonego instruktażu",
+    "c": "w zarządzeniu pokontrolnym"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 212,
+   "pytanie": "W przypadku informacji niejawnych i zastrzeżonych do Informatycznej bazy danych ISK wprowadza się",
+   "odpowiedzi": {
+    "a": "jawną część protokołu, czyli z pominięciem zastrzeżonych załączników",
+    "b": "wprowadza się cały protokół wraz z wszystkim załącznikami",
+    "c": "decyzję o zamieszczeniu zastrzeżonych załączników w ISK podejmuje wojewódzki inspektor ochrony środowiska"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 213,
+   "pytanie": "Zmiana miejsca wykonywania czynności kontrolnych",
+   "odpowiedzi": {
+    "a": "wymaga każdorazowo wydania odrębnego upoważnienia",
+    "b": "nie wymaga wydania odrębnego upoważnienia",
+    "c": "nie jest wymagane wydanie odrębnego upoważnienia wyłącznie w przypadku kontroli pozaplanowych"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 214,
+   "pytanie": "Upoważnienie do kontroli powinno zawierać między innymi",
+   "odpowiedzi": {
+    "a": "program kontroli, jeżeli jest wymagany",
+    "b": "wykaz planowanych do przeprowadzenia pomiarów",
+    "c": "określenie zakresu przedmiotowego kontroli"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 215,
+   "pytanie": "Sporządzenie protokołu z narady pokontrolnej jest",
+   "odpowiedzi": {
+    "a": "obowiązkowe wyłącznie w przypadku kontroli z naruszeniami",
+    "b": "zawsze obowiązkowe",
+    "c": "dobrowolne i o jego sporządzeniu decyduje inspektor przeprowadzający kontrolę"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 216,
+   "pytanie": "Zakłady posiadające instalacje IED (wymagające uzyskania pozwolenia zintegrowanego) w Informatycznym Systemie Kontroli (ISK) przypisane są do:",
+   "odpowiedzi": {
+    "a": "kategorii wysokiego ryzyka",
+    "b": "kategorii średniego ryzyka",
+    "c": "zależnie od wyniku analizy wielokryterialnej, ale nie niżej niż kategoria średniego ryzyka"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 217,
+   "pytanie": "Zakłady przypisane w Informatycznym Systemie Kontroli (ISK) do kategorii wysokiego ryzyka powinny być kontrolowane z częstotliwością:",
+   "odpowiedzi": {
+    "a": "co roku",
+    "b": "raz na 3 lata",
+    "c": "nie częściej niż raz na 5 lat, decyzja o ujęciu w planie kontroli należy do wioś"
+   },
+   "poprawna": "a",
+   "komentarz": null,
+   "uwaga": "Odpowiedź a) odpowiada kluczowi 2025 (kat. I = wysokiego ryzyka, kontrola co roku; por. pyt. 222). Opcje b) i c) to częstotliwości dla niższych kategorii."
+  },
+  {
+   "id": 218,
+   "pytanie": "Inspektor po zakończeniu kontroli ma obowiązek zamieścić w Informatycznym Systemie Kontroli (ISK) skan protokołu kontroli:",
+   "odpowiedzi": {
+    "a": "wyłącznie w przypadku, gdy kontrola wykazała naruszenia",
+    "b": "zawsze",
+    "c": "wyłącznie w przypadku, gdy kontrola była prowadzona w zakładach kategorii wysokiego i średniego ryzyka"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 219,
+   "pytanie": "Wyniki przeprowadzonych w ramach kontroli pomiarów/badań do Informatycznego Systemu Kontroli (ISK) wprowadza:",
+   "odpowiedzi": {
+    "a": "pracownik Centralnego Laboratorium Badawczego GIOŚ wykonujący pomiary/badania",
+    "b": "do ISK nie ma możliwości wprowadzenia wyników pomiarów/badań",
+    "c": "inspektor wykonujący kontrolę"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 220,
+   "pytanie": "W Informatycznym Systemie Kontroli (ISK) inspektor może przyporządkować zakład:",
+   "odpowiedzi": {
+    "a": "do dowolnej liczby grup zakładów",
+    "b": "maksymalnie do jednej grupy zakładów",
+    "c": "maksymalnie do trzech grup zakładów"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 221,
+   "pytanie": "O zakończeniu kontroli w Informatycznym Systemie Kontroli (ISK) świadczy:",
+   "odpowiedzi": {
+    "a": "wprowadzenie daty zakończenia kontroli",
+    "b": "zmiana statusu kontroli",
+    "c": "wprowadzenie do ISK działań pokontrolnych"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 222,
+   "pytanie": "Zakłady dużego ryzyka wystąpienia awarii (ZDR) w Informatycznym Systemie Kontroli (ISK) przypisane są do kategorii wysokiego ryzyka",
+   "odpowiedzi": {
+    "a": "jeżeli wynik analizy wielokryterialnej jest równy bądź większy od 60 punktów",
+    "b": "jeżeli w trakcie ostatniej kontroli w terenie stwierdzono naruszenia klasy 1 – naruszenia w wyniku których nie nastąpiło zagrożenie lub zanieczyszczenie środowiska",
+    "c": "niezależnie od wyniku analizy wielokryterialnej, ponieważ z uwagi na wymogi prawne zakłady te muszą być kontrolowane co roku, niezależnie od wyniku analizy wielokryterialnej"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 223,
+   "pytanie": "Informatyczny Systemie Kontroli (ISK)",
+   "odpowiedzi": {
+    "a": "umożliwia rejestrację kontrolowanych podmiotów z zachowaniem 2 stopni hierarchii danych: podmiotów kontrolowanych korzystających ze środowiska (pkzś) oraz zakładów",
+    "b": "umożliwia rejestrację kontrolowanych podmiotów bez zachowania hierarchii danych",
+    "c": "umożliwia rejestrację zakładu bez konieczności przypisania go do podmiotu kontrolowanego korzystającego ze środowiska (pkzś)"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 224,
+   "pytanie": "Taryfikator mandatów w Informatyczny Systemie Kontroli (ISK) dostępny jest z poziomu",
+   "odpowiedzi": {
+    "a": "Rejestru działań pokontrolnych",
+    "b": "Rejestru dokumentów systemu kontroli",
+    "c": "Rejestru kontroli"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 225,
+   "pytanie": "W rejestrze działań pokontrolnych Informatycznego Systemu Kontroli (ISK) możemy wprowadzić dane dotyczące",
+   "odpowiedzi": {
+    "a": "zarządzeń pokontrolnych",
+    "b": "nałożonych mandatów karnych",
+    "c": "przeprowadzonych instruktaży"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 226,
+   "pytanie": "Inspektor w ramach obsługi Informatycznego Systemu Kontroli (ISK) ma obowiązek",
+   "odpowiedzi": {
+    "a": "wprowadzania danych do bazy ISK o podmiotach, zakładach, kontrolach i działaniach pokontrolnych w przypisanym zakresie w związku z prowadzonymi kontrolami",
+    "b": "sporządzania raportów z wykorzystaniem narzędzi systemowych w tym programu Ocean Gen Rap",
+    "c": "informowania użytkowników ISK na poziomie wioś o wprowadzonych zmianach w informatycznej bazie ISK"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 227,
+   "pytanie": "Przepisów ustawy o odpadach nie stosuje się do:",
+   "odpowiedzi": {
+    "a": "ścieków",
+    "b": "produktów ubocznych pochodzenia zwierzęcego",
+    "c": "wszystkie odpowiedzi są poprawne"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 228,
+   "pytanie": "Zgłoszenie uznania przedmiotu lub substancji za produkt uboczny nie zawiera:",
+   "odpowiedzi": {
+    "a": "numeru identyfikacji podatkowej (NIP)",
+    "b": "numeru REGON",
+    "c": "opisu procesu produkcyjnego, w którym powstaje przedmiot lub substancja, i procesu, w którym zostaną one wykorzystane"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 229,
+   "pytanie": "Co bierze się pod uwagę podczas klasyfikacji odpadów?",
+   "odpowiedzi": {
+    "a": "źródło powstawania odpadów",
+    "b": "właściwości powodujące, że odpady nie są odpadami niebezpiecznymi",
+    "c": "wszystkie odpowiedzi są błędne"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 230,
+   "pytanie": "Najbardziej pożądane w hierarchii postępowania z odpadami działanie to:",
+   "odpowiedzi": {
+    "a": "recykling",
+    "b": "przygotowanie do ponownego użycia",
+    "c": "zapobieganie powstawaniu odpadów"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 231,
+   "pytanie": "Magazynowanie odpadów to:",
+   "odpowiedzi": {
+    "a": "inaczej składowanie odpadów",
+    "b": "to czasowe przechowywanie odpadów obejmujące m.in. tymczasowe magazynowanie odpadów przez prowadzącego zbieranie odpadów",
+    "c": "inaczej zbieranie odpadów"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 232,
+   "pytanie": "Transport odpadów:",
+   "odpowiedzi": {
+    "a": "wymaga uzyskania wpisu do rejestru stanowiącego integralną część Bazy danych o produktach i opakowaniach oraz o gospodarce odpadami",
+    "b": "wymaga uzyskania zezwolenia wydawanego w drodze decyzji administracyjnej przez starostę właściwego ze względu na siedzibę prowadzonej działalności",
+    "c": "odbywa się bez uregulowań formalnoprawnych w tym zakresie"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 233,
+   "pytanie": "Ewidencję odpadów nie prowadzi się z zastosowaniem następującego dokumentu:",
+   "odpowiedzi": {
+    "a": "karty ewidencji komunalnych osadów ściekowych",
+    "b": "karty ewidencji zużytych baterii i akumulatorów",
+    "c": "karty ewidencji zużytego sprzętu elektrycznego i elektronicznego"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 234,
+   "pytanie": "Proszę wskazać prawidłową odpowiedź:",
+   "odpowiedzi": {
+    "a": "zakaźne odpady medyczne unieszkodliwia się przez ich składowanie na składowiskach odpadów niebezpiecznych",
+    "b": "zakaźne odpady medyczne unieszkodliwia się przez ich termiczne przekształcanie w spalarniach odpadów niebezpiecznych",
+    "c": "zakaźne odpady medyczne unieszkodliwia się przez ich autoklawowanie i wytworzenie paliwa alternatywnego kierowanego do współspalarni odpadów"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 235,
+   "pytanie": "Składowiskiem odpadów jest:",
+   "odpowiedzi": {
+    "a": "obiekt budowlany przeznaczony do składowania odpadów",
+    "b": "obiekt budowlany do tymczasowego magazynowania odpadów",
+    "c": "obiekt budowlany do zbierania odpadów"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 236,
+   "pytanie": "Jaki rodzaj decyzji administracyjnych może być wydany, zgodnie z obowiązującym prawem, posiadaczowi odpadów, który zamierza prowadzić działalność w zakresie przetwarzania odpadów?",
+   "odpowiedzi": {
+    "a": "wyłącznie zezwolenie na przetwarzanie odpadów",
+    "b": "zezwolenie na przetwarzanie odpadów, pozwolenie zintegrowane",
+    "c": "zezwolenie na przetwarzanie odpadów, pozwolenie na wytwarzanie odpadów uwzględniające przetwarzanie odpadów, pozwolenie zintegrowane"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 237,
+   "pytanie": "Za naruszenie polegające na zbieraniu odpadów lub przetwarzaniu odpadów bez wymaganego zezwolenia przepisy ustawy o odpadach przewidują następujące sankcje:",
+   "odpowiedzi": {
+    "a": "wstrzymanie, w drodze decyzji administracyjnej, działalności posiadacza odpadów oraz administracyjną karę pieniężną wymierzaną w drodze decyzji,",
+    "b": "karę aresztu lub grzywny zgodnie z art. 176 pkt 1 ustawy o odpadach za przetwarzanie odpadów w sposób niezapewniający, aby procesy te nie stwarzały zagrożenia dla życia lub zdrowia ludzi oraz dla środowiska",
+    "c": "wszystkie odpowiedzi są błędne"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 238,
+   "pytanie": "W jakim przypadku zatrzymany pojazd wraz z odpadami może być skierowany do najbliższego dostępnego miejsca wyznaczonego w wojewódzkim planie gospodarki odpadami spełniającego warunki magazynowania odpadów?",
+   "odpowiedzi": {
+    "a": "przemieszczanie odpadów do nieuprawnionego odbiorcy",
+    "b": "naruszenie szczegółowych wymagań dla transportu odpadów",
+    "c": "wszystkie odpowiedzi są poprawne"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 239,
+   "pytanie": "Zgodnie z ustawą z dnia 14 grudnia 2012 r. o odpadach stosowanie komunalnych osadów ściekowych:",
+   "odpowiedzi": {
+    "a": "jest dopuszczalne na terenach czasowo zamarzniętych i pokrytych śniegiem",
+    "b": "jest dopuszczalne na gruntach rolnych o spadku nie przekraczającym 10%",
+    "c": "jest dopuszczalne na obszarach parków narodowych i rezerwatów przyrody"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 240,
+   "pytanie": "Odpowiedzialność za prawidłowe stosowanie komunalnych osadów ściekowych:",
+   "odpowiedzi": {
+    "a": "spoczywa na wytwórcy odpadów",
+    "b": "spoczywa na władającym powierzchnią ziemi, na której komunalne osady ściekowe mają być stosowane",
+    "c": "nie ma odpowiedzialności za komunalne osady ściekowe w przypadku ich stosowania w rolnictwie, rozumianym jako uprawa wszystkich płodów rolnych wprowadzanych do obrotu handlowego, włączając w to uprawy przeznaczane do produkcji pasz"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 241,
+   "pytanie": "Odzysk komunalnych osadów ściekowych może polegać na stosowaniu:",
+   "odpowiedzi": {
+    "a": "w rolnictwie rozumianym jako uprawa wszystkich płodów rolnych wprowadzanych do obrotu handlowego, włączając w to uprawy przeznaczone do produkcji pasz",
+    "b": "do uprawy roślin przeznaczonych do produkcji kompostu",
+    "c": "wszystkie odpowiedzi są poprawne"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 242,
+   "pytanie": "Podstawowe obowiązki z zakresu ochrony środowiska, które winni spełniać przedsiębiorcy prowadzący stację demontażu pojazdów wycofanych z eksploatacji wynikają z następujących przepisów prawnych:",
+   "odpowiedzi": {
+    "a": "ustawa z dnia 20 stycznia 2005 r. o recyklingu pojazdów wycofanych z eksploatacji i ustawa z dnia 14 grudnia 2012 r. o odpadach",
+    "b": "ustawa z dnia 14 grudnia 2012 r. o odpadach i ustawa z dnia 20 czerwca 1997 r. Prawo o ruchu drogowym",
+    "c": "ustawa z dnia 20 stycznia 2005 r. o recyklingu pojazdów wycofanych z eksploatacji z dnia i ustawa z dnia 20 czerwca 1997 r. Prawo o ruchu drogowym"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 243,
+   "pytanie": "Jaki poziom odzysku i recyklingu odpadów pochodzących z pojazdów wycofanych z eksploatacji jest obowiązany osiągnąć przedsiębiorca prowadzący stację demontażu?",
+   "odpowiedzi": {
+    "a": "w wysokości odpowiednio 95% i 85% masy pojazdów przyjętych do jego stacji demontażu rocznie",
+    "b": "w wysokości odpowiednio 75% i 65% masy pojazdów przyjętych do jego stacji demontażu rocznie",
+    "c": "w wysokości odpowiednio 50% i 50% masy pojazdów przyjętych do jego stacji demontażu rocznie"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 244,
+   "pytanie": "Który organ jest właściwy w sprawach przywozu odpadów na teren kraju, wywozu odpadów z terenu kraju i tranzytu odpadów przez teren kraju?",
+   "odpowiedzi": {
+    "a": "wojewódzki inspektor ochrony środowiska właściwy ze względu na miejsce przemieszczenia odpadów",
+    "b": "minister właściwy do spraw klimatu",
+    "c": "Główny Inspektor Ochrony Środowiska"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 245,
+   "pytanie": "Jaki przypadek należy uznać za nielegalne międzynarodowe przemieszczenie odpadów?",
+   "odpowiedzi": {
+    "a": "niesegregowane (zmieszane) odpady komunalne zostały wwiezione do kraju wbrew zakazowi",
+    "b": "odpady o kodzie 16 01 17 – metale żelazne zostały wwiezione do kraju z załącznikiem Nr VII",
+    "c": "odpady niebezpieczne zostały wwiezione na podstawie zezwolenia Głównego Inspektora Ochrony Środowiska"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 246,
+   "pytanie": "Wprowadzającym opakowania nie jest:",
+   "odpowiedzi": {
+    "a": "wytwarzający opakowania",
+    "b": "podmiot wprowadzający produkty w opakowaniach",
+    "c": "dokonujący wewnątrzwspólnotowego nabycia opakowań"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 247,
+   "pytanie": "Proszę zaznaczyć prawidłowe rozwinięcie skrótu DPR:",
+   "odpowiedzi": {
+    "a": "dokument potwierdzający eksport odpadów opakowaniowych albo wewnątrzwspólnotową dostawę odpadów opakowaniowych w celu poddania ich recyklingowi",
+    "b": "dokument potwierdzający inny niż recykling proces odzysku odpadów opakowaniowych, w tym określający masę tych odpadów i sposób ich odzysku",
+    "c": "dokument potwierdzający recykling odpadów opakowaniowych, w tym określający masę tych odpadów i sposób ich recyklingu"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 248,
+   "pytanie": "Obowiązkiem wprowadzającego opakowania jest wprowadzenie do obrotu opakowań projektowanych i wykonanych w sposób umożliwiający:",
+   "odpowiedzi": {
+    "a": "ich wielokrotne użycie i późniejszy recykling",
+    "b": "przynajmniej ich recykling, jeżeli nie jest możliwe ich wielokrotne użycie",
+    "c": "wszystkie odpowiedzi są poprawne"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 249,
+   "pytanie": "W przypadku nieosiągnięcia wymaganego poziomu recyklingu, w tym recyklingu dla wszystkich opakowań razem lub odzysku opakowań, wprowadzający produkty w opakowaniach:",
+   "odpowiedzi": {
+    "a": "jest zobowiązany wnieść opłatę produktową obliczoną oddzielnie w przypadku nieosiągnięcia wymaganego poziomu recyklingu lub odzysku",
+    "b": "otrzymuje administracyjną karę pieniężną obliczoną jako iloczyn jednostkowej stawki opłaty za umieszczenie niesegregowanych (zmieszanych) odpadów komunalnych na składowisku, określonej w przepisach wydanych na podstawie art. 290 ust. 2 ustawy z dnia 27 kwietnia 2001 r. - Prawo ochrony środowiska, i brakującej masy odpadów opakowaniowych wyrażonej w Mg, wymaganej do osiągnięcia odpowiedniego poziomu",
+    "c": "przekazuje do marszałka województwa pisemne wyjaśnienie przyczyn nieosiągnięcia wymaganego poziomu recyklingu lub odzysku"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 250,
+   "pytanie": "Jak należy rozumieć pojęcie zużytego sprzętu?",
+   "odpowiedzi": {
+    "a": "rozumie się przez to sprzęt stanowiący odpady w rozumieniu art. 3 ust. 1 pkt 6 ustawy o odpadach",
+    "b": "rozumie się przez to sprzęt stanowiący odpady w rozumieniu art. 3 ust. 1 pkt 6 ustawy o odpadach, łącznie ze wszystkimi częściami składowymi, podzespołami i materiałami eksploatacyjnymi stanowiącymi część sprzętu w momencie pozbywania się go",
+    "c": "rozumie się przez to wszystkie części składowe i podzespoły sprzętu"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 251,
+   "pytanie": "Jak należy rozumieć pojęcie baterii przenośnej, akumulatora przenośnego?",
+   "odpowiedzi": {
+    "a": "rozumie się przez to baterię samochodową i akumulator samochodowy",
+    "b": "rozumie się przez to baterię przemysłową i akumulator przemysłowy oraz baterię samochodową i akumulator samochodowy",
+    "c": "rozumie się przez to baterię i akumulator, w tym ogniwo guzikowe lub zestaw, które są szczelnie zamknięte i mogą być przenoszone w ręku oraz nie stanowią baterii przemysłowej i akumulatora przemysłowego albo baterii samochodowej i akumulatora samochodowego"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 252,
+   "pytanie": "Proszę wskazać prawidłowe zasady dokumentowania oględzin:",
+   "odpowiedzi": {
+    "a": "protokół oględzin sporządza się w dowolnym czasie trwania kontroli i przekazuje do podpisania kontrolowanemu razem z protokołem kontroli",
+    "b": "protokół sporządza się na miejscu oględzin w obecności osób uczestniczących w oględzinach, a jego treść jest obiektywna, zwięzła i rzeczowa",
+    "c": "w celu prawidłowego opisu stanu faktycznego na oględzinach wskazane jest używanie sformułowań oceniających skalę stwierdzonego faktu w przybliżeniu (np. około, przypuszczalnie, prawdopodobnie, tuż obok, w pobliżu)"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 253,
+   "pytanie": "Protokół oględzin:",
+   "odpowiedzi": {
+    "a": "musi zawierać odnotowane ustalenia z przesłuchania świadka",
+    "b": "nie zawiera podpisów uczestników oględzin",
+    "c": "zawiera informację o wykonanej dokumentacji zdjęciowej/audiowizualnej"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 254,
+   "pytanie": "Protokół przesłuchania:",
+   "odpowiedzi": {
+    "a": "jest obligatoryjnie sporządzany w trakcie każdej kontroli",
+    "b": "jest dokonywany w celu ustalenia stanu faktycznego stwierdzonego w trakcie działań kontrolnych",
+    "c": "nie musi zawierać pouczenia o odpowiedzialności karnej za składanie fałszywych zeznań"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 255,
+   "pytanie": "Protokół przyjęcia informacji:",
+   "odpowiedzi": {
+    "a": "nie jest dokumentem obligatoryjnie sporządzanym w trakcie każdej kontroli",
+    "b": "musi zawierać pouczenia o odpowiedzialności karnej za składanie fałszywych zeznań",
+    "c": "nigdy nie dotyczy kwestii przedłożonej dokumentacji, jak i stanu ujawnionego w trakcie oględzin"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 256,
+   "pytanie": "Dowodami nie mogą być:",
+   "odpowiedzi": {
+    "a": "opinie biegłych",
+    "b": "dokumenty sporządzone przez inspektora: protokół oględzin, protokół przyjęcia informacji do protokołu, protokół przesłuchania, bilanse i zestawienia",
+    "c": "żadna odpowiedź nie jest poprawna"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 257,
+   "pytanie": "Udostępnione przez kontrolowanego:",
+   "odpowiedzi": {
+    "a": "dokumenty zawsze załącza się do protokołu kontroli, nawet jeśli nie mają znaczenia w ustaleniach kontroli",
+    "b": "wszystkie dokumenty, które mają znaczenie dla kontroli winny być opisane w ustaleniach protokołu kontroli w sposób syntetyczny oraz stanowić do niego załącznik",
+    "c": "dokumenty załączane do protokołu kontroli mogą być dołączane w formie kserokopii, bez konieczności potwierdzania ich zgodności z oryginałem"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 258,
+   "pytanie": "W przypadku stwierdzenia przez organ Inspekcji Ochrony Środowiska, że doszło do utrudniania lub uniemożliwiania przeprowadzania kontroli, o którym mowa w art. 31c ust. 1 ustawy o Inspekcji Ochrony Środowiska, wymierzając administracyjną karę pieniężną, organ administracji publicznej bierze pod uwagę m.in.:",
+   "odpowiedzi": {
+    "a": "wagę i okoliczności naruszenia prawa, w szczególności potrzebę ochrony życia lub zdrowia, ochrony mienia w znacznych rozmiarach lub ochrony ważnego interesu publicznego lub wyjątkowo ważnego interesu strony oraz czas trwania tego naruszenia",
+    "b": "częstotliwość niedopełniania w przeszłości obowiązku albo naruszania zakazu tego samego rodzaju co niedopełnienie obowiązku albo naruszenie zakazu, w następstwie którego ma być nałożona kara",
+    "c": "wszystkie odpowiedzi są poprawne"
+   },
+   "poprawna": null,
+   "komentarz": null,
+   "brak_klucza": "zastąpione nowym pytaniem"
+  },
+  {
+   "id": 259,
+   "pytanie": "Organ administracji publicznej, w drodze decyzji, odstępuje od nałożenia administracyjnej kary pieniężnej i poprzestaje na pouczeniu, jeżeli:",
+   "odpowiedzi": {
+    "a": "waga naruszenia prawa jest znikoma, a strona zaprzestała naruszania prawa lub za to samo zachowanie prawomocną decyzją na stronę została uprzednio nałożona administracyjna kara pieniężna przez inny uprawniony organ administracji publicznej lub strona została prawomocnie ukarana za wykroczenie lub wykroczenie skarbowe, lub prawomocnie skazana za przestępstwo lub przestępstwo skarbowe i uprzednia kara spełnia cele, dla których miałaby być nałożona administracyjna kara pieniężna",
+    "b": "strona na piśmie zobowiąże się do nienaruszania prawa w przyszłości",
+    "c": "wszystkie odpowiedzi są poprawne"
+   },
+   "poprawna": null,
+   "komentarz": null,
+   "brak_klucza": "zastąpione nowym pytaniem"
+  },
+  {
+   "id": 260,
+   "pytanie": "Które z wymienionych działań mogą nie być uznane za utrudnianie kontroli wypełniające znamiona przestępstwa, a stanowią zachowania wydłużające czas kontroli?",
+   "odpowiedzi": {
+    "a": "uzasadnione niestawienie się na wezwanie",
+    "b": "zniszczenie dokumentów lub ich części, do okazania których został wezwany kontrolowany",
+    "c": "wszystkie odpowiedzi są poprawne"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 261,
+   "pytanie": "Utrudnianie lub udaremnianie przeprowadzenia kontroli jest podstawą do:",
+   "odpowiedzi": {
+    "a": "wymierzenia przez WIOŚ, w drodze decyzji, administracyjnej kary pieniężnej w wysokości 10000 zł do 100000 zł na podstawie przepisów ustawy o Inspekcji Ochrony Środowiska",
+    "b": "złożenia zawiadomienia do prokuratury o popełnieniu przestępstwa polegającego na udaremnieniu lub utrudnieniu wykonania czynności służbowej osobie uprawnionej do przeprowadzenia kontroli w zakresie ochrony środowiska lub osobie przybranej jej do pomocy",
+    "c": "obie odpowiedzi są poprawne"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 262,
+   "pytanie": "Na czym może polegać utrudnianie kontroli?",
+   "odpowiedzi": {
+    "a": "odmowa podpisania protokołu kontroli",
+    "b": "uniemożliwienie wstępu na teren kontrolowanego zakładu lub jego części",
+    "c": "wszystkie odpowiedzi są poprawne"
+   },
+   "poprawna": "b",
+   "komentarz": null,
+   "uwaga": "Odpowiedź b) jak w kluczu 2025 (wg tego klucza odmowa podpisania protokołu nie jest utrudnianiem kontroli – por. pyt. 287); opcja c) „wszystkie” odpada."
+  },
+  {
+   "id": 263,
+   "pytanie": "Przy wykonywaniu kontroli przestrzegania wymagań ochrony środowiska inspektor uprawniony jest m.in. do:",
+   "odpowiedzi": {
+    "a": "żądania pisemnych lub ustnych informacji oraz wzywania i przesłuchiwania osób w zakresie niezbędnym dla ustalenia stanu faktycznego przy jednoczesnym pouczeniu ich o odpowiedzialności karnej za składanie fałszywych zeznań, o której mowa w Kodeksie karnym",
+    "b": "żądania okazania dokumentów, w tym dokumentów finansowych i udostępnienia wszelkich danych mających związek z problematyką kontroli",
+    "c": "wszystkie odpowiedzi są poprawne"
+   },
+   "poprawna": null,
+   "komentarz": null,
+   "brak_klucza": "zastąpione nowym pytaniem"
+  },
+  {
+   "id": 264,
+   "pytanie": "Główny Inspektor Ochrony Środowiska może powołać zespół kontrolny, w skład którego może powołać inspektorów Inspekcji Ochrony Środowiska zatrudnionych w wojewódzkich inspektoratach ochrony środowiska. Jeżeli wykonanie czynności kontrolnych wymaga specjalistycznej wiedzy lub umiejętności, Główny Inspektor Ochrony Środowiska:",
+   "odpowiedzi": {
+    "a": "może powołać w skład zespołu kontrolnego pracownika zatrudnionego w wojewódzkim inspektoracie ochrony środowiska, niebędącego inspektorem Inspekcji Ochrony Środowiska, posiadającego taką wiedzę lub takie umiejętności",
+    "b": "obligatoryjnie powołuje w skład zespołu kontrolnego pracownika zatrudnionego w wojewódzkim inspektoracie ochrony środowiska, niebędącego inspektorem Inspekcji Ochrony Środowiska, posiadającego taką wiedzę lub takie umiejętności",
+    "c": "może odstąpić od kontroli"
+   },
+   "poprawna": null,
+   "komentarz": null,
+   "brak_klucza": "zastąpione nowym pytaniem"
+  },
+  {
+   "id": 265,
+   "pytanie": "Zgodnie z ustawą o udostępnianiu informacji o środowisku i jego ochronie władze publiczne, udostępniając informacje o środowisku i jego ochronie przekazane przez osoby trzecie:",
+   "odpowiedzi": {
+    "a": "utajniają źródło ich pochodzenia",
+    "b": "wskazują źródło ich pochodzenia",
+    "c": "występują o zgodę na ich udostępnienie"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 266,
+   "pytanie": "Zgodnie z ustawą o udostępnianiu informacji o środowisku i jego ochronie, udziale społeczeństwa w ochronie środowiska oraz o ocenach oddziaływania na środowisko władze publiczne wyznaczają:",
+   "odpowiedzi": {
+    "a": "osoby, które zajmują się udostępnianiem informacji o środowisku i jego ochronie",
+    "b": "dni i godziny przyjmowania obywateli w sprawach udostępniania informacji o środowisku i jego ochronie",
+    "c": "wzór wniosku w sprawie udostępniania informacji o środowisku i jego ochronie"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 267,
+   "pytanie": "Zgodnie z ustawą o udostępnianiu informacji o środowisku i jego ochronie w przypadku wniosku dotyczącego dokumentów lub danych przeznaczonych do wewnętrznego komunikowania się:",
+   "odpowiedzi": {
+    "a": "władze publiczne nie mogą odmówić udostępnienia informacji o środowisku i jego ochronie",
+    "b": "władze publiczne mogą odmówić udostępnienia informacji o środowisku i jego ochronie",
+    "c": "władze publiczne pozostawią wniosek o udostępnienia informacji o środowisku i jego ochronie bez rozpoznania"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 268,
+   "pytanie": "Jeżeli udostępnienie informacji o środowisku lub jego ochronie może naruszyć ochronę informacji o wartości handlowej, w tym danych technologicznych, dostarczonych przez osoby trzecie i objętych tajemnicą przedsiębiorstwa, jeżeli osoby te złożyły wniosek o wyłączenie tych informacji z udostępniania, zawierający szczegółowe uzasadnienie dotyczące możliwości pogorszenia ich pozycji konkurencyjnej:",
+   "odpowiedzi": {
+    "a": "władze publiczne mogą odmówić udostępnienia informacji o środowisku i jego ochronie po rozważeniu interesu publicznego przemawiającego za udostępnieniem informacji w konkretnym przypadku",
+    "b": "władze publiczne odmawiają udostępnienia informacji o środowisku i jego ochronie",
+    "c": "władze publiczne mogą odmówić udostępnienia informacji o środowisku i jego ochronie, jednak nie muszą wcześniej rozważyć interesu publicznego przemawiającego za udostępnieniem informacji w konkretnym przypadku"
+   },
+   "poprawna": null,
+   "komentarz": null,
+   "brak_klucza": "zastąpione nowym pytaniem"
+  },
+  {
+   "id": 269,
+   "pytanie": "Wniosek o wyłączenie informacji handlowej z udostępniania może zostać złożony nie później niż w terminie",
+   "odpowiedzi": {
+    "a": "14 dni od dnia dostarczenia władzom publicznym informacji o wartości handlowej, w tym danych technologicznych, objętych tajemnicą przedsiębiorstwa",
+    "b": "7 dni od dnia dostarczenia władzom publicznym informacji o wartości handlowej, w tym danych technologicznych, objętych tajemnicą przedsiębiorstwa",
+    "c": "30 dni od dnia dostarczenia władzom publicznym informacji o wartości handlowej, w tym danych technologicznych, objętych tajemnicą przedsiębiorstwa"
+   },
+   "poprawna": null,
+   "komentarz": null,
+   "brak_klucza": "zmieniona treść pytania i opcji"
+  },
+  {
+   "id": 270,
+   "pytanie": "Zgodnie z zasadą koncentracji materiału dowodowego Kodeks postepowania karnego określa czas w jakim powinno zostać ukończone dochodzenie. Dochodzenie powinno być ukończone w ciągu:",
+   "odpowiedzi": {
+    "a": "2 miesięcy. Prokurator może przedłużyć ten okres do 3 miesięcy, a w wypadkach szczególnie uzasadnionych na dalszy czas oznaczony",
+    "b": "3 miesięcy",
+    "c": "30 dni. Prokurator może przedłużyć ten czas do 6 miesięcy"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 271,
+   "pytanie": "Zgłoszenie przez zainteresowanego zastrzeżeń do protokołu kontroli lub odmowa jego podpisania:",
+   "odpowiedzi": {
+    "a": "nie podważa szczególnej mocy dowodowej wynikającej z jego urzędowego charakteru",
+    "b": "czyni ustalenia protokołu kontroli mniej wiarygodnymi w procesie przed WSA",
+    "c": "naraża funkcjonariuszy publicznych na surową odpowiedzialność karną za poświadczenie nieprawdy w tym dokumencie"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 272,
+   "pytanie": "Kierujący rozprawą administracyjną:",
+   "odpowiedzi": {
+    "a": "może uchylić zadawane świadkom, biegłym i stronom pytania, jeżeli nie mają one istotnego znaczenia dla sprawy",
+    "b": "ma obowiązek wysłuchać w całości wszystkich uczestników rozprawy administracyjnej",
+    "c": "żadne z powyższych"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 273,
+   "pytanie": "Kontrolę w ruchu drogowym w zakresie kontroli transportu odpadów oraz wymagań związanych z tym transportem inspektor Inspekcji Ochrony Środowiska wykonuje w obecności",
+   "odpowiedzi": {
+    "a": "funkcjonariusza Policji, inspektora Inspekcji Transportu Drogowego",
+    "b": "funkcjonariusza Straży Granicznej lub przedstawiciela właściwego Starosty",
+    "c": "funkcjonariusza Służby Celno-Skarbowej i pracownika GDDKiA"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 274,
+   "pytanie": "Jeżeli działalność prowadzona przez podmiot korzystający ze środowiska albo osobę fizyczną powoduje pogorszenie stanu środowiska w znacznych rozmiarach lub zagraża życiu lub zdrowiu ludzi, wojewódzki inspektor ochrony środowiska:",
+   "odpowiedzi": {
+    "a": "może wydać decyzję o wstrzymaniu tej działalności w zakresie, w jakim jest to niezbędne dla zapobieżenia pogarszaniu stanu środowiska",
+    "b": "wyda decyzję o wstrzymaniu działalności całego zakładu",
+    "c": "wyda decyzję o wstrzymaniu tej działalności w zakresie, w jakim jest to niezbędne dla zapobieżenia pogarszaniu stanu środowiska"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 275,
+   "pytanie": "Kto zanieczyszcza wodę, powietrze lub powierzchnię ziemi substancją albo promieniowaniem jonizującym w takiej ilości lub w takiej postaci, że może to zagrozić życiu lub zdrowiu człowieka lub spowodować istotne obniżenie jakości wody, powietrza lub powierzchni ziemi lub zniszczenie w świecie roślinnym lub zwierzęcym w znacznych rozmiarach popełnia przestępstwo, o którym mowa w:",
+   "odpowiedzi": {
+    "a": "art. 183 §1 Kk",
+    "b": "art. 182 §1 Kk",
+    "c": "art. 181 §1 Kk"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 276,
+   "pytanie": "Przez odpady rozumie się:",
+   "odpowiedzi": {
+    "a": "każdą substancję lub przedmiot, określone w załączniku nr 6 do ustawy o odpadach",
+    "b": "każdą substancję lub przedmiot, których posiadacz pozbywa się, zamierza się pozbyć lub do których pozbycia się jest obowiązany",
+    "c": "każdą substancję należącą do jednej z kategorii, określonych w załączniku nr 1 do ustawy o odpadach"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 277,
+   "pytanie": "Jak należy rozumieć pojęcie „gospodarki odpadami”?",
+   "odpowiedzi": {
+    "a": "gospodarka odpadami to inaczej gospodarowanie odpadami",
+    "b": "gospodarka odpadami jest rozumiana jako wytwarzanie odpadów i ich unieszkodliwianie",
+    "c": "gospodarka odpadami to wytwarzanie odpadów i gospodarowanie odpadami"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 278,
+   "pytanie": "W jaki sposób oznacza się odpady niebezpieczne?",
+   "odpowiedzi": {
+    "a": "odpady niebezpieczne nie posiadają dodatkowego oznaczenia",
+    "b": "indeksem górnym w postaci gwiazdki \"*\" przy kodzie rodzaju odpadów",
+    "c": "skrótem „ex” przed kodem rodzaju odpadu"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 279,
+   "pytanie": "Proszę zaznaczyć prawidłowo określoną hierarchię postępowania z odpadami:",
+   "odpowiedzi": {
+    "a": "zapobieganie powstawaniu odpadów, przygotowywanie do ponownego użycia, recykling, inne procesy odzysku, unieszkodliwianie",
+    "b": "recykling, odzysk, przetwarzanie, termiczne przekształcanie, unieszkodliwianie",
+    "c": "zapobieganie powstawaniu odpadów, recykling, odzysk, unieszkodliwianie, inne procesy przetwarzania"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 280,
+   "pytanie": "Faza eksploatacji składowiska obejmuje:",
+   "odpowiedzi": {
+    "a": "okres od dnia uzyskania pierwszej ostatecznej decyzji udzielającej pozwolenia na użytkowanie składowiska odpadów, do zakończenia okresu 30 lat liczonego od dnia zakończenia rekultywacji składowiska odpadów",
+    "b": "okres od dnia uzyskania pierwszej ostatecznej decyzji zatwierdzającej instrukcję prowadzenia składowiska odpadów do dnia zakończenia rekultywacji składowiska odpadów",
+    "c": "okres poprzedzający uzyskanie pierwszej ostatecznej decyzji zatwierdzającej instrukcję prowadzenia składowiska odpadów, do zakończenia okresu 30 lat liczonego od dnia zakończenia rekultywacji składowiska odpadów"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 281,
+   "pytanie": "Przez przetwarzanie odpadów rozumie się:",
+   "odpowiedzi": {
+    "a": "procesy odzysku lub unieszkodliwiania, w tym przygotowanie poprzedzające odzysk lub unieszkodliwianie",
+    "b": "procesy recyklingu i odzysku, w tym przygotowanie poprzedzające odzysk",
+    "c": "procesy unieszkodliwiania, w tym przygotowanie poprzedzające unieszkodliwianie"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 282,
+   "pytanie": "Który z niżej wymienionych podmiotów jest zwolniony z prowadzenia ewidencji odpadów?",
+   "odpowiedzi": {
+    "a": "podmiot, który wytwarza odpady niebezpieczne w ilości do 100 kilogramów rocznie",
+    "b": "wytwórca odpadów komunalnych",
+    "c": "podmiot będący rolnikiem gospodarującym na powierzchni użytków rolnych powyżej 75 ha"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 283,
+   "pytanie": "Wysokość administracyjnej kary pieniężnej za nieprowadzenie wizyjnego systemu kontroli miejsca magazynowania lub składowania odpadów:",
+   "odpowiedzi": {
+    "a": "jest ustalana poprzez uwzględnienie rodzaju naruszenia i jego wpływ na życie i zdrowie ludzi oraz środowisko, okresu trwania naruszenia i rozmiarów prowadzonej działalności oraz wzięcie pod uwagę skutków tych naruszeń i wielkości zagrożenia, zgodnie z art. 199 ustawy o odpadach",
+    "b": "oblicza się, uwzględniając ilość i właściwości odpadów, w sposób określony w załączniku nr 6 do ustawy o odpadach",
+    "c": "jest stała, nie podlega miarkowaniu i wynosi 10000 zł, zgodnie z art. 194 ust. 1 pkt 2c ustawy o odpadach"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 284,
+   "pytanie": "Które z wymienionych dokumentów służą do dokumentowania czynności kontrolnych?",
+   "odpowiedzi": {
+    "a": "protokół oględzin wraz z dokumentacją fotograficzną oraz audiowizualną",
+    "b": "protokół z przesłuchania osoby w zakresie ustalenia stanu faktycznego, protokół przyjęcia informacji",
+    "c": "wszystkie odpowiedzi są poprawne"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 285,
+   "pytanie": "Właściwie udokumentowana kontrola:",
+   "odpowiedzi": {
+    "a": "może zawierać informacje o wystąpieniu naruszenia stwierdzonego w oparciu o domniemania i założenia, że dana sytuacja z przyczyn obiektywnych nie mogła mieć miejsca",
+    "b": "zawiera syntetyczny opis stanu faktycznego, a ustalenia są potwierdzone odpowiednim dokumentem, w tym: protokołami oględzin, dokumentacją fotograficzną, protokołami przesłuchań i przyjęcia informacji, sprawozdaniami z badań, dokumentacją kontrolowanego podmiotu",
+    "c": "nie musi posiadać załącznika w postaci wyników badań przeprowadzonych pomiarów, mimo że wynika z nich przekroczenie emisji zanieczyszczań. Krótka wzmianka w treści protokołu kontroli jest wystarczająca, by podjąć czynności pokontrolne (np. wymierzyć administracyjną karę pieniężną)"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 286,
+   "pytanie": "Niewłaściwie udokumentowanym naruszeniem nie będzie:",
+   "odpowiedzi": {
+    "a": "wpisanie w treść protokołu kontroli, że kontrolowany podmiot przekształcał termicznie odpady tworzyw sztucznych w piecu centralnego ogrzewania, co potwierdziły przeprowadzone oględziny oraz dokumentacja fotograficzna pieca, w którym stwierdzono obecność nadpalonych odpadów (protokół oględzin wraz z opisaną dokumentacją fotograficzną stanowią integralną część protokołu kontroli)",
+    "b": "wpisanie w treść protokołu kontroli, że pracownik kontrolowanego zakładu powiedział, że są spalane odpady tworzyw sztucznych w piecu centralnego ogrzewania",
+    "c": "wpisanie w treść protokołu kontroli, że organ stwierdził, że kontrolowany podmiot przekształcał termicznie odpady tworzyw sztucznych w piecu centralnego ogrzewania, ponieważ w trakcie kontroli był wyczuwalny duszący zapach na terenie zakładu"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 287,
+   "pytanie": "Co oznacza udaremnianie przeprowadzenia kontroli?",
+   "odpowiedzi": {
+    "a": "udaremnianie przeprowadzenia kontroli oznacza utrudnienie przeprowadzenia kontroli",
+    "b": "udaremnianie przeprowadzenia kontroli oznacza uniemożliwienie przeprowadzenia czynności kontrolnych, co czyni niemożliwe osiągnięcie celów kontroli",
+    "c": "udaremnianie przeprowadzenia kontroli oznacza odmowę podpisania protokołu kontroli"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 288,
+   "pytanie": "Jak należy postąpić w przypadku czynnego utrudniania kontroli?",
+   "odpowiedzi": {
+    "a": "odstąpić od kontroli i podjąć ją ponownie w innym terminie",
+    "b": "ustnie wezwać kontrolowanego do zaprzestania utrudniania kontroli, poinformować, że utrudnianie prowadzenia kontroli jest przestępstwem, sporządzić odpowiednią adnotację w protokole kontroli, a w przypadku niezastosowania się do ustnego wezwania wystosować pisemne wezwanie do przedłożenia pisemnych informacji, okazania dokumentów i udostępnienia danych, z pouczeniem o odpowiedzialności karnej",
+    "c": "złożyć wniosek do Głównego Inspektora Ochrony Środowiska o przejęcie sprawy"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 289,
+   "pytanie": "Wojewódzki inspektor ochrony środowiska wydaje decyzję o wstrzymaniu oddania do użytkowania nowo zbudowanego lub przebudowanego obiektu budowlanego, gdy:",
+   "odpowiedzi": {
+    "a": "podczas kontroli stwierdzono, że obiekt nie spełnia wymagań ochrony środowiska",
+    "b": "wyłącznie kontrolowany odmówił podpisania protokołu kontroli",
+    "c": "kontrolowany nie okazał decyzji o środowiskowych wymaganiach"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 290,
+   "pytanie": "Kontrole w terenie bez ustalonego sprawcy cechują:",
+   "odpowiedzi": {
+    "a": "brak kontrolowanego, ograniczona możliwość przygotowania, bezzwłoczność działania, brak sankcji",
+    "b": "możliwość skorzystania z informatycznych narzędzi wspomagania kontroli",
+    "c": "planowany charakter kontroli"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 291,
+   "pytanie": "Jakie informacje można uzyskać na stronie www.google.com/maps oraz geoportal.gov.pl:",
+   "odpowiedzi": {
+    "a": "dane adresowe i współrzędne geograficzne miejsca zdarzenia",
+    "b": "wyłącznie przebieg cieków wodnych oraz informacje na temat rzeźby i uzbrojenia terenu",
+    "c": "dane wymienione w ppkt a) i b) i inne informacje"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 292,
+   "pytanie": "Gospodarowaniem odpadami nie jest:",
+   "odpowiedzi": {
+    "a": "unieszkodliwianie odpadów",
+    "b": "wytwarzanie odpadów",
+    "c": "zbieranie odpadów"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 293,
+   "pytanie": "Przepisów ustawy o odpadach nie stosuje się do:",
+   "odpowiedzi": {
+    "a": "gruntu w pierwotnym położeniu (w miejscu), w tym niewydobytej, ale niezanieczyszczonej ziemi, budynków trwale związanych z gruntem",
+    "b": "gruntu w pierwotnym położeniu (w miejscu), w tym niewydobytej zanieczyszczonej ziemi, budynków trwale związanych z gruntem",
+    "c": "niezanieczyszczonej gleby i innych materiałów występujących w stanie naturalnym, wydobyte w trakcie robót budowlanych, pod warunkiem, że materiał ten zostanie wykorzystany na cele budowlane"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 294,
+   "pytanie": "Zakazuje się zbierania poza miejscem wytwarzania:",
+   "odpowiedzi": {
+    "a": "komunalnych osadów ściekowych",
+    "b": "pozostałości z sortowania odpadów komunalnych",
+    "c": "prawidłowe są odpowiedzi a i b"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 295,
+   "pytanie": "Magazynowanie odpadów:",
+   "odpowiedzi": {
+    "a": "prowadzone jest wyłącznie w ramach zbierania lub przetwarzania odpadów",
+    "b": "odbywa się zgodnie z wymaganiami w zakresie ochrony środowiska uwzględniającymi tylko właściwości chemiczne odpadów",
+    "c": "odbywa się na terenie, do którego posiadacz odpadów ma tytuł prawny"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 296,
+   "pytanie": "Zgodnie z ustawą o odpadach termin wstrzymania działalności od dnia doręczenia decyzji uwzględniający potrzebę bezpiecznego zaprzestania wykonywania działalności nie może być dłuższy niż:",
+   "odpowiedzi": {
+    "a": "3 miesiące",
+    "b": "6 miesięcy",
+    "c": "rok"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 297,
+   "pytanie": "Miarkowanie kary za magazynowanie odpadów niezgodnie z wymaganiami nie jest dokonywane przy uwzględnieniu:",
+   "odpowiedzi": {
+    "a": "ilości i właściwości odpadów",
+    "b": "okresu trwania naruszenia i rozmiaru prowadzonej działalności",
+    "c": "skutków tych naruszeń i wielkości zagrożenia"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 298,
+   "pytanie": "Rejestr Transgranicznego Przemieszczania Odpadów (zgłoszenia i decyzje w zakresie międzynarodowego przemieszczania odpadów – przywóz do Polski, wywóz z Polski oraz tranzyt przez terytorium kraju) prowadzony jest:",
+   "odpowiedzi": {
+    "a": "przez Głównego Inspektora Ochrony Środowiska (GIOŚ)",
+    "b": "w Bazie danych o produktach i opakowaniach oraz o gospodarce odpadami, zwaną ,,BDO'' przez Marszałka województwa",
+    "c": "przez Głównego Inspektora Transportu Drogowego w oparciu o decyzje administracyjne GIOŚ ws. międzynarodowego przemieszczania odpadów"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 299,
+   "pytanie": "Zadaniem GIOŚ jest prowadzenie Rejestru instalacji:",
+   "odpowiedzi": {
+    "a": "które posiadają zezwolenie na unieszkodliwianie odpadów",
+    "b": "którym GIOŚ udzielił zezwolenia wstępnego",
+    "c": "prowadzących zbieranie odpadów pochodzących z importu"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 300,
+   "pytanie": "Czy przemieszczenie transgraniczne odpadów dla których kierowca dokonał zmiany trasy w stosunku do ustalonej w zezwoleniu GIOŚ jest:",
+   "odpowiedzi": {
+    "a": "przemieszczeniem bez wymaganego zgłoszenia i zezwolenia GIOŚ",
+    "b": "przemieszczeniem nielegalnym",
+    "c": "przemieszczeniem legalnym, z naruszeniem warunków zezwolenia"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 301,
+   "pytanie": "Organy administracji publicznej obowiązane są:",
+   "odpowiedzi": {
+    "a": "zapewnić stronom czynny udział przed wydaniem decyzji",
+    "b": "zapewnić stronom czynny udział w każdym stadium postępowania, a przed wydaniem decyzji umożliwić im wypowiedzenie się co do zebranych dowodów i materiałów oraz zgłoszonych żądań",
+    "c": "na wniosek strony zapewnić jej udział w postępowania"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 302,
+   "pytanie": "Organizacja społeczna może w sprawie dotyczącej innej osoby występować z żądaniem:",
+   "odpowiedzi": {
+    "a": "wszczęcia postępowania, dopuszczenia jej do udziału w postępowaniu, jeżeli jest to uzasadnione celami statutowymi tej organizacji i gdy przemawia za tym interes społeczny",
+    "b": "uznania ją za stronę postępowania",
+    "c": "wszczęcia postępowania, dopuszczenia jej do udziału w postępowaniu, jeżeli organ administracji uzna to za stosowane"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 303,
+   "pytanie": "Ponaglenie na niezałatwienie sprawy w terminie lub na prowadzenie postępowania dłużej niż jest to niezbędne do załatwienia sprawy, wnosi się:",
+   "odpowiedzi": {
+    "a": "do organu wyższego stopnia za pośrednictwem organu prowadzącego postępowanie",
+    "b": "do organu prowadzącego postępowanie - jeżeli nie ma organu wyższego stopnia",
+    "c": "obie odpowiedzi są prawidłowe"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 304,
+   "pytanie": "Jeżeli koniec terminu do wykonania czynności przypada na dzień uznany ustawowo za wolny od pracy lub na sobotę:",
+   "odpowiedzi": {
+    "a": "termin upływa następnego dnia, który nie jest dniem wolnym od pracy ani sobotą",
+    "b": "termin upływa poprzedniego dnia, który nie jest dniem wolnym od pracy ani sobotą",
+    "c": "termin upływa tego dnia, który jest dniem wolnym od pracy lub sobotą"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 305,
+   "pytanie": "Zgodnie z art. 107 § 1 K.p.a. decyzja administracyjna nie musi zawierać:",
+   "odpowiedzi": {
+    "a": "daty wydania",
+    "b": "numeracji stron decyzji",
+    "c": "oznaczenia organu administracji"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 306,
+   "pytanie": "Co może zrobić Główny Inspektor Ochrony Środowiska, jeśli Centralne Laboratorium Badawcze nie posiada wymaganej akredytacji?",
+   "odpowiedzi": {
+    "a": "zlecić badania wojewódzkiemu inspektoratowi",
+    "b": "zawrzeć umowę z inną jednostką posiadającą akredytację",
+    "c": "wstrzymać działania kontrolne"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 307,
+   "pytanie": "Centralne Laboratorium Badawcze wykonuje badania dla wojewódzkich inspektorów ochrony środowiska:",
+   "odpowiedzi": {
+    "a": "odpłatnie, na podstawie umowy cywilnoprawnej",
+    "b": "nieodpłatnie, na potrzeby kontroli",
+    "c": "wyłącznie po zatwierdzeniu przez ministra właściwego do spraw klimatu"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 308,
+   "pytanie": "W jakich okolicznościach pobieranie próbek, pomiary lub badania mogą być przeprowadzone bez obecności kontrolowanego lub jego przedstawiciela?",
+   "odpowiedzi": {
+    "a": "gdy kontrolowany wyrazi pisemną zgodę na ich nieobecność",
+    "b": "gdy obecny jest funkcjonariusz publiczny niebędący pracownikiem WIOŚ",
+    "c": "gdy miejsce pobrania próbek zostało wskazane w decyzji określającej warunki korzystania ze środowiska"
+   },
+   "poprawna": "c",
+   "komentarz": null
+  },
+  {
+   "id": 309,
+   "pytanie": "W zakresie w jakim Centralne Laboratorium Badawcze nie posiada akredytacji, Główny Inspektor Ochrony Środowiska może:",
+   "odpowiedzi": {
+    "a": "zawrzeć umowę na wykonanie badań, w tym pobieranie próbek, wykonywanie pomiarów i analiz z inną jednostką posiadającą akredytację w rozumieniu ustawy o systemie oceny zgodności",
+    "b": "zawrzeć porozumienie na wykonanie badań, w tym pobieranie próbek, wykonywanie pomiarów i analiz z inną jednostką posiadającą akredytację w rozumieniu ustawy o systemie oceny zgodności",
+    "c": "zawrzeć umowę na wykonanie badań, w tym pobieranie próbek, wykonywanie pomiarów i analiz z inną jednostką posiadającą akredytację w rozumieniu ustawy o systemach oceny zgodności i nadzoru rynku"
+   },
+   "poprawna": "a",
+   "komentarz": null
+  },
+  {
+   "id": 310,
+   "pytanie": "Centralne Laboratorium Badawcze nie wykonuje badań i analiz na potrzeby kontroli prowadzonych przez wojewódzkich inspektorów ochrony środowiska:",
+   "odpowiedzi": {
+    "a": "nieodpłatnie",
+    "b": "odpłatnie",
+    "c": "na podstawie porozumienia zawartego pomiędzy Głównym Inspektorem Ochrony Środowiska a wojewódzkim inspektorem ochrony środowiska w sprawie zakresu i sposobu realizacji przez centralne laboratorium badawcze badań, w tym pobierania próbek, wykonywania pomiarów i analiz na potrzeby działań kontrolnych"
+   },
+   "poprawna": "b",
+   "komentarz": null
+  },
+  {
+   "id": 311,
+   "pytanie": "Które jednostki handlowe mają ustawowy obowiązek uczestniczyć w systemie kaucyjnym w zakresie co najmniej pobierania i zwracania kaucji oraz zbierania pustych opakowań i odpadów opakowaniowych?",
+   "odpowiedzi": {
+    "a": "wszystkie sklepy spożywcze niezależnie od powierzchni sprzedaży",
+    "b": "jednostki handlu detalicznego w której użytkownikom końcowym są oferowane produkty będące napojami w opakowaniach na napoje objętych systemem kaucyjnym o powierzchni sprzedaży powyżej 200 m2",
+    "c": "jednostki handlu hurtowego w której użytkownikom końcowym są oferowane produkty będące napojami w opakowaniach na napoje objętych systemem kaucyjnym o powierzchni sprzedaży poniżej 200 m2"
+   },
+   "poprawna": null,
+   "komentarz": null,
+   "brak_klucza": "nowe pytanie"
+  },
+  {
+   "id": 312,
+   "pytanie": "Która z poniższych zasad nie jest jedną z 6 zasad etyki korpusu służby cywilnej?",
+   "odpowiedzi": {
+    "a": "zasada legalizmu",
+    "b": "zasada bezstronności",
+    "c": "zasada rzetelności"
+   },
+   "poprawna": null,
+   "komentarz": null,
+   "brak_klucza": "nowe pytanie"
+  },
+  {
+   "id": 313,
+   "pytanie": "Wymień 3 rodzaje konfliktu interesów",
+   "odpowiedzi": {
+    "a": "rzeczywisty, potencjalny, teoretyczny",
+    "b": "rzeczywisty, formalny, postrzegany",
+    "c": "rzeczywisty, potencjalny, postrzegany"
+   },
+   "poprawna": null,
+   "komentarz": null,
+   "brak_klucza": "nowe pytanie"
+  },
+  {
+   "id": 314,
+   "pytanie": "Wskaż poprawne zdanie:",
+   "odpowiedzi": {
+    "a": "Przed rozpoczęciem kontroli każda osoba biorąca udział kontroli jest zobowiązana do złożenia oświadczenia o braku podstaw do wyłączenia z kontroli",
+    "b": "Przed rozpoczęciem kontroli inspektor wiodący jest zobowiązany do złożenia oświadczenia o braku podstaw do wyłączenia z kontroli",
+    "c": "Przed rozpoczęciem kontroli każda osoba biorąca udział kontroli jest zobowiązana do przekazania przedsiębiorcy oświadczenia o braku podstaw do wyłączenia z kontroli"
+   },
+   "poprawna": null,
+   "komentarz": null,
+   "brak_klucza": "nowe pytanie"
+  }
+ ]
+}
