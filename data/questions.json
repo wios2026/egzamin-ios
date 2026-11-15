@@ -1,7 +1,7 @@
 {
  "zbior": "ios-2026-vii",
  "nazwa": "Egzamin IOŚ – część 1, VII edycja (2026)",
- "wersja": "2026-11-14",
+ "wersja": "2026-11-15",
  "pytania": [
   {
    "id": 1,
@@ -12,7 +12,7 @@
     "c": "zasad ochrony środowiska oraz warunków korzystania z jego zasobów, z uwzględnieniem wymagań zrównoważonego rozwoju"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 1 Prawa wodnego"
   },
   {
    "id": 2,
@@ -23,7 +23,7 @@
     "c": "korzystanie z wód do nawadniania gruntów lub upraw, a także na potrzeby działalności rolniczej w rozumieniu art. 2 ust. 2 ustawy z dnia 15 listopada 1984 r. o podatku rolnym, w ilości większej niż średniorocznie 5 m3 na dobę"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 33 ust. 4 pkt 2 i art. 34 Prawa wodnego"
   },
   {
    "id": 3,
@@ -34,7 +34,7 @@
     "c": "obu wyżej wymienionych organów"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 6 ust. 5a i art. 9u ust. 1 ustawy o utrzymaniu czystości i porządku w gminach"
   },
   {
    "id": 4,
@@ -45,7 +45,7 @@
     "c": "obie odpowiedzi są prawidłowe"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 389 Prawa wodnego"
   },
   {
    "id": 5,
@@ -56,7 +56,7 @@
     "c": "tylko całodobowy pobór próbek ścieków"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "potwierdzenie pośrednie: lista kontrolna ISK 1.2.1"
   },
   {
    "id": 6,
@@ -67,7 +67,7 @@
     "c": "wyniki pomiarów przekazano na nieobowiązujących wzorach dokumentów"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 305 POŚ"
   },
   {
    "id": 7,
@@ -78,7 +78,7 @@
     "c": "pomiarów automonitoringowych zakładu, przesłanych do wioś"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 282 ust. 2, art. 284 i 286 Prawa wodnego"
   },
   {
    "id": 8,
@@ -89,7 +89,7 @@
     "c": "Wody Polskie"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 334 pkt 1 i 5 oraz art. 335 ust. 1 pkt 1 Prawa wodnego"
   },
   {
    "id": 9,
@@ -100,7 +100,7 @@
     "c": "obie odpowiedzi są prawdziwe"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "potwierdzenie pośrednie: art. 86–88 Prawa wodnego"
   },
   {
    "id": 10,
@@ -111,7 +111,7 @@
     "c": "żadna z odpowiedzi nie jest prawidłowa"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 282 ust. 8 Prawa wodnego"
   },
   {
    "id": 11,
@@ -122,7 +122,7 @@
     "c": "opłatę podwyższoną"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 280 Prawa wodnego"
   },
   {
    "id": 12,
@@ -133,7 +133,7 @@
     "c": "temperaturę, odczyn, poziom substancji promieniotwórczych i stopień rozcieńczenia ścieków eliminujący toksyczne oddziaływanie ścieków na ryby"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 13,
@@ -144,7 +144,7 @@
     "c": "złożenie wniosku o odroczenie terminu jej płatności w związku z realizowanym przedsięwzięciem mającym na celu usunięcie przyczyn ponoszenia opłaty"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 296 Prawa wodnego"
   },
   {
    "id": 14,
@@ -155,7 +155,7 @@
     "c": "tylko województwa, w których dominują gospodarstwa powyżej 100 ha"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 104 ust. 1 Prawa wodnego"
   },
   {
    "id": 15,
@@ -166,7 +166,7 @@
     "c": "obie odpowiedzi są dobre"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 104 ust. 2 pkt 1 lit. a Prawa wodnego"
   },
   {
    "id": 16,
@@ -177,7 +177,7 @@
     "c": "żadna z odpowiedzi nie jest prawidłowa"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 109 ust. 1 Prawa wodnego (organ może nakazać usunięcie nieprawidłowości albo ustalić opłatę)"
   },
   {
    "id": 17,
@@ -188,7 +188,7 @@
     "c": "pobór wód na cele prowadzenia działalności gospodarczej przez osobę fizyczną"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 33 ust. 4 Prawa wodnego"
   },
   {
    "id": 18,
@@ -199,7 +199,7 @@
     "c": "nie ma żadnej kwoty ograniczającej możliwość wszczęcia postepowania w takich sprawach"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 282 ust. 11 i art. 283 ust. 7 Prawa wodnego"
   },
   {
    "id": 19,
@@ -210,7 +210,7 @@
     "c": "właściwy organ Państwowego Gospodarstwa Wodnego Wody Polskie"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 271 i art. 272 ust. 17 Prawa wodnego"
   },
   {
    "id": 20,
@@ -221,7 +221,7 @@
     "c": "Państwowe Gospodarstwo Wodne Wody Polskie"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 108 ust. 1 Prawa wodnego"
   },
   {
    "id": 21,
@@ -232,7 +232,7 @@
     "c": "prowadzące chów lub hodowlę drobiu powyżej 40 000 stanowisk lub chów lub hodowlę świń powyżej 2000 stanowisk dla świń o wadze ponad 30 kg lub 750 stanowisk dla macior"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 105a ust. 1 pkt 1 Prawa wodnego"
   },
   {
    "id": 22,
@@ -243,7 +243,7 @@
     "c": "zdarzenie z udziałem jednej lub więcej niebezpiecznych substancji, prowadzące do powstania zagrożenia życia lub zdrowia ludzi lub środowiska, natychmiast lub z opóźnieniem"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 3 pkt 23 POŚ"
   },
   {
    "id": 23,
@@ -254,7 +254,7 @@
     "c": "według uznania wojewódzkiego inspektora ochrony środowiska"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 5a ust. 6 ustawy o IOŚ"
   },
   {
    "id": 24,
@@ -265,7 +265,7 @@
     "c": "kontrolę podmiotów korzystających ze środowiska oraz nadzór nad usuwaniem skutków awarii"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 29 pkt 1, 3 i 4 ustawy o IOŚ"
   },
   {
    "id": 25,
@@ -276,7 +276,7 @@
     "c": "uzgodnioną z komendantem wojewódzkim PSP"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 31 ust. 1 ustawy o IOŚ"
   },
   {
    "id": 26,
@@ -287,7 +287,7 @@
     "c": "ilość, kategoria i rodzaj substancji niebezpiecznej"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 248 POŚ"
   },
   {
    "id": 27,
@@ -298,7 +298,7 @@
     "c": "rodzaj zdarzenia, w szczególności emisja, pożar lub eksplozja; miejsce zdarzenia – w trakcie procesu przemysłowego, magazynowania lub transportu; występowanie jednej lub więcej niebezpiecznych substancji; skutek – powstanie zagrożenia życia lub zdrowia ludzi lub środowiska, natychmiast lub z opóźnieniem"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 3 pkt 23 POŚ"
   },
   {
    "id": 28,
@@ -309,7 +309,7 @@
     "c": "przećwiczenie wewnętrznego planu operacyjno-ratowniczego"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 247 ust. 1 POŚ"
   },
   {
    "id": 29,
@@ -320,7 +320,7 @@
     "c": "obie odpowiedzi są prawidłowe"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 72 ust. 1 pkt 1 i 21 UIŚ"
   },
   {
    "id": 30,
@@ -331,7 +331,7 @@
     "c": "żadna z odpowiedzi nie jest prawidłowa"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 365 ust. 2 pkt 2 POŚ"
   },
   {
    "id": 31,
@@ -342,7 +342,7 @@
     "c": "ochrona krajobrazu przed zaśmieceniem kolejnymi inwestycjami"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 76 ust. 1 POŚ"
   },
   {
    "id": 32,
@@ -353,7 +353,7 @@
     "c": "przedsięwzięć w gospodarce odpadami"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 76 ust. 4 POŚ"
   },
   {
    "id": 33,
@@ -364,7 +364,7 @@
     "c": "spełnia wymagania ochrony środowiska, tj. zastosowano środki techniczne chroniące środowisko; zastosowano odpowiednie rozwiązania technologiczne; uzyskano wymagane decyzje na korzystanie ze środowiska"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 76 ust. 2 POŚ"
   },
   {
    "id": 34,
@@ -375,7 +375,7 @@
     "c": "7 dni przed terminem oddania do użytkowania"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 76 ust. 4 POŚ"
   },
   {
    "id": 35,
@@ -386,7 +386,7 @@
     "c": "to zależy od wielkości inwestycji"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 136a ust. 1 i 3 UIŚ"
   },
   {
    "id": 36,
@@ -397,7 +397,7 @@
     "c": "kontrolowany nie okazał decyzji o środowiskowych wymaganiach"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 365 ust. 2 pkt 1 POŚ"
   },
   {
    "id": 37,
@@ -408,7 +408,7 @@
     "c": "podejmowaniu kontroli tylko z udziałem pracownika CLB GIOŚ"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.2 (protokół podpisuje sam inspektor)"
   },
   {
    "id": 38,
@@ -419,7 +419,7 @@
     "c": "odczynu"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 39,
@@ -430,7 +430,7 @@
     "c": "fakty powszechnie znane nie wymagają dowodu"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 168 KPK"
   },
   {
    "id": 40,
@@ -441,7 +441,7 @@
     "c": "nie można umieścić danych dotyczących miejsca zamieszkania i miejsca pracy pokrzywdzonych"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 148a § 1 KPK"
   },
   {
    "id": 41,
@@ -452,7 +452,7 @@
     "c": "upoważniony przez Wojewódzkiego Inspektora Ochrony Środowiska inspektor Inspekcji Ochrony Środowiska"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 10b ust. 1–2 ustawy o IOŚ"
   },
   {
    "id": 42,
@@ -463,7 +463,7 @@
     "c": "prawem legitymowanej osoby zgodnie z przepisami rozporządzenia o ochronie danych osobowych"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 65 § 2 KW"
   },
   {
    "id": 43,
@@ -474,7 +474,7 @@
     "c": "przedsiębiorcy prowadzącego działalność gospodarczą związaną z niszczeniem dokumentów"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 10a ust. 1–2 ustawy o IOŚ"
   },
   {
    "id": 44,
@@ -485,7 +485,7 @@
     "c": "w przypadku stwierdzenia nieprawidłowości w zakresie wydawania przez organy ochrony środowiska decyzji ustalających warunki korzystania ze środowiska organ Inspekcji Ochrony Środowiska niezwłocznie wszczyna śledztwo w sprawie"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 14 ustawy o IOŚ"
   },
   {
    "id": 45,
@@ -496,7 +496,7 @@
     "c": "gdy z istnienia określonych faktów wnioskuje się o innych faktach"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 46,
@@ -507,7 +507,7 @@
     "c": "funkcjonariusze KAS, ITD oraz UTK zaangażowani w zwalczanie przestępczości środowiskowej"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "najlepsza z opcji; por. art. 178 i art. 192 § 2 KPK"
   },
   {
    "id": 47,
@@ -518,7 +518,7 @@
     "c": "skierować wyłącznie wystąpienie o wyjaśnienie przyczyn nieprawidłowości"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 16 ust. 3 ustawy o IOŚ"
   },
   {
    "id": 48,
@@ -529,7 +529,7 @@
     "c": "żadne z powyższych"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 75 § 1 KPA"
   },
   {
    "id": 49,
@@ -540,7 +540,7 @@
     "c": "używania urządzeń nagłaśniających, sygnalizacyjnych lub świetlnych, służących do wydawania wiążących poleceń uczestnikowi ruchu"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 129 ust. 4aa w zw. z ust. 2 pkt 1 Prawa o ruchu drogowym"
   },
   {
    "id": 50,
@@ -551,7 +551,7 @@
     "c": "tak, ale tylko przy spełnieniu wymagań określonych w przepisach umowy ADR"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 129 ust. 4aa Prawa o ruchu drogowym (katalog nie obejmuje zdejmowania plomb)"
   },
   {
    "id": 51,
@@ -562,7 +562,7 @@
     "c": "jako dane wrażliwe dostępne są tylko funkcjonariuszom Policji, CBA oraz ABW"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 80c ust. 1 pkt 31 Prawa o ruchu drogowym"
   },
   {
    "id": 52,
@@ -573,7 +573,7 @@
     "c": "uprzywilejowanym pojazdem"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "§ 21 ust. 2 rozporządzenia MSWiA z 5.11.2019 w sprawie kontroli ruchu drogowego"
   },
   {
    "id": 53,
@@ -584,7 +584,7 @@
     "c": "między innymi w Rozporządzeniu Ministra Spraw Wewnętrznych i Administracji z dnia 5 listopada 2019 r. w sprawie kontroli ruchu drogowego"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "§ 21 rozporządzenia MSWiA z 5.11.2019 w sprawie kontroli ruchu drogowego"
   },
   {
    "id": 54,
@@ -595,7 +595,7 @@
     "c": "tablicą z napisem „TPO” – transgraniczne przemieszczanie odpadów"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "§ 10 ust. 1 rozporządzenia MŚ z 7.10.2016 w sprawie transportu odpadów"
   },
   {
    "id": 55,
@@ -606,7 +606,7 @@
     "c": "muszą być przystosowane do przewozu towarów niebezpiecznych zgodnie z umową ADR"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 59 ustawy o przewozie towarów niebezpiecznych"
   },
   {
    "id": 56,
@@ -617,7 +617,7 @@
     "c": "odpady powinny zostać zabezpieczone jako dowód rzeczowy przez prokuratora prowadzące postepowanie w sprawie"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 27 ust. 1 ustawy o międzynarodowym przemieszczaniu odpadów"
   },
   {
    "id": 57,
@@ -628,7 +628,7 @@
     "c": "nadają się do bezpośredniego odzysku w piecach ogrzewania centralnego w gospodarstwach domowych"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 58,
@@ -639,7 +639,7 @@
     "c": "przepisów międzynarodowej konwencji dotyczącej drogowego przewozu towarów i ładunków niebezpiecznych nie stosuje się do odpadów stanowiących towary niebezpieczne w rozumieniu ustawy z dnia 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "§ 2 rozporządzenia MŚ z 7.10.2016 w sprawie transportu odpadów"
   },
   {
    "id": 59,
@@ -650,7 +650,7 @@
     "c": "wójt, burmistrz lub prezydent miasta; starosta, sejmik województwa; marszałek województwa; wojewoda; minister właściwy do spraw klimatu; Generalny Dyrektor Ochrony Środowiska; regionalny dyrektor ochrony środowiska, Instytut Ochrony Środowiska - Państwowy Instytut Badawczy"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 376 POŚ"
   },
   {
    "id": 60,
@@ -661,8 +661,7 @@
     "c": "wyłącznie minister właściwy do spraw klimatu, marszałek województwa, starosta oraz wójt, burmistrz lub prezydent miasta sprawują kontrolę przestrzegania i stosowania przepisów o ochronie środowiska w zakresie objętym właściwością tych organów oraz organy Inspekcji Ochrony Środowiska działające na podstawie przepisów ustawy o Inspekcji Ochrony Środowiska wykonują zadania w zakresie ochrony środowiska, jeżeli ustawa tak stanowi"
    },
    "poprawna": "c",
-   "komentarz": null,
-   "uwaga": "Odpowiedź c) potwierdzona art. 379 ust. 1 i art. 376 POŚ; zgodna z kluczem 2025."
+   "komentarz": "art. 376 i art. 379 ust. 1 POŚ"
   },
   {
    "id": 61,
@@ -673,7 +672,7 @@
     "c": "nie występują do wojewódzkiego inspektora ochrony środowiska, ponieważ mają uprawnienia kontrolne i sami podejmują działania"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 379 ust. 5 POŚ"
   },
   {
    "id": 62,
@@ -684,7 +683,7 @@
     "c": "wyłącznie organy jednostek samorządu terytorialnego"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 5 § 2 pkt 3 KPA"
   },
   {
    "id": 63,
@@ -695,7 +694,7 @@
     "c": "do współdziałania z organizatorami i innymi służbami w ochronie porządku podczas zgromadzeń i imprez publicznych"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 1 ustawy o IOŚ"
   },
   {
    "id": 64,
@@ -706,7 +705,7 @@
     "c": "odpowiedź a i b jest prawidłowa"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 3 ustawy o IOŚ"
   },
   {
    "id": 65,
@@ -717,7 +716,7 @@
     "c": "jednostką pomocniczą gminy"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 3a ustawy o IOŚ"
   },
   {
    "id": 66,
@@ -728,7 +727,7 @@
     "c": "wydawanie decyzji o przywróceniu środowiska do właściwego stanu"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 2 ust. 1 pkt 1 ustawy o IOŚ"
   },
   {
    "id": 67,
@@ -739,7 +738,7 @@
     "c": "oceny sposobu eksploatacji instalacji lub urządzeń, wstępu przez całą dobę wyłącznie na teren kontrolowanej nieruchomości, określenia składu morfologicznego odpadów, zatrzymania osoby podejrzanej o popełnienie czynu zabronionego, żądania wstrzymania ruchu instalacji"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 9 ust. 2 pkt 1, 3 i 10 ustawy o IOŚ"
   },
   {
    "id": 68,
@@ -750,7 +749,7 @@
     "c": "domniemanie na podstawie przedstawionej dokumentacji fotograficznej stanu faktycznego"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 69,
@@ -761,7 +760,7 @@
     "c": "nie są określone zasady prowadzenia oględzin"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 70,
@@ -772,7 +771,7 @@
     "c": "jest 9 najważniejszych zasad sporządzania protokołu oględzin\n1) zasada komunikatywności\n2) zasada stosowania odpowiednich form gramatycznych\n3) zasada dokładności\n4) zasada zwięzłości opisu\n5) zasada bezpośredniości\n6) zasada obiektywizmu\n7) zasada zgodności dokumentacyjnej\n8) zasada jednolitego nazewnictwa\n9) zasada systematyczności"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 71,
@@ -783,7 +782,7 @@
     "c": "protokół oględzin składa się z 3 części\n1) wstępnej\n2) opisowej\n3) końcowej"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 72,
@@ -794,7 +793,7 @@
     "c": "naprzemienne stosowanie metody obiektywnej i subiektywnej w miejscu poddanym oględzinom"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 73,
@@ -805,7 +804,7 @@
     "c": "odpowiedz a i b jest prawidłowa"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 182 § 1 i art. 183 § 1 KPK"
   },
   {
    "id": 74,
@@ -816,7 +815,7 @@
     "c": "przed podpisaniem protokołu przesłuchania"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 150 § 1 KPK; ISK 5.1.2"
   },
   {
    "id": 75,
@@ -827,7 +826,7 @@
     "c": "decyzja o tym czy sporządzany jest protokół należy do prowadzącego przesłuchanie"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 148 § 1 KPK"
   },
   {
    "id": 76,
@@ -838,7 +837,7 @@
     "c": "informacji zamieszczonych w mediach społecznościowych"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "wzór protokołu przesłuchania (ISK)"
   },
   {
    "id": 77,
@@ -849,7 +848,7 @@
     "c": "w fazie prowadzenia czynności końcowych"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 190 § 1 KPK"
   },
   {
    "id": 78,
@@ -860,7 +859,7 @@
     "c": "zawsze, nawet jeśli nie pamięta zdarzenia, które jest przedmiotem przesłuchania"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 171 § 1 KPK"
   },
   {
    "id": 79,
@@ -871,7 +870,7 @@
     "c": "minister właściwy do spraw klimatu"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 96a ust. 1 POŚ"
   },
   {
    "id": 80,
@@ -882,7 +881,7 @@
     "c": "instalacja to stacjonarne urządzenie techniczne zespół stacjonarnych urządzeń technicznych powiązanych technologicznie, do których tytułem prawnym dysponują różne podmioty, budowle niebędące urządzeniami technicznymi ani ich zespołami, których eksploatacja może spowodować emisję"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 3 pkt 6 POŚ"
   },
   {
    "id": 81,
@@ -893,7 +892,7 @@
     "c": "może powodować przekroczenie standardów emisyjnych"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 141 ust. 1 POŚ"
   },
   {
    "id": 82,
@@ -904,7 +903,7 @@
     "c": "Główny Inspektor Ochrony Środowiska"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 83,
@@ -915,7 +914,7 @@
     "c": "źródła emisji opalane ekogroszkiem w zabudowie jednorodzinnej"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 84,
@@ -926,7 +925,7 @@
     "c": "podmiot nie posiada decyzji o dopuszczalnym poziomie hałasu, ale organ ochrony środowiska prowadzi postepowanie celem jego wydania"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "potwierdzenie pośrednie: art. 115a POŚ, lista kontrolna ISK 1.2.4"
   },
   {
    "id": 85,
@@ -937,7 +936,7 @@
     "c": "w pozwoleniu zintegrowanym lub w decyzji o dopuszczalnym poziomie hałasu"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 115a ust. 3 POŚ; § 8 ust. 1–2 rozporządzenia MKiŚ w sprawie wymagań w zakresie prowadzenia pomiarów wielkości emisji"
   },
   {
    "id": 86,
@@ -948,7 +947,7 @@
     "c": "wydaje decyzję o dopuszczalnym poziomie hałasu"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 115a ust. 1 POŚ"
   },
   {
    "id": 87,
@@ -959,7 +958,7 @@
     "c": "odpowiedz a i b jest prawidłowa"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "§ 8 ust. 1–3 rozporządzenia MKiŚ w sprawie wymagań w zakresie prowadzenia pomiarów wielkości emisji"
   },
   {
    "id": 88,
@@ -970,7 +969,7 @@
     "c": "właściwy organ ochrony środowiska"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 115a ust. 1 POŚ"
   },
   {
    "id": 89,
@@ -981,7 +980,7 @@
     "c": "odpowiedź a i b jest prawidłowa"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 300 ust. 4 POŚ"
   },
   {
    "id": 90,
@@ -992,7 +991,7 @@
     "c": "ustawa o systemie zarządzania emisjami gazów cieplarnianych i innych substancji"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 122a POŚ"
   },
   {
    "id": 91,
@@ -1003,7 +1002,7 @@
     "c": "zgłoszeniu organowi ochrony środowiska"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 152 ust. 1 POŚ"
   },
   {
    "id": 92,
@@ -1014,7 +1013,7 @@
     "c": "okresowo tzn. pomiary poziomów pól elektromagnetycznych prowadzi się dwa razy w roku, raz w sezonie zimowym (październik-marzec) oraz raz w sezonie letnim (kwiecień-wrzesień)"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 122a ust. 1 POŚ"
   },
   {
    "id": 93,
@@ -1025,7 +1024,7 @@
     "c": "prowadzenie wykazu obowiązujących pozwoleń wydanych dla stacji bazowych telefonii komórkowych (tzw. pozwolenia radiowe, uprawniające do używania urządzeń radiowych w lokalizacji i z parametrami określonymi w danym pozwoleniu radiowym)"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 29i ust. 2 ustawy o wspieraniu rozwoju usług i sieci telekomunikacyjnych; art. 122a POŚ"
   },
   {
    "id": 94,
@@ -1036,7 +1035,7 @@
     "c": "odpowiedź a i b jest prawidłowa"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 29h ustawy o wspieraniu rozwoju usług i sieci telekomunikacyjnych"
   },
   {
    "id": 95,
@@ -1047,7 +1046,7 @@
     "c": "Wojewódzkie Inspektoraty Ochrony Środowiska"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 147 ust. 1 POŚ"
   },
   {
    "id": 96,
@@ -1058,7 +1057,7 @@
     "c": "Inspekcja Ochrony Środowiska nie ocenia wyników i badań przedkładanych przez podmioty"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.3"
   },
   {
    "id": 97,
@@ -1069,7 +1068,7 @@
     "c": "nie ma takiej możliwości"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "ISK 5.3"
   },
   {
    "id": 98,
@@ -1080,7 +1079,7 @@
     "c": "odpowiedź a i b jest prawidłowa"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "§ 2 ust. 1 rozporządzenia MKiŚ z 15.12.2020 (Dz.U. poz. 2405)"
   },
   {
    "id": 99,
@@ -1091,7 +1090,7 @@
     "c": "w ciągu 30 dni od dnia zakończenia kwartału, w którym pomiary zostały wykonane"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "§ 7 pkt 2 rozporządzenia MKiŚ z 15.12.2020 (Dz.U. poz. 2405)"
   },
   {
    "id": 100,
@@ -1102,7 +1101,7 @@
     "c": "odpowiedź a i b jest prawidłowa"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "§ 7 pkt 1 rozporządzenia MKiŚ z 15.12.2020 (Dz.U. poz. 2405)"
   },
   {
    "id": 101,
@@ -1113,7 +1112,7 @@
     "c": "protokół"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "ISK 5.3"
   },
   {
    "id": 102,
@@ -1124,7 +1123,7 @@
     "c": "w przypadku gdy służby celne wytworzą w wyniku swojej działalności zużyte baterie i akumulatory"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.3 (zał. I.5.3.4)"
   },
   {
    "id": 103,
@@ -1135,7 +1134,7 @@
     "c": "w trakcie wykonywania kontroli przestrzegania wymagań ochrony środowiska oraz wykonywania czynności o których mowa w art. 10b ust. 2 ustawy o Inspekcji Ochrony Środowiska"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 9 ust. 2 pkt 2 i art. 10b ust. 2 pkt 1 ustawy o IOŚ"
   },
   {
    "id": 104,
@@ -1146,7 +1145,7 @@
     "c": "wszystkie odpowiedzi są prawidłowe"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 105,
@@ -1157,7 +1156,7 @@
     "c": "wszystkie wskazane odpowiedzi są prawidłowe"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 106,
@@ -1168,7 +1167,7 @@
     "c": "wyłącznie pracownik będący Inspektorem Inspekcji Ochrony Środowiska"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 107,
@@ -1179,7 +1178,7 @@
     "c": "akt oskarżenia złoży inny uprawniony oskarżyciel"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 14 ustawy o IOŚ"
   },
   {
    "id": 108,
@@ -1190,7 +1189,7 @@
     "c": "przeprowadzenia postępowania służbowego lub innego przewidzianego prawem postępowania przeciwko osobom winnym dopuszczenia do uchybień"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 12 ust. 3 ustawy o IOŚ"
   },
   {
    "id": 109,
@@ -1201,7 +1200,7 @@
     "c": "do organu powołanego do ścigania przestępstw wniosek o ukaranie za popełnione przestępstwo, dołączając dowody dokumentujące podejrzenie"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 15 ustawy o IOŚ"
   },
   {
    "id": 110,
@@ -1212,7 +1211,7 @@
     "c": "dowolny przedstawiciel kontrolowanego podmiotu korzystającego ze środowiska"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 12 ust. 1 ustawy o IOŚ"
   },
   {
    "id": 111,
@@ -1223,7 +1222,7 @@
     "c": "w terminie 21 dni od wykonania pomiarów"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 299 ust. 2 POŚ"
   },
   {
    "id": 112,
@@ -1234,7 +1233,7 @@
     "c": "zabór mienia, wstrzymanie działalności, grzywna w celu przymuszenia i wykonanie zastępcze"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 1a pkt 12 lit. b ustawy o postępowaniu egzekucyjnym w administracji"
   },
   {
    "id": 113,
@@ -1245,7 +1244,7 @@
     "c": "w dni wolne od pracy lub w porze nocnej pomiędzy godziną 21 a godziną 7"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 52 § 1 ustawy o postępowaniu egzekucyjnym w administracji"
   },
   {
    "id": 114,
@@ -1256,7 +1255,7 @@
     "c": "w przypadku osób fizycznych kwoty 50 000 zł, a w stosunku do osób prawnych i jednostek organizacyjnych nieposiadających osobowości prawnej kwoty 500 000 zł"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 121 § 3 ustawy o postępowaniu egzekucyjnym w administracji"
   },
   {
    "id": 115,
@@ -1267,7 +1266,7 @@
     "c": "przeprowadzenie postępowania służbowego wobec pracownika zakładu na terenie którego doszło do awarii oraz wydać zakazy i ograniczenia w poruszaniu się po tym zakładzie"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 247 ust. 1 POŚ"
   },
   {
    "id": 116,
@@ -1278,7 +1277,7 @@
     "c": "wstrzymuje, w drodze decyzji, działalność posiadacza odpadów"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 32 ust. 1a ustawy o odpadach"
   },
   {
    "id": 117,
@@ -1289,7 +1288,7 @@
     "c": "karze pieniężnej w wysokości od 10 000 zł do 100 000 zł"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 31c ust. 1 ustawy o IOŚ"
   },
   {
    "id": 118,
@@ -1300,7 +1299,7 @@
     "c": "100 zł"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 308 POŚ"
   },
   {
    "id": 119,
@@ -1311,7 +1310,7 @@
     "c": "nie mniej niż 100 000 zł i nie może przekroczyć 1 000 000 zł"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 194 ust. 4 ustawy o odpadach"
   },
   {
    "id": 120,
@@ -1322,7 +1321,7 @@
     "c": "nie mniej niż 1 000 zł i nie może przekroczyć 1 000 000 zł"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 194 ust. 5 ustawy o odpadach"
   },
   {
    "id": 121,
@@ -1333,7 +1332,7 @@
     "c": "miejsce zamieszkania strony postępowania"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 196 ustawy o odpadach"
   },
   {
    "id": 122,
@@ -1344,7 +1343,7 @@
     "c": "wszystkie wskazane odpowiedzi są prawidłowe"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 198 ustawy o odpadach"
   },
   {
    "id": 123,
@@ -1355,7 +1354,7 @@
     "c": "niezwłocznie, nie później jednak niż w terminie 7 dni od dnia złożenia wniosku"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 16 ust. 2 ustawy o IOŚ"
   },
   {
    "id": 124,
@@ -1366,7 +1365,7 @@
     "c": "informacji pozyskanych w wyniku złożenie wniosku o interwencję"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 12 ust. 1 ustawy o IOŚ"
   },
   {
    "id": 125,
@@ -1377,7 +1376,7 @@
     "c": "do lat 2"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 183 § 1 KK"
   },
   {
    "id": 126,
@@ -1388,7 +1387,7 @@
     "c": "po okazaniu legitymacji"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 10b ust. 3 ustawy o IOŚ"
   },
   {
    "id": 127,
@@ -1399,7 +1398,7 @@
     "c": "od roku do lat 15"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 183 § 5 KK"
   },
   {
    "id": 128,
@@ -1410,7 +1409,7 @@
     "c": "osobistą, cywilną i administracyjną"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 129,
@@ -1421,7 +1420,7 @@
     "c": "Kodeksie karnym i ustawach administracyjnego prawa materialnego z zakresu ochrony środowiska"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 130,
@@ -1432,7 +1431,7 @@
     "c": "areszt, pozbawienie wolności, grzywna i nagana"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 18 KW"
   },
   {
    "id": 131,
@@ -1443,7 +1442,7 @@
     "c": "pouczenia, zwróceniu uwagi, ostrzeżeniu lub na zastosowaniu innych środków oddziaływania wychowawczego"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 41 KW"
   },
   {
    "id": 132,
@@ -1454,7 +1453,7 @@
     "c": "jeżeli od czasu jego popełnienia upłynął 5; jeżeli w tym okresie wszczęto postępowanie, karalność wykroczenia ustaje z upływem 20 lat od zakończenia tego okres"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 45 § 1 KW"
   },
   {
    "id": 133,
@@ -1465,7 +1464,7 @@
     "c": "sąd właściwy do rozpoznania sprawy"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 101 § 2 KPW"
   },
   {
    "id": 134,
@@ -1476,7 +1475,7 @@
     "c": "we wszystkich sprawach uregulowanych w ustawie z dnia 29 sierpnia 1997 r. - Ordynacja podatkowa"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 1 KPA"
   },
   {
    "id": 135,
@@ -1487,7 +1486,7 @@
     "c": "organy administracji działają na podstawie wewnętrznych okólników dyrektora generalnego urzędu"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 6 KPA"
   },
   {
    "id": 136,
@@ -1498,7 +1497,7 @@
     "c": "trójinstancyjne"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 15 KPA"
   },
   {
    "id": 137,
@@ -1509,7 +1508,7 @@
     "c": "stronami mogą być osoby fizyczne i osoby prawne"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 29 KPA"
   },
   {
    "id": 138,
@@ -1520,7 +1519,7 @@
     "c": "strona musi działać przez pełnomocnika"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 32 KPA"
   },
   {
    "id": 139,
@@ -1531,7 +1530,7 @@
     "c": "na prośbę zainteresowanego lub z urzędy"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 58 § 1–2 KPA"
   },
   {
    "id": 140,
@@ -1542,7 +1541,7 @@
     "c": "niezałatwienie sprawy w terminie nie nakłada na organ żadnych obowiązków"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 36 § 1 KPA"
   },
   {
    "id": 141,
@@ -1553,7 +1552,7 @@
     "c": "nie ma prawa wglądu w akta sprawy, chyba że organ postanowi inaczej"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 73 § 1 KPA"
   },
   {
    "id": 142,
@@ -1564,7 +1563,7 @@
     "c": "organ wzywa wnoszącego podanie do usunięcia braków w wyznaczonym terminie, nie krótszym niż siedem dni, z pouczeniem, że nieusunięcie tych braków spowoduje pozostawienie podania bez rozpoznania"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 64 § 2 KPA"
   },
   {
    "id": 143,
@@ -1575,7 +1574,7 @@
     "c": "zwraca podanie"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 65 § 1 KPA"
   },
   {
    "id": 144,
@@ -1586,7 +1585,7 @@
     "c": "tylko zeznania świadków"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 75 § 1 KPA"
   },
   {
    "id": 145,
@@ -1597,7 +1596,7 @@
     "c": "spoczywa na sądzie administracyjnym"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 77 § 1 KPA"
   },
   {
    "id": 146,
@@ -1608,7 +1607,7 @@
     "c": "wydaje decyzję o umorzeniu postępowania odpowiednio w całości albo w części"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 105 § 1 KPA"
   },
   {
    "id": 147,
@@ -1619,7 +1618,7 @@
     "c": "zawsze ugody"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 104 § 1 KPA"
   },
   {
    "id": 148,
@@ -1630,7 +1629,7 @@
     "c": "powództwo do sądu powszechnego"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 127 § 1 KPA"
   },
   {
    "id": 149,
@@ -1641,7 +1640,7 @@
     "c": "w drodze zawiadomienia"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 134 KPA"
   },
   {
    "id": 150,
@@ -1652,7 +1651,7 @@
     "c": "7 dni od dni doręczenia postanowienie stronie, a gdy postanowienie zostało ogłoszone ustnie – od dnia jego ogłoszenia stronie"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 141 § 2 KPA"
   },
   {
    "id": 151,
@@ -1663,7 +1662,7 @@
     "c": "zmiany decyzji ostatecznej"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 156 § 1 KPA"
   },
   {
    "id": 152,
@@ -1674,7 +1673,7 @@
     "c": "termin upływa następnego dnia, który nie jest dniem wolnym od pracy ani sobotą"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 57 § 4 KPA"
   },
   {
    "id": 153,
@@ -1685,7 +1684,7 @@
     "c": "obowiązującą poprzednio, w każdym przypadku"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 189c KPA"
   },
   {
    "id": 154,
@@ -1696,7 +1695,7 @@
     "c": "jeden rok"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 189g § 1 KPA"
   },
   {
    "id": 155,
@@ -1707,7 +1706,7 @@
     "c": "strona bez własnej winy nie brała udziału w postępowaniu"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 145 § 1 KPA"
   },
   {
    "id": 156,
@@ -1718,7 +1717,7 @@
     "c": "na korzyść strony"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 7a § 1 KPA"
   },
   {
    "id": 157,
@@ -1729,7 +1728,7 @@
     "c": "nieodwołalne"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 16 § 1 KPA"
   },
   {
    "id": 158,
@@ -1740,7 +1739,7 @@
     "c": "pełnomocnikowi i stronie"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 40 § 2 KPA"
   },
   {
    "id": 159,
@@ -1751,7 +1750,7 @@
     "c": "przesyła odwołanie wraz z aktami sprawy organowi odwoławczemu w terminie siedmiu dni od dnia, w którym otrzymał odwołanie"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 133 KPA"
   },
   {
    "id": 160,
@@ -1762,7 +1761,7 @@
     "c": "na wniosek sądu administracyjnego"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 189k KPA"
   },
   {
    "id": 161,
@@ -1773,7 +1772,7 @@
     "c": "nie może umożliwić stronie wypowiedzenie się co do zebranych dowodów i materiałów oraz zgłoszonych żądań"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 10 § 1 KPA"
   },
   {
    "id": 162,
@@ -1784,7 +1783,7 @@
     "c": "prawidłowe"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 16 § 3 KPA"
   },
   {
    "id": 163,
@@ -1795,7 +1794,7 @@
     "c": "nie później niż w ciągu dwóch miesięcy, a sprawy szczególnie skomplikowanej - nie później niż w ciągu trzech miesięcy od dnia wszczęcia postępowania"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 35 § 3 KPA"
   },
   {
    "id": 164,
@@ -1806,7 +1805,7 @@
     "c": "pobierają opłatę w wysokości ustalonej przez akt wewnętrzny"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 26 ust. 2 UIŚ"
   },
   {
    "id": 165,
@@ -1817,7 +1816,7 @@
     "c": "w drodze decyzji"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 20 ust. 1 UIŚ"
   },
   {
    "id": 166,
@@ -1828,7 +1827,7 @@
     "c": "każda informacja o środowisku"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 1 ust. 1 ustawy o dostępie do informacji publicznej"
   },
   {
    "id": 167,
@@ -1839,7 +1838,7 @@
     "c": "informacje uznane przez przedsiębiorcę za niejawne"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 11 ust. 2 ustawy o zwalczaniu nieuczciwej konkurencji"
   },
   {
    "id": 168,
@@ -1850,7 +1849,7 @@
     "c": "żadna z powyższych"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 16 ust. 1 pkt 7 i ust. 3 UIŚ"
   },
   {
    "id": 169,
@@ -1861,7 +1860,7 @@
     "c": "w ciągu miesiąca od dnia otrzymania wniosku"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 14 ust. 1 UIŚ"
   },
   {
    "id": 170,
@@ -1872,7 +1871,7 @@
     "c": "w sposób i w formie określonych we wniosku chyba że środki techniczne, którymi dysponują władze publiczne, nie umożliwiają udostępnienia informacji w sposób i w formie określonych we wniosku"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 15 ust. 1 UIŚ"
   },
   {
    "id": 171,
@@ -1883,7 +1882,7 @@
     "c": "wymaga się wykazania interesu faktycznego"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 13 UIŚ"
   },
   {
    "id": 172,
@@ -1894,7 +1893,7 @@
     "c": "Prawo przedsiębiorców"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 3 pkt 20 POŚ"
   },
   {
    "id": 173,
@@ -1905,7 +1904,7 @@
     "c": "rozpoznanie zanieczyszczenia w terenie, transport towarów lub odpadów"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 2.4"
   },
   {
    "id": 174,
@@ -1916,7 +1915,7 @@
     "c": "wyłącznie kontrole prowadzone w ramach cyku kontrolnego"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 175,
@@ -1927,7 +1926,7 @@
     "c": "jest możliwa tylko w przypadku kontroli pozaplanowej"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2; art. 49 Prawa przedsiębiorców"
   },
   {
    "id": 176,
@@ -1938,7 +1937,7 @@
     "c": "przekazać sprawę organom ścigania"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.1.4 (zał. 4.1.2)"
   },
   {
    "id": 177,
@@ -1949,7 +1948,7 @@
     "c": "ustawie Prawo przedsiębiorców"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 55 Prawa przedsiębiorców"
   },
   {
    "id": 178,
@@ -1960,7 +1959,7 @@
     "c": "może potraktować to jako utrudnianie kontroli"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 11 ust. 3 ustawy o IOŚ"
   },
   {
    "id": 179,
@@ -1971,7 +1970,7 @@
     "c": "w przypadku kontroli pozaplanowej interwencyjnej inspektor IOŚ musi dostarczyć kontrolowanemu upoważnienie do kontroli nie później niż w terminie 3 dni roboczych od dnia wszczęcia kontroli"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 9b ust. 2 ustawy o IOŚ"
   },
   {
    "id": 180,
@@ -1982,7 +1981,7 @@
     "c": "wyłącznie do kontroli pozaplanowych"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 9a ust. 2 ustawy o IOŚ (wyłącza art. 54 PP przy kontrolach pozaplanowych)"
   },
   {
    "id": 181,
@@ -1993,7 +1992,7 @@
     "c": "przestrzegania przepisów dotyczących substancji chemicznych i ich mieszanin"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 65 pkt 3 Prawa przedsiębiorców"
   },
   {
    "id": 182,
@@ -2004,7 +2003,7 @@
     "c": "gminę"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 4 Prawa przedsiębiorców (gmina nie jest przedsiębiorcą)"
   },
   {
    "id": 183,
@@ -2015,7 +2014,7 @@
     "c": "dokonaniu oględzin miejsca kontroli"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 48 ust. 1 Prawa przedsiębiorców"
   },
   {
    "id": 184,
@@ -2026,7 +2025,7 @@
     "c": "czynności kontrolne związane z pobieraniem próbek i dokonywaniem oględzin, w tym pojazdów, lub dokonywaniem pomiarów nie mogą być wykonywane przed upływem terminu 7 dni od doręczenia zawiadomienia o zamiarze wszczęcia kontroli"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 48 ust. 5–8 Prawa przedsiębiorców"
   },
   {
    "id": 185,
@@ -2037,7 +2036,7 @@
     "c": "odpowiedzi a i b są poprawne"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 59 ust. 5 Prawa przedsiębiorców"
   },
   {
    "id": 186,
@@ -2048,7 +2047,7 @@
     "c": "adnotacji z kontroli"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2"
   },
   {
    "id": 187,
@@ -2059,7 +2058,7 @@
     "c": "protokole przesłuchania"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2 (wzór protokołu przesłuchania)"
   },
   {
    "id": 188,
@@ -2070,7 +2069,7 @@
     "c": "nałożyć na kontrolowanego sankcje karne"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2 (instruktaż)"
   },
   {
    "id": 189,
@@ -2081,7 +2080,7 @@
     "c": "pisemną zgodę wojewódzkiego inspektora ochrony środowiska"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 190,
@@ -2092,7 +2091,7 @@
     "c": "posiadający specjalne upoważnienie wydane przez wojewodę"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2 (upoważnienie wydaje wojewoda); art. 95 § 4–6 KPW"
   },
   {
    "id": 191,
@@ -2103,7 +2102,7 @@
     "c": "jego opłacenia"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 98 § 3 KPW"
   },
   {
    "id": 192,
@@ -2114,7 +2113,7 @@
     "c": "protokole oględzin"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 48 ust. 10 Prawa przedsiębiorców"
   },
   {
    "id": 193,
@@ -2125,7 +2124,7 @@
     "c": "czterostopniowa klasyfikacja naruszeń"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.4"
   },
   {
    "id": 194,
@@ -2136,7 +2135,7 @@
     "c": "naruszenia w wyniku których może nastąpić lub nastąpiło zagrożenie lub zanieczyszczenie środowiska"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "ISK 5.4"
   },
   {
    "id": 195,
@@ -2147,7 +2146,7 @@
     "c": "wojewódzcy inspektorzy ochrony środowiska oraz upoważnieni przez nich pracownicy Inspekcji Ochrony Środowiska"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 9 ust. 1d ustawy o IOŚ"
   },
   {
    "id": 196,
@@ -2158,7 +2157,7 @@
     "c": "interwencyjnej"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 9 ust. 1b ustawy o IOŚ"
   },
   {
    "id": 197,
@@ -2169,7 +2168,7 @@
     "c": "wyłącznie w przypadku rozpatrywaniem skarg i interwencji dotyczących zanieczyszczenia środowiska lub podejrzenia wystąpienia takiego zanieczyszczenia"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 9 ust. 1c ustawy o IOŚ"
   },
   {
    "id": 198,
@@ -2180,7 +2179,7 @@
     "c": "Główny Inspektor Ochrony Środowiska po zasięgnięciu opinii wojewódzkiego inspektora ochrony środowiska"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 10c ust. 1 ustawy o IOŚ"
   },
   {
    "id": 199,
@@ -2191,7 +2190,7 @@
     "c": "prowadzonej na podstawie ustawy z dnia 20 lipca 1991 r. o Inspekcji Ochrony Środowiska w zakresie gospodarki odpadami"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 4.2"
   },
   {
    "id": 200,
@@ -2202,7 +2201,7 @@
     "c": "ustawie z dnia 21 listopada 2008 r. o służbie cywilnej"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 9 ustawy o IOŚ"
   },
   {
    "id": 201,
@@ -2213,7 +2212,7 @@
     "c": "zawiadomienia przedsiębiorcy o zamiarze wszczęcia kontroli"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 9a ust. 2 ustawy o IOŚ (wyłącza art. 48 PP)"
   },
   {
    "id": 202,
@@ -2224,7 +2223,7 @@
     "c": "wyłącznie w przypadku, gdy wyrazi na to zgodę inspektor Inspekcji Ochrony Środowiska prowadzący przedmiotową kontrolę"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 11 ust. 2 ustawy o IOŚ"
   },
   {
    "id": 203,
@@ -2235,7 +2234,7 @@
     "c": "wydać zarządzenie pokontrolne w zakresie zadań naprawczych, wydać decyzję administracyjną dotyczącą zakresu korzystania ze środowiska, wszcząć egzekucję decyzji wydanej przez wojewódzkiego inspektora ochrony środowiska"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 12 ust. 1 ustawy o IOŚ"
   },
   {
    "id": 204,
@@ -2246,7 +2245,7 @@
     "c": "oceny sposobu eksploatacji instalacji lub urządzeń chroniących środowisko"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2"
   },
   {
    "id": 205,
@@ -2257,7 +2256,7 @@
     "c": "adnotację z kontroli"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 11 ust. 1 ustawy o IOŚ"
   },
   {
    "id": 206,
@@ -2268,7 +2267,7 @@
     "c": "zawsze po wykonaniu oględzin przez inspektora Inspekcji Ochrony Środowiska"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2"
   },
   {
    "id": 207,
@@ -2279,7 +2278,7 @@
     "c": "mandatu karnego, pouczenia, administracyjnej kary pieniężnej"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2"
   },
   {
    "id": 208,
@@ -2290,7 +2289,7 @@
     "c": "zawsze niezależnie od rodzaju kontroli"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 9 ust. 2a i art. 9c ust. 1 ustawy o IOŚ"
   },
   {
    "id": 209,
@@ -2301,7 +2300,7 @@
     "c": "wyłącznie w przypadku, gdy kontrolowany podmiot utrudnia prowadzenie czynności kontrolnych"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 10a ust. 1 ustawy o IOŚ"
   },
   {
    "id": 210,
@@ -2312,7 +2311,7 @@
     "c": "poinformować kontrolowanego, o jego prawach i obowiązkach w trakcie kontroli"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "ISK 5.1.1"
   },
   {
    "id": 211,
@@ -2323,7 +2322,7 @@
     "c": "w zarządzeniu pokontrolnym"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2"
   },
   {
    "id": 212,
@@ -2334,7 +2333,7 @@
     "c": "decyzję o zamieszczeniu zastrzeżonych załączników w ISK podejmuje wojewódzki inspektor ochrony środowiska"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2"
   },
   {
    "id": 213,
@@ -2345,7 +2344,7 @@
     "c": "nie jest wymagane wydanie odrębnego upoważnienia wyłącznie w przypadku kontroli pozaplanowych"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 49 ust. 6–9 Prawa przedsiębiorców"
   },
   {
    "id": 214,
@@ -2356,7 +2355,7 @@
     "c": "określenie zakresu przedmiotowego kontroli"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 49 ust. 7 Prawa przedsiębiorców"
   },
   {
    "id": 215,
@@ -2367,7 +2366,7 @@
     "c": "dobrowolne i o jego sporządzeniu decyduje inspektor przeprowadzający kontrolę"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach – klucz wątpliwy: ISK 5.1.3 mówi, że z narady pokontrolnej „należy sporządzić protokół”"
   },
   {
    "id": 216,
@@ -2378,7 +2377,7 @@
     "c": "zależnie od wyniku analizy wielokryterialnej, ale nie niżej niż kategoria średniego ryzyka"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "ISK 2.3"
   },
   {
    "id": 217,
@@ -2389,8 +2388,7 @@
     "c": "nie częściej niż raz na 5 lat, decyzja o ujęciu w planie kontroli należy do wioś"
    },
    "poprawna": "a",
-   "komentarz": null,
-   "uwaga": "Odpowiedź a) odpowiada kluczowi 2025 (kat. I = wysokiego ryzyka, kontrola co roku; por. pyt. 222). Opcje b) i c) to częstotliwości dla niższych kategorii."
+   "komentarz": "ISK 2.3"
   },
   {
    "id": 218,
@@ -2401,7 +2399,7 @@
     "c": "wyłącznie w przypadku, gdy kontrola była prowadzona w zakładach kategorii wysokiego i średniego ryzyka"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 219,
@@ -2412,7 +2410,7 @@
     "c": "inspektor wykonujący kontrolę"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 220,
@@ -2423,7 +2421,7 @@
     "c": "maksymalnie do trzech grup zakładów"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 2.1"
   },
   {
    "id": 221,
@@ -2434,7 +2432,7 @@
     "c": "wprowadzenie do ISK działań pokontrolnych"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 222,
@@ -2445,7 +2443,7 @@
     "c": "niezależnie od wyniku analizy wielokryterialnej, ponieważ z uwagi na wymogi prawne zakłady te muszą być kontrolowane co roku, niezależnie od wyniku analizy wielokryterialnej"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "ISK 2.3"
   },
   {
    "id": 223,
@@ -2456,7 +2454,7 @@
     "c": "umożliwia rejestrację zakładu bez konieczności przypisania go do podmiotu kontrolowanego korzystającego ze środowiska (pkzś)"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 2.1"
   },
   {
    "id": 224,
@@ -2467,7 +2465,7 @@
     "c": "Rejestru kontroli"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 225,
@@ -2478,7 +2476,7 @@
     "c": "przeprowadzonych instruktaży"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 226,
@@ -2489,7 +2487,7 @@
     "c": "informowania użytkowników ISK na poziomie wioś o wprowadzonych zmianach w informatycznej bazie ISK"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 227,
@@ -2500,7 +2498,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 2 ustawy o odpadach"
   },
   {
    "id": 228,
@@ -2511,7 +2509,7 @@
     "c": "opisu procesu produkcyjnego, w którym powstaje przedmiot lub substancja, i procesu, w którym zostaną one wykorzystane"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 11 ust. 2 ustawy o odpadach"
   },
   {
    "id": 229,
@@ -2522,7 +2520,7 @@
     "c": "wszystkie odpowiedzi są błędne"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 4 ust. 1 ustawy o odpadach"
   },
   {
    "id": 230,
@@ -2533,7 +2531,7 @@
     "c": "zapobieganie powstawaniu odpadów"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 17 ust. 1 ustawy o odpadach"
   },
   {
    "id": 231,
@@ -2544,7 +2542,7 @@
     "c": "inaczej zbieranie odpadów"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 3 ust. 1 pkt 5 ustawy o odpadach"
   },
   {
    "id": 232,
@@ -2555,7 +2553,7 @@
     "c": "odbywa się bez uregulowań formalnoprawnych w tym zakresie"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 49 ust. 1 i art. 50 ust. 1 pkt 5 lit. b ustawy o odpadach"
   },
   {
    "id": 233,
@@ -2566,7 +2564,7 @@
     "c": "karty ewidencji zużytego sprzętu elektrycznego i elektronicznego"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 67 ust. 1 ustawy o odpadach"
   },
   {
    "id": 234,
@@ -2577,7 +2575,7 @@
     "c": "zakaźne odpady medyczne unieszkodliwia się przez ich autoklawowanie i wytworzenie paliwa alternatywnego kierowanego do współspalarni odpadów"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 95 ust. 2 ustawy o odpadach"
   },
   {
    "id": 235,
@@ -2588,7 +2586,7 @@
     "c": "obiekt budowlany do zbierania odpadów"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 3 ust. 1 pkt 25 ustawy o odpadach"
   },
   {
    "id": 236,
@@ -2599,7 +2597,7 @@
     "c": "zezwolenie na przetwarzanie odpadów, pozwolenie na wytwarzanie odpadów uwzględniające przetwarzanie odpadów, pozwolenie zintegrowane"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 41 ust. 1 i art. 45 ust. 8–9 ustawy o odpadach"
   },
   {
    "id": 237,
@@ -2610,7 +2608,7 @@
     "c": "wszystkie odpowiedzi są błędne"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 32 ust. 1a i art. 194 ust. 4 ustawy o odpadach"
   },
   {
    "id": 238,
@@ -2621,7 +2619,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 24a ust. 1–2 ustawy o odpadach"
   },
   {
    "id": 239,
@@ -2632,7 +2630,7 @@
     "c": "jest dopuszczalne na obszarach parków narodowych i rezerwatów przyrody"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 96 ust. 12 ustawy o odpadach"
   },
   {
    "id": 240,
@@ -2643,7 +2641,7 @@
     "c": "nie ma odpowiedzialności za komunalne osady ściekowe w przypadku ich stosowania w rolnictwie, rozumianym jako uprawa wszystkich płodów rolnych wprowadzanych do obrotu handlowego, włączając w to uprawy przeznaczane do produkcji pasz"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 96 ust. 3 ustawy o odpadach"
   },
   {
    "id": 241,
@@ -2654,7 +2652,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 96 ust. 1 ustawy o odpadach"
   },
   {
    "id": 242,
@@ -2665,7 +2663,7 @@
     "c": "ustawa z dnia 20 stycznia 2005 r. o recyklingu pojazdów wycofanych z eksploatacji z dnia i ustawa z dnia 20 czerwca 1997 r. Prawo o ruchu drogowym"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 1 ust. 2 ustawy o recyklingu pojazdów wycofanych z eksploatacji"
   },
   {
    "id": 243,
@@ -2676,7 +2674,7 @@
     "c": "w wysokości odpowiednio 50% i 50% masy pojazdów przyjętych do jego stacji demontażu rocznie"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 28 ust. 1 ustawy o recyklingu pojazdów wycofanych z eksploatacji"
   },
   {
    "id": 244,
@@ -2687,7 +2685,7 @@
     "c": "Główny Inspektor Ochrony Środowiska"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 3 ust. 1 ustawy o międzynarodowym przemieszczaniu odpadów"
   },
   {
    "id": 245,
@@ -2698,7 +2696,7 @@
     "c": "odpady niebezpieczne zostały wwiezione na podstawie zezwolenia Głównego Inspektora Ochrony Środowiska"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 11b ustawy o międzynarodowym przemieszczaniu odpadów"
   },
   {
    "id": 246,
@@ -2709,7 +2707,7 @@
     "c": "dokonujący wewnątrzwspólnotowego nabycia opakowań"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 8 pkt 22 ustawy o gospodarce opakowaniami i odpadami opakowaniowymi"
   },
   {
    "id": 247,
@@ -2720,7 +2718,7 @@
     "c": "dokument potwierdzający recykling odpadów opakowaniowych, w tym określający masę tych odpadów i sposób ich recyklingu"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 8 pkt 1 lit. a ustawy o gospodarce opakowaniami i odpadami opakowaniowymi"
   },
   {
    "id": 248,
@@ -2731,7 +2729,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 11 ust. 3 ustawy o gospodarce opakowaniami i odpadami opakowaniowymi"
   },
   {
    "id": 249,
@@ -2742,7 +2740,7 @@
     "c": "przekazuje do marszałka województwa pisemne wyjaśnienie przyczyn nieosiągnięcia wymaganego poziomu recyklingu lub odzysku"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 34 ust. 2 ustawy o gospodarce opakowaniami i odpadami opakowaniowymi"
   },
   {
    "id": 250,
@@ -2753,7 +2751,7 @@
     "c": "rozumie się przez to wszystkie części składowe i podzespoły sprzętu"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 4 pkt 24 ustawy o zużytym sprzęcie elektrycznym i elektronicznym"
   },
   {
    "id": 251,
@@ -2764,7 +2762,7 @@
     "c": "rozumie się przez to baterię i akumulator, w tym ogniwo guzikowe lub zestaw, które są szczelnie zamknięte i mogą być przenoszone w ręku oraz nie stanowią baterii przemysłowej i akumulatora przemysłowego albo baterii samochodowej i akumulatora samochodowego"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 6 pkt 3 ustawy o bateriach i akumulatorach"
   },
   {
    "id": 252,
@@ -2775,7 +2773,7 @@
     "c": "w celu prawidłowego opisu stanu faktycznego na oględzinach wskazane jest używanie sformułowań oceniających skalę stwierdzonego faktu w przybliżeniu (np. około, przypuszczalnie, prawdopodobnie, tuż obok, w pobliżu)"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2 i wytyczne do art. 10b"
   },
   {
    "id": 253,
@@ -2786,7 +2784,7 @@
     "c": "zawiera informację o wykonanej dokumentacji zdjęciowej/audiowizualnej"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "wzór protokołu oględzin (ISK)"
   },
   {
    "id": 254,
@@ -2797,7 +2795,7 @@
     "c": "nie musi zawierać pouczenia o odpowiedzialności karnej za składanie fałszywych zeznań"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2"
   },
   {
    "id": 255,
@@ -2808,7 +2806,7 @@
     "c": "nigdy nie dotyczy kwestii przedłożonej dokumentacji, jak i stanu ujawnionego w trakcie oględzin"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2"
   },
   {
    "id": 256,
@@ -2819,7 +2817,7 @@
     "c": "żadna odpowiedź nie jest poprawna"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2; art. 75 § 1 KPA"
   },
   {
    "id": 257,
@@ -2830,7 +2828,7 @@
     "c": "dokumenty załączane do protokołu kontroli mogą być dołączane w formie kserokopii, bez konieczności potwierdzania ich zgodności z oryginałem"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 258,
@@ -2840,9 +2838,8 @@
     "b": "częstotliwość niedopełniania w przeszłości obowiązku albo naruszania zakazu tego samego rodzaju co niedopełnienie obowiązku albo naruszenie zakazu, w następstwie którego ma być nałożona kara",
     "c": "wszystkie odpowiedzi są poprawne"
    },
-   "poprawna": null,
-   "komentarz": null,
-   "brak_klucza": "zastąpione nowym pytaniem"
+   "poprawna": "c",
+   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 189d pkt 1 i 2 KPA"
   },
   {
    "id": 259,
@@ -2852,9 +2849,8 @@
     "b": "strona na piśmie zobowiąże się do nienaruszania prawa w przyszłości",
     "c": "wszystkie odpowiedzi są poprawne"
    },
-   "poprawna": null,
-   "komentarz": null,
-   "brak_klucza": "zastąpione nowym pytaniem"
+   "poprawna": "a",
+   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 189f § 1 pkt 1 i 2 KPA"
   },
   {
    "id": 260,
@@ -2865,7 +2861,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "ISK 5.1.4"
   },
   {
    "id": 261,
@@ -2875,8 +2871,8 @@
     "b": "złożenia zawiadomienia do prokuratury o popełnieniu przestępstwa polegającego na udaremnieniu lub utrudnieniu wykonania czynności służbowej osobie uprawnionej do przeprowadzenia kontroli w zakresie ochrony środowiska lub osobie przybranej jej do pomocy",
     "c": "obie odpowiedzi są poprawne"
    },
-   "poprawna": "a",
-   "komentarz": null
+   "poprawna": "c",
+   "komentarz": "art. 31c ust. 1 ustawy o IOŚ (kara 10 000–100 000 zł) oraz art. 225 § 1 KK i ISK 5.1.4 (zawiadomienie prokuratury) – obie odpowiedzi są prawdziwe. Uwaga: nieoficjalny klucz 2025 wskazywał a."
   },
   {
    "id": 262,
@@ -2887,8 +2883,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "b",
-   "komentarz": null,
-   "uwaga": "Odpowiedź b) jak w kluczu 2025 (wg tego klucza odmowa podpisania protokołu nie jest utrudnianiem kontroli – por. pyt. 287); opcja c) „wszystkie” odpada."
+   "komentarz": "ISK 5.1.4"
   },
   {
    "id": 263,
@@ -2898,9 +2893,8 @@
     "b": "żądania okazania dokumentów, w tym dokumentów finansowych i udostępnienia wszelkich danych mających związek z problematyką kontroli",
     "c": "wszystkie odpowiedzi są poprawne"
    },
-   "poprawna": null,
-   "komentarz": null,
-   "brak_klucza": "zastąpione nowym pytaniem"
+   "poprawna": "c",
+   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 9 ust. 2 pkt 6 i 7 ustawy o IOŚ"
   },
   {
    "id": 264,
@@ -2910,9 +2904,8 @@
     "b": "obligatoryjnie powołuje w skład zespołu kontrolnego pracownika zatrudnionego w wojewódzkim inspektoracie ochrony środowiska, niebędącego inspektorem Inspekcji Ochrony Środowiska, posiadającego taką wiedzę lub takie umiejętności",
     "c": "może odstąpić od kontroli"
    },
-   "poprawna": null,
-   "komentarz": null,
-   "brak_klucza": "zastąpione nowym pytaniem"
+   "poprawna": "a",
+   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 10c ust. 4–5 ustawy o IOŚ"
   },
   {
    "id": 265,
@@ -2923,7 +2916,7 @@
     "c": "występują o zgodę na ich udostępnienie"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 11 UIŚ"
   },
   {
    "id": 266,
@@ -2934,7 +2927,7 @@
     "c": "wzór wniosku w sprawie udostępniania informacji o środowisku i jego ochronie"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 10 UIŚ"
   },
   {
    "id": 267,
@@ -2945,7 +2938,7 @@
     "c": "władze publiczne pozostawią wniosek o udostępnienia informacji o środowisku i jego ochronie bez rozpoznania"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 16 ust. 2 pkt 2 UIŚ"
   },
   {
    "id": 268,
@@ -2955,9 +2948,8 @@
     "b": "władze publiczne odmawiają udostępnienia informacji o środowisku i jego ochronie",
     "c": "władze publiczne mogą odmówić udostępnienia informacji o środowisku i jego ochronie, jednak nie muszą wcześniej rozważyć interesu publicznego przemawiającego za udostępnieniem informacji w konkretnym przypadku"
    },
-   "poprawna": null,
-   "komentarz": null,
-   "brak_klucza": "zastąpione nowym pytaniem"
+   "poprawna": "a",
+   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 16 ust. 1 pkt 7 UIŚ"
   },
   {
    "id": 269,
@@ -2967,9 +2959,8 @@
     "b": "7 dni od dnia dostarczenia władzom publicznym informacji o wartości handlowej, w tym danych technologicznych, objętych tajemnicą przedsiębiorstwa",
     "c": "30 dni od dnia dostarczenia władzom publicznym informacji o wartości handlowej, w tym danych technologicznych, objętych tajemnicą przedsiębiorstwa"
    },
-   "poprawna": null,
-   "komentarz": null,
-   "brak_klucza": "zmieniona treść pytania i opcji"
+   "poprawna": "a",
+   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 16 ust. 3 UIŚ"
   },
   {
    "id": 270,
@@ -2980,7 +2971,7 @@
     "c": "30 dni. Prokurator może przedłużyć ten czas do 6 miesięcy"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 325i § 1 KPK"
   },
   {
    "id": 271,
@@ -2991,7 +2982,7 @@
     "c": "naraża funkcjonariuszy publicznych na surową odpowiedzialność karną za poświadczenie nieprawdy w tym dokumencie"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "potwierdzenie pośrednie: art. 76 § 1 KPA, art. 11 ust. 3 ustawy o IOŚ"
   },
   {
    "id": 272,
@@ -3002,7 +2993,7 @@
     "c": "żadne z powyższych"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 95 § 2 KPA"
   },
   {
    "id": 273,
@@ -3013,7 +3004,7 @@
     "c": "funkcjonariusza Służby Celno-Skarbowej i pracownika GDDKiA"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "§ 21 ust. 1 rozporządzenia MSWiA z 5.11.2019 w sprawie kontroli ruchu drogowego"
   },
   {
    "id": 274,
@@ -3024,7 +3015,7 @@
     "c": "wyda decyzję o wstrzymaniu tej działalności w zakresie, w jakim jest to niezbędne dla zapobieżenia pogarszaniu stanu środowiska"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 364 POŚ"
   },
   {
    "id": 275,
@@ -3035,7 +3026,7 @@
     "c": "art. 181 §1 Kk"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 182 § 1 KK"
   },
   {
    "id": 276,
@@ -3046,7 +3037,7 @@
     "c": "każdą substancję należącą do jednej z kategorii, określonych w załączniku nr 1 do ustawy o odpadach"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 3 ust. 1 pkt 6 ustawy o odpadach"
   },
   {
    "id": 277,
@@ -3057,7 +3048,7 @@
     "c": "gospodarka odpadami to wytwarzanie odpadów i gospodarowanie odpadami"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 3 ust. 1 pkt 3 ustawy o odpadach"
   },
   {
    "id": 278,
@@ -3068,7 +3059,7 @@
     "c": "skrótem „ex” przed kodem rodzaju odpadu"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "objaśnienie do załącznika rozporządzenia w sprawie katalogu odpadów (Dz.U. 2020 poz. 10)"
   },
   {
    "id": 279,
@@ -3079,7 +3070,7 @@
     "c": "zapobieganie powstawaniu odpadów, recykling, odzysk, unieszkodliwianie, inne procesy przetwarzania"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 17 ust. 1 ustawy o odpadach"
   },
   {
    "id": 280,
@@ -3090,7 +3081,7 @@
     "c": "okres poprzedzający uzyskanie pierwszej ostatecznej decyzji zatwierdzającej instrukcję prowadzenia składowiska odpadów, do zakończenia okresu 30 lat liczonego od dnia zakończenia rekultywacji składowiska odpadów"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 123 ust. 1 ustawy o odpadach"
   },
   {
    "id": 281,
@@ -3101,7 +3092,7 @@
     "c": "procesy unieszkodliwiania, w tym przygotowanie poprzedzające unieszkodliwianie"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 3 ust. 1 pkt 21 ustawy o odpadach"
   },
   {
    "id": 282,
@@ -3112,7 +3103,7 @@
     "c": "podmiot będący rolnikiem gospodarującym na powierzchni użytków rolnych powyżej 75 ha"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 66 ust. 4 ustawy o odpadach"
   },
   {
    "id": 283,
@@ -3123,7 +3114,7 @@
     "c": "jest stała, nie podlega miarkowaniu i wynosi 10000 zł, zgodnie z art. 194 ust. 1 pkt 2c ustawy o odpadach"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 199 i art. 194 ust. 3 ustawy o odpadach"
   },
   {
    "id": 284,
@@ -3134,7 +3125,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "ISK 5.1.2"
   },
   {
    "id": 285,
@@ -3145,7 +3136,7 @@
     "c": "nie musi posiadać załącznika w postaci wyników badań przeprowadzonych pomiarów, mimo że wynika z nich przekroczenie emisji zanieczyszczań. Krótka wzmianka w treści protokołu kontroli jest wystarczająca, by podjąć czynności pokontrolne (np. wymierzyć administracyjną karę pieniężną)"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2"
   },
   {
    "id": 286,
@@ -3156,7 +3147,7 @@
     "c": "wpisanie w treść protokołu kontroli, że organ stwierdził, że kontrolowany podmiot przekształcał termicznie odpady tworzyw sztucznych w piecu centralnego ogrzewania, ponieważ w trakcie kontroli był wyczuwalny duszący zapach na terenie zakładu"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2"
   },
   {
    "id": 287,
@@ -3167,7 +3158,7 @@
     "c": "udaremnianie przeprowadzenia kontroli oznacza odmowę podpisania protokołu kontroli"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "ISK 5.1.4"
   },
   {
    "id": 288,
@@ -3178,7 +3169,7 @@
     "c": "złożyć wniosek do Głównego Inspektora Ochrony Środowiska o przejęcie sprawy"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "ISK 5.1.4"
   },
   {
    "id": 289,
@@ -3189,7 +3180,7 @@
     "c": "kontrolowany nie okazał decyzji o środowiskowych wymaganiach"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 365 ust. 2 pkt 1 POŚ"
   },
   {
    "id": 290,
@@ -3200,7 +3191,7 @@
     "c": "planowany charakter kontroli"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 291,
@@ -3211,7 +3202,7 @@
     "c": "dane wymienione w ppkt a) i b) i inne informacje"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
   },
   {
    "id": 292,
@@ -3222,7 +3213,7 @@
     "c": "zbieranie odpadów"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 3 ust. 1 pkt 2–3 ustawy o odpadach"
   },
   {
    "id": 293,
@@ -3233,7 +3224,7 @@
     "c": "niezanieczyszczonej gleby i innych materiałów występujących w stanie naturalnym, wydobyte w trakcie robót budowlanych, pod warunkiem, że materiał ten zostanie wykorzystany na cele budowlane"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 2 pkt 2 ustawy o odpadach"
   },
   {
    "id": 294,
@@ -3243,8 +3234,8 @@
     "b": "pozostałości z sortowania odpadów komunalnych",
     "c": "prawidłowe są odpowiedzi a i b"
    },
-   "poprawna": "a",
-   "komentarz": null
+   "poprawna": "c",
+   "komentarz": "art. 23 ust. 2 ustawy o odpadach – zakaz obejmuje komunalne osady ściekowe oraz pozostałości z sortowania odpadów komunalnych (te drugie, o ile są przeznaczone do składowania). Uwaga: pytanie na styk – nieoficjalny klucz 2025 wskazywał a."
   },
   {
    "id": 295,
@@ -3255,7 +3246,7 @@
     "c": "odbywa się na terenie, do którego posiadacz odpadów ma tytuł prawny"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 25 ust. 2 ustawy o odpadach"
   },
   {
    "id": 296,
@@ -3266,7 +3257,7 @@
     "c": "rok"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 32 ust. 5 ustawy o odpadach"
   },
   {
    "id": 297,
@@ -3277,7 +3268,7 @@
     "c": "skutków tych naruszeń i wielkości zagrożenia"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 199 ustawy o odpadach"
   },
   {
    "id": 298,
@@ -3288,7 +3279,7 @@
     "c": "przez Głównego Inspektora Transportu Drogowego w oparciu o decyzje administracyjne GIOŚ ws. międzynarodowego przemieszczania odpadów"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 12 ust. 1 ustawy o międzynarodowym przemieszczaniu odpadów"
   },
   {
    "id": 299,
@@ -3299,7 +3290,7 @@
     "c": "prowadzących zbieranie odpadów pochodzących z importu"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 15 ust. 1 ustawy o międzynarodowym przemieszczaniu odpadów"
   },
   {
    "id": 300,
@@ -3310,7 +3301,7 @@
     "c": "przemieszczeniem legalnym, z naruszeniem warunków zezwolenia"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach – sporne: za kluczem c – art. 33 ust. 3 pkt 1 ustawy o międzynarodowym przemieszczaniu odpadów; za b – art. 3 pkt 26 lit. d rozporządzenia (UE) 2024/1157"
   },
   {
    "id": 301,
@@ -3321,7 +3312,7 @@
     "c": "na wniosek strony zapewnić jej udział w postępowania"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 10 § 1 KPA"
   },
   {
    "id": 302,
@@ -3332,7 +3323,7 @@
     "c": "wszczęcia postępowania, dopuszczenia jej do udziału w postępowaniu, jeżeli organ administracji uzna to za stosowane"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 31 § 1 KPA"
   },
   {
    "id": 303,
@@ -3343,7 +3334,7 @@
     "c": "obie odpowiedzi są prawidłowe"
    },
    "poprawna": "c",
-   "komentarz": null
+   "komentarz": "art. 37 § 3 KPA"
   },
   {
    "id": 304,
@@ -3354,7 +3345,7 @@
     "c": "termin upływa tego dnia, który jest dniem wolnym od pracy lub sobotą"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 57 § 4 KPA"
   },
   {
    "id": 305,
@@ -3365,7 +3356,7 @@
     "c": "oznaczenia organu administracji"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 107 § 1 KPA"
   },
   {
    "id": 306,
@@ -3376,7 +3367,7 @@
     "c": "wstrzymać działania kontrolne"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 28f ust. 4 ustawy o IOŚ"
   },
   {
    "id": 307,
@@ -3387,7 +3378,7 @@
     "c": "wyłącznie po zatwierdzeniu przez ministra właściwego do spraw klimatu"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 28f ust. 7 ustawy o IOŚ"
   },
   {
    "id": 308,
@@ -3397,8 +3388,8 @@
     "b": "gdy obecny jest funkcjonariusz publiczny niebędący pracownikiem WIOŚ",
     "c": "gdy miejsce pobrania próbek zostało wskazane w decyzji określającej warunki korzystania ze środowiska"
    },
-   "poprawna": "c",
-   "komentarz": null
+   "poprawna": "b",
+   "komentarz": "art. 50 ust. 5 Prawa przedsiębiorców, ISK 5.1.2 i 5.1.4 – pod nieobecność kontrolowanego czynności wykonuje się przy przywołanym świadku, funkcjonariuszu publicznym niebędącym pracownikiem organu kontroli. Uwaga: nieoficjalny klucz 2025 wskazywał c (brak podstawy w ustawie o IOŚ)."
   },
   {
    "id": 309,
@@ -3409,7 +3400,7 @@
     "c": "zawrzeć umowę na wykonanie badań, w tym pobieranie próbek, wykonywanie pomiarów i analiz z inną jednostką posiadającą akredytację w rozumieniu ustawy o systemach oceny zgodności i nadzoru rynku"
    },
    "poprawna": "a",
-   "komentarz": null
+   "komentarz": "art. 28f ust. 4 ustawy o IOŚ"
   },
   {
    "id": 310,
@@ -3420,7 +3411,7 @@
     "c": "na podstawie porozumienia zawartego pomiędzy Głównym Inspektorem Ochrony Środowiska a wojewódzkim inspektorem ochrony środowiska w sprawie zakresu i sposobu realizacji przez centralne laboratorium badawcze badań, w tym pobierania próbek, wykonywania pomiarów i analiz na potrzeby działań kontrolnych"
    },
    "poprawna": "b",
-   "komentarz": null
+   "komentarz": "art. 28f ust. 7 ustawy o IOŚ"
   },
   {
    "id": 311,
@@ -3430,9 +3421,8 @@
     "b": "jednostki handlu detalicznego w której użytkownikom końcowym są oferowane produkty będące napojami w opakowaniach na napoje objętych systemem kaucyjnym o powierzchni sprzedaży powyżej 200 m2",
     "c": "jednostki handlu hurtowego w której użytkownikom końcowym są oferowane produkty będące napojami w opakowaniach na napoje objętych systemem kaucyjnym o powierzchni sprzedaży poniżej 200 m2"
    },
-   "poprawna": null,
-   "komentarz": null,
-   "brak_klucza": "nowe pytanie"
+   "poprawna": "b",
+   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 44 ust. 2 ustawy o gospodarce opakowaniami i odpadami opakowaniowymi"
   },
   {
    "id": 312,
@@ -3442,9 +3432,8 @@
     "b": "zasada bezstronności",
     "c": "zasada rzetelności"
    },
-   "poprawna": null,
-   "komentarz": null,
-   "brak_klucza": "nowe pytanie"
+   "poprawna": "a",
+   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – § 13 zarządzenia nr 70 PRM z 6.10.2011 (legalizm to zasada służby cywilnej z § 1, nie zasada etyki)"
   },
   {
    "id": 313,
@@ -3454,9 +3443,8 @@
     "b": "rzeczywisty, formalny, postrzegany",
     "c": "rzeczywisty, potencjalny, postrzegany"
    },
-   "poprawna": null,
-   "komentarz": null,
-   "brak_klucza": "nowe pytanie"
+   "poprawna": "c",
+   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – rządowy poradnik „Konflikt interesów – czym jest i jak go unikać” (źródło pozaustawowe)"
   },
   {
    "id": 314,
@@ -3466,9 +3454,8 @@
     "b": "Przed rozpoczęciem kontroli inspektor wiodący jest zobowiązany do złożenia oświadczenia o braku podstaw do wyłączenia z kontroli",
     "c": "Przed rozpoczęciem kontroli każda osoba biorąca udział kontroli jest zobowiązana do przekazania przedsiębiorcy oświadczenia o braku podstaw do wyłączenia z kontroli"
    },
-   "poprawna": null,
-   "komentarz": null,
-   "brak_klucza": "nowe pytanie"
+   "poprawna": "a",
+   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – ISK 4.1 i załącznik 4.1.13"
   }
  ]
 }
