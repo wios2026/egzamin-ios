@@ -469,7 +469,7 @@ function viewHome() {
     </div>
     <h2>Wybierz tryb nauki</h2>
     <div class="row" style="margin-bottom:10px"><label class="small muted">Długość sesji
-      <select id="limit">${[[10, '10 pytań'], [20, '20 pytań'], [50, '50 pytań'], [0, 'bez limitu']].map(([v, l]) => `<option value="${v}" ${settings.limit === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label></div>
+      <select id="limit">${[[10, '10 pytań'], [20, '20 pytań'], [50, '50 pytań'], [100, '100 pytań'], [0, 'bez limitu']].map(([v, l]) => `<option value="${v}" ${settings.limit === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label></div>
     ${mode('mix', 'Mieszany (zalecany)', 'Nowe i trudne pytania pojawiają się częściej, opanowane rzadziej', true)}
     ${mode('seq', 'Po kolei', `Wszystkie pytania w kolejności z pliku, od nr ${esc(seqAt)}`)}
     ${mode('new', 'Jeszcze nieodpowiadane', 'Pytania, na które jeszcze nie odpowiadałeś(aś)')}
