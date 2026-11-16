@@ -133,7 +133,7 @@
     "c": "temperaturę, odczyn, poziom substancji promieniotwórczych i stopień rozcieńczenia ścieków eliminujący toksyczne oddziaływanie ścieków na ryby"
    },
    "poprawna": "c",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "eliminacja opcji oczywiście błędnych: art. 79 i art. 283 ust. 1 Prawa wodnego odróżniają „stan” ścieków od ich „składu” i „ilości” (definicji ustawowej „stanu ścieków” brak)"
   },
   {
    "id": 13,
@@ -419,7 +419,7 @@
     "c": "odczynu"
    },
    "poprawna": "c",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "wiedza ogólna"
   },
   {
    "id": 39,
@@ -496,7 +496,7 @@
     "c": "gdy z istnienia określonych faktów wnioskuje się o innych faktach"
    },
    "poprawna": "c",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "art. 231 Kodeksu postępowania cywilnego (domniemanie faktyczne)"
   },
   {
    "id": 46,
@@ -628,7 +628,7 @@
     "c": "nadają się do bezpośredniego odzysku w piecach ogrzewania centralnego w gospodarstwach domowych"
    },
    "poprawna": "a",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "potwierdzenie pośrednie: opcje b i c są sprzeczne z katalogiem odpadów (17 02 04* to odpad niebezpieczny) i z art. 155 ustawy o odpadach; o objęciu ADR decydują kryteria klasyfikacyjne ADR, nie kod odpadu (art. 2 pkt 4 ustawy o przewozie towarów niebezpiecznych)"
   },
   {
    "id": 58,
@@ -749,7 +749,7 @@
     "c": "domniemanie na podstawie przedstawionej dokumentacji fotograficznej stanu faktycznego"
    },
    "poprawna": "b",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "eliminacja opcji oczywiście błędnych"
   },
   {
    "id": 69,
@@ -760,7 +760,7 @@
     "c": "nie są określone zasady prowadzenia oględzin"
    },
    "poprawna": "b",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "potwierdzenie pośrednie: materiały Policji „Zasady i sposoby prowadzenia oględzin” wymieniają 10 z 12 zasad; opcje a i c oczywiście błędne"
   },
   {
    "id": 70,
@@ -771,7 +771,7 @@
     "c": "jest 9 najważniejszych zasad sporządzania protokołu oględzin\n1) zasada komunikatywności\n2) zasada stosowania odpowiednich form gramatycznych\n3) zasada dokładności\n4) zasada zwięzłości opisu\n5) zasada bezpośredniości\n6) zasada obiektywizmu\n7) zasada zgodności dokumentacyjnej\n8) zasada jednolitego nazewnictwa\n9) zasada systematyczności"
    },
    "poprawna": "c",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "materiały Policji „Zasady sporządzania protokołu oględzin” – 9 zasad"
   },
   {
    "id": 71,
@@ -782,7 +782,7 @@
     "c": "protokół oględzin składa się z 3 części\n1) wstępnej\n2) opisowej\n3) końcowej"
    },
    "poprawna": "c",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "eliminacja opcji oczywiście błędnych"
   },
   {
    "id": 72,
@@ -793,7 +793,7 @@
     "c": "naprzemienne stosowanie metody obiektywnej i subiektywnej w miejscu poddanym oględzinom"
    },
    "poprawna": "a",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "materiały Policji „Zasady i sposoby prowadzenia oględzin” – metoda obiektywna i subiektywna"
   },
   {
    "id": 73,
@@ -903,7 +903,7 @@
     "c": "Główny Inspektor Ochrony Środowiska"
    },
    "poprawna": "b",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "eliminacja opcji oczywiście błędnych; art. 150 ust. 1 POŚ – dodatkowe obowiązki pomiarowe może nałożyć organ ochrony środowiska (przepisu wprost o stanowisku pomiarowym brak)"
   },
   {
    "id": 83,
@@ -914,7 +914,7 @@
     "c": "źródła emisji opalane ekogroszkiem w zabudowie jednorodzinnej"
    },
    "poprawna": "a",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "LCP i MCP to skróty z dyrektyw 2010/75/UE (duże obiekty energetycznego spalania) i (UE) 2015/2193 (średnie obiekty energetycznego spalania); polskie rozporządzenie pomiarowe tych skrótów nie używa"
   },
   {
    "id": 84,
@@ -925,7 +925,7 @@
     "c": "podmiot nie posiada decyzji o dopuszczalnym poziomie hałasu, ale organ ochrony środowiska prowadzi postepowanie celem jego wydania"
    },
    "poprawna": "a",
-   "komentarz": "potwierdzenie pośrednie: art. 115a POŚ, lista kontrolna ISK 1.2.4"
+   "komentarz": "potwierdzenie pośrednie: art. 115a POŚ, lista kontrolna ISK 1.2.4; eliminacja opcji oczywiście błędnych"
   },
   {
    "id": 85,
@@ -1145,7 +1145,7 @@
     "c": "wszystkie odpowiedzi są prawidłowe"
    },
    "poprawna": "c",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "wiedza ogólna"
   },
   {
    "id": 105,
@@ -1167,7 +1167,7 @@
     "c": "wyłącznie pracownik będący Inspektorem Inspekcji Ochrony Środowiska"
    },
    "poprawna": "b",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "eliminacja opcji oczywiście błędnych"
   },
   {
    "id": 107,
@@ -1409,7 +1409,7 @@
     "c": "osobistą, cywilną i administracyjną"
    },
    "poprawna": "b",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "wiedza ogólna"
   },
   {
    "id": 129,
@@ -1420,7 +1420,7 @@
     "c": "Kodeksie karnym i ustawach administracyjnego prawa materialnego z zakresu ochrony środowiska"
    },
    "poprawna": "c",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "wiedza ogólna"
   },
   {
    "id": 130,
@@ -2399,7 +2399,7 @@
     "c": "wyłącznie w przypadku, gdy kontrola była prowadzona w zakładach kategorii wysokiego i średniego ryzyka"
    },
    "poprawna": "b",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "regulacje wewnętrzne WIOŚ (praktyka; przepisu ani dokumentu ISK nie wskazano)"
   },
   {
    "id": 219,
@@ -2410,7 +2410,7 @@
     "c": "inspektor wykonujący kontrolę"
    },
    "poprawna": "c",
-   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 – inspektor wprowadza dane dotyczące kontroli do bazy ISK"
+   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 – inspektor wprowadza dane dotyczące kontroli do bazy ISK; eliminacja opcji oczywiście błędnych"
   },
   {
    "id": 220,
@@ -2432,7 +2432,7 @@
     "c": "wprowadzenie do ISK działań pokontrolnych"
    },
    "poprawna": "b",
-   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 – status kontroli („zakończona” / „w trakcie realizacji”)"
+   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 – status kontroli („zakończona” / „w trakcie realizacji”); eliminacja opcji oczywiście błędnych"
   },
   {
    "id": 222,
@@ -2465,7 +2465,7 @@
     "c": "Rejestru kontroli"
    },
    "poprawna": "b",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "ISK 1.1 – taryfikator mandatów to rozdział 1 części IV dokumentacji ISK („Dokumentacja dostępna w formie elektronicznej”); dokumentacja ISK jest w systemie dostępna jako Rejestr dokumentów systemu kontroli (zweryfikowane w systemie ISK)"
   },
   {
    "id": 225,
@@ -2476,7 +2476,7 @@
     "c": "przeprowadzonych instruktaży"
    },
    "poprawna": "a",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "w Rejestrze działań pokontrolnych wprowadza się zarządzenia pokontrolne (zweryfikowane w systemie ISK); ISK 6 wymienia zarządzenie pokontrolne wśród działań pokontrolnych"
   },
   {
    "id": 226,
@@ -2828,7 +2828,7 @@
     "c": "dokumenty załączane do protokołu kontroli mogą być dołączane w formie kserokopii, bez konieczności potwierdzania ich zgodności z oryginałem"
    },
    "poprawna": "b",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "eliminacja opcji oczywiście błędnych; wiedza ogólna"
   },
   {
    "id": 258,
@@ -2982,7 +2982,7 @@
     "c": "naraża funkcjonariuszy publicznych na surową odpowiedzialność karną za poświadczenie nieprawdy w tym dokumencie"
    },
    "poprawna": "a",
-   "komentarz": "potwierdzenie pośrednie: art. 76 § 1 KPA, art. 11 ust. 3 ustawy o IOŚ"
+   "komentarz": "potwierdzenie pośrednie: art. 76 § 1 KPA, art. 11 ust. 3 ustawy o IOŚ; eliminacja opcji oczywiście błędnych"
   },
   {
    "id": 272,
@@ -3136,7 +3136,7 @@
     "c": "nie musi posiadać załącznika w postaci wyników badań przeprowadzonych pomiarów, mimo że wynika z nich przekroczenie emisji zanieczyszczań. Krótka wzmianka w treści protokołu kontroli jest wystarczająca, by podjąć czynności pokontrolne (np. wymierzyć administracyjną karę pieniężną)"
    },
    "poprawna": "b",
-   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2"
+   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2; eliminacja opcji oczywiście błędnych"
   },
   {
    "id": 286,
@@ -3147,7 +3147,7 @@
     "c": "wpisanie w treść protokołu kontroli, że organ stwierdził, że kontrolowany podmiot przekształcał termicznie odpady tworzyw sztucznych w piecu centralnego ogrzewania, ponieważ w trakcie kontroli był wyczuwalny duszący zapach na terenie zakładu"
    },
    "poprawna": "a",
-   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2"
+   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2; eliminacja opcji oczywiście błędnych"
   },
   {
    "id": 287,
@@ -3191,7 +3191,7 @@
     "c": "planowany charakter kontroli"
    },
    "poprawna": "a",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "eliminacja opcji oczywiście błędnych; kierunek zgodny z ISK 5.1.2 i 5.2"
   },
   {
    "id": 291,
@@ -3202,7 +3202,7 @@
     "c": "dane wymienione w ppkt a) i b) i inne informacje"
    },
    "poprawna": "c",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "wiedza ogólna"
   },
   {
    "id": 292,
