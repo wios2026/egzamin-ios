@@ -1,6 +1,6 @@
 'use strict';
 /* Egzamin IOŚ – aplikacja do nauki. Bez zależności, dane tylko lokalnie (localStorage). */
-const APP_VERSION = '1.0.4';
+const APP_VERSION = '1.0.5';
 
 /* ---------- narzędzia ---------- */
 const $ = (s, el = document) => el.querySelector(s);
@@ -214,10 +214,6 @@ const actions = {
   quit() {
     if (session.mode === 'one') { finishSession(); return; }
     session.done = true; go('#/summary');
-  },
-  exit() {
-    try { window.close(); } catch (e) { /* ignoruj */ }
-    setTimeout(() => { if (!document.hidden) toast('Przeglądarka nie pozwala aplikacji zamknąć się samej. Zamknij ją gestem lub przyciskiem systemowym – postęp jest zapisany.'); }, 400);
   },
   start({ mode }) { startSession(mode); },
   open({ id }) { startSession('one', { id, returnTo: location.hash }); },
@@ -478,8 +474,6 @@ function route() {
   const fn = routes[name] || viewHome;
   document.querySelectorAll('#nav a').forEach(a => a.classList.toggle('on', a.dataset.r === (name === 'q' || name === 'summary' ? 'home' : name)));
   fn(); window.scrollTo(0, 0);
-  const h = name === 'q' ? null : view().querySelector('h1'); // przycisk wyjścia z aplikacji (✕) w prawym górnym rogu
-  if (h) { h.classList.add('hx'); h.insertAdjacentHTML('beforeend', '<button class="btn ghost xbtn" data-act="exit" aria-label="Wyjdź z aplikacji" title="Wyjdź z aplikacji">✕</button>'); }
 }
 function applyLook() {
   const r = document.documentElement;
