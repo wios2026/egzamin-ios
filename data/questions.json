@@ -1,7 +1,7 @@
 {
  "zbior": "ios-2026-vii",
  "nazwa": "Egzamin IOŚ – część 1, VII edycja (2026)",
- "wersja": "2026-11-16",
+ "wersja": "2026-11-17",
  "pytania": [
   {
    "id": 1,
@@ -1156,7 +1156,7 @@
     "c": "wszystkie wskazane odpowiedzi są prawidłowe"
    },
    "poprawna": "a",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach"
+   "komentarz": "materiały z kursu na inspektora IOŚ (prezentacja)"
   },
   {
    "id": 106,
@@ -2399,7 +2399,7 @@
     "c": "wyłącznie w przypadku, gdy kontrola była prowadzona w zakładach kategorii wysokiego i średniego ryzyka"
    },
    "poprawna": "b",
-   "komentarz": "regulacje wewnętrzne WIOŚ (praktyka; przepisu ani dokumentu ISK nie wskazano)"
+   "komentarz": "ISK 5.1.3 „Zakończenie kontroli”: „Skan podpisanego protokołu kontroli należy zamieścić w ISK” – bez żadnego warunku (inaczej niż w ISK 5.3 przy adnotacjach z kontroli dokumentacyjnej)"
   },
   {
    "id": 219,
@@ -2839,7 +2839,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "c",
-   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 189d pkt 1 i 2 KPA"
+   "komentarz": "nowe pytanie w 2026 – art. 189d pkt 1 i 2 KPA"
   },
   {
    "id": 259,
@@ -2850,7 +2850,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "a",
-   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 189f § 1 pkt 1 i 2 KPA"
+   "komentarz": "nowe pytanie w 2026 – art. 189f § 1 pkt 1 i 2 KPA"
   },
   {
    "id": 260,
@@ -2894,7 +2894,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "c",
-   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 9 ust. 2 pkt 6 i 7 ustawy o IOŚ"
+   "komentarz": "nowe pytanie w 2026 – art. 9 ust. 2 pkt 6 i 7 ustawy o IOŚ"
   },
   {
    "id": 264,
@@ -2905,7 +2905,7 @@
     "c": "może odstąpić od kontroli"
    },
    "poprawna": "a",
-   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 10c ust. 4–5 ustawy o IOŚ"
+   "komentarz": "nowe pytanie w 2026 – art. 10c ust. 4–5 ustawy o IOŚ"
   },
   {
    "id": 265,
@@ -2949,7 +2949,7 @@
     "c": "władze publiczne mogą odmówić udostępnienia informacji o środowisku i jego ochronie, jednak nie muszą wcześniej rozważyć interesu publicznego przemawiającego za udostępnieniem informacji w konkretnym przypadku"
    },
    "poprawna": "a",
-   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 16 ust. 1 pkt 7 UIŚ"
+   "komentarz": "nowe pytanie w 2026 – art. 16 ust. 1 pkt 7 UIŚ"
   },
   {
    "id": 269,
@@ -2960,7 +2960,7 @@
     "c": "30 dni od dnia dostarczenia władzom publicznym informacji o wartości handlowej, w tym danych technologicznych, objętych tajemnicą przedsiębiorstwa"
    },
    "poprawna": "a",
-   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 16 ust. 3 UIŚ"
+   "komentarz": "nowe pytanie w 2026 – art. 16 ust. 3 UIŚ"
   },
   {
    "id": 270,
@@ -3234,8 +3234,8 @@
     "b": "pozostałości z sortowania odpadów komunalnych",
     "c": "prawidłowe są odpowiedzi a i b"
    },
-   "poprawna": "c",
-   "komentarz": "art. 23 ust. 2 ustawy o odpadach – zakaz obejmuje komunalne osady ściekowe oraz pozostałości z sortowania odpadów komunalnych (te drugie, o ile są przeznaczone do składowania). Uwaga: pytanie na styk – nieoficjalny klucz 2025 wskazywał a."
+   "poprawna": "a",
+   "komentarz": "art. 23 ust. 2 ustawy o odpadach – zakaz zbierania poza miejscem wytwarzania obejmuje komunalne osady ściekowe oraz pozostałości z sortowania odpadów komunalnych, ale te drugie tylko „o ile są przeznaczone do składowania”; stąd odpowiedź a. Uwaga: pytanie niejednoznaczne interpretacyjnie (odpowiedź c też da się obronić). Nieoficjalny klucz 2025 wskazywał a."
   },
   {
    "id": 295,
@@ -3301,7 +3301,7 @@
     "c": "przemieszczeniem legalnym, z naruszeniem warunków zezwolenia"
    },
    "poprawna": "c",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach – sporne: za kluczem c – art. 33 ust. 3 pkt 1 ustawy o międzynarodowym przemieszczaniu odpadów; za b – art. 3 pkt 26 lit. d rozporządzenia (UE) 2024/1157"
+   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach – sporne: za c – art. 33 ust. 3 pkt 1 oraz art. 6 ust. 1 pkt 6 ustawy o międzynarodowym przemieszczaniu odpadów (GIOŚ określa w zezwoleniu trasę przewozu); za b – art. 3 pkt 26 lit. d rozporządzenia (UE) 2024/1157"
   },
   {
    "id": 301,
@@ -3422,7 +3422,7 @@
     "c": "jednostki handlu hurtowego w której użytkownikom końcowym są oferowane produkty będące napojami w opakowaniach na napoje objętych systemem kaucyjnym o powierzchni sprzedaży poniżej 200 m2"
    },
    "poprawna": "b",
-   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – art. 44 ust. 2 ustawy o gospodarce opakowaniami i odpadami opakowaniowymi"
+   "komentarz": "nowe pytanie w 2026 – art. 44 ust. 2 ustawy o gospodarce opakowaniami i odpadami opakowaniowymi"
   },
   {
    "id": 312,
@@ -3433,7 +3433,7 @@
     "c": "zasada rzetelności"
    },
    "poprawna": "a",
-   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – § 13 zarządzenia nr 70 PRM z 6.10.2011 (legalizm to zasada służby cywilnej z § 1, nie zasada etyki)"
+   "komentarz": "nowe pytanie w 2026 – § 13 zarządzenia nr 70 PRM z 6.10.2011 (legalizm to zasada służby cywilnej z § 1, nie zasada etyki)"
   },
   {
    "id": 313,
@@ -3444,7 +3444,7 @@
     "c": "rzeczywisty, potencjalny, postrzegany"
    },
    "poprawna": "c",
-   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – rządowy poradnik „Konflikt interesów – czym jest i jak go unikać” (źródło pozaustawowe)"
+   "komentarz": "nowe pytanie w 2026 – rządowy poradnik „Konflikt interesów – czym jest i jak go unikać” (źródło pozaustawowe)"
   },
   {
    "id": 314,
@@ -3455,7 +3455,7 @@
     "c": "Przed rozpoczęciem kontroli każda osoba biorąca udział kontroli jest zobowiązana do przekazania przedsiębiorcy oświadczenia o braku podstaw do wyłączenia z kontroli"
    },
    "poprawna": "a",
-   "komentarz": "nowe pytanie w 2026, propozycja odpowiedzi – ISK 4.1 i załącznik 4.1.13"
+   "komentarz": "nowe pytanie w 2026 – ISK 4.1 i załącznik 4.1.13"
   }
  ]
 }
