@@ -1,12 +1,14 @@
 // Service worker: działanie offline.
 // UWAGA: po zmianie plików aplikacji (app.js, style.css, index.html) zwiększ numer w CACHE.
 // Plik data/questions.json jest pobierany "najpierw z sieci" – jego podmiana na serwerze wystarcza.
-const CACHE = 'gios-nauka-v7';
+const CACHE = 'gios-nauka-v8';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest',
   'data/questions.json', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)));
+  // cache: 'reload' – pobieraj świeże pliki z serwera, a nie z pamięci podręcznej przeglądarki (GitHub Pages trzyma ją do 10 min)
+  e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u =>
+    fetch(new Request(u, { cache: 'reload' })).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status + ' ' + u); return c.put(u, r); })))));
 });
 self.addEventListener('activate', e => {
   e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))));
