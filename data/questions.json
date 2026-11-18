@@ -1,7 +1,7 @@
 {
  "zbior": "ios-2026-vii",
  "nazwa": "Egzamin IOŚ – część 1, VII edycja (2026)",
- "wersja": "2026-11-17",
+ "wersja": "2026-11-18",
  "pytania": [
   {
    "id": 1,
@@ -100,7 +100,7 @@
     "c": "obie odpowiedzi są prawdziwe"
    },
    "poprawna": "c",
-   "komentarz": "potwierdzenie pośrednie: art. 86–88 Prawa wodnego"
+   "komentarz": "potwierdzenie pośrednie: art. 86–88 Prawa wodnego; prezentacja z kursu: „34. Ścieki + woda cz. II”, sl. 5 (cel KPOŚK – pośrednio)."
   },
   {
    "id": 10,
@@ -133,7 +133,7 @@
     "c": "temperaturę, odczyn, poziom substancji promieniotwórczych i stopień rozcieńczenia ścieków eliminujący toksyczne oddziaływanie ścieków na ryby"
    },
    "poprawna": "c",
-   "komentarz": "eliminacja opcji oczywiście błędnych: art. 79 i art. 283 ust. 1 Prawa wodnego odróżniają „stan” ścieków od ich „składu” i „ilości” (definicji ustawowej „stanu ścieków” brak)"
+   "komentarz": "art. 283 ust. 3 Prawa wodnego (definicja stanu ścieków: temperatura, odczyn, poziom substancji promieniotwórczych i stopień rozcieńczenia ścieków eliminujący toksyczne oddziaływanie na ryby – wg prezentacji z kursu, do weryfikacji w tekście ustawy); prezentacja z kursu: „34. Ścieki + woda cz. II”, sl. 59."
   },
   {
    "id": 13,
@@ -419,7 +419,7 @@
     "c": "odczynu"
    },
    "poprawna": "c",
-   "komentarz": "wiedza ogólna"
+   "komentarz": "wiedza ogólna; prezentacja z kursu: „49. Kontrola w terenie bez ustalonego podmiotu”, sl. 32 (pH-metr – pomiar odczynu)."
   },
   {
    "id": 39,
@@ -496,7 +496,7 @@
     "c": "gdy z istnienia określonych faktów wnioskuje się o innych faktach"
    },
    "poprawna": "c",
-   "komentarz": "art. 231 Kodeksu postępowania cywilnego (domniemanie faktyczne)"
+   "komentarz": "art. 231 Kodeksu postępowania cywilnego (domniemanie faktyczne); prezentacja z kursu: „05. Zabezpieczanie i pozyskiwanie materiału dowodowego cz. I”, sl. 20."
   },
   {
    "id": 46,
@@ -507,7 +507,7 @@
     "c": "funkcjonariusze KAS, ITD oraz UTK zaangażowani w zwalczanie przestępczości środowiskowej"
    },
    "poprawna": "a",
-   "komentarz": "najlepsza z opcji; por. art. 178 i art. 192 § 2 KPK"
+   "komentarz": "najlepsza z opcji; por. art. 178 i art. 192 § 2 KPK; prezentacja z kursu: „28. Postępowanie administracyjne cz. III i cz. IV”, sl. 81 (kto nie może być świadkiem); „05. Zabezpieczanie i pozyskiwanie materiału dowodowego cz. I”, sl. 31."
   },
   {
    "id": 47,
@@ -628,7 +628,7 @@
     "c": "nadają się do bezpośredniego odzysku w piecach ogrzewania centralnego w gospodarstwach domowych"
    },
    "poprawna": "a",
-   "komentarz": "potwierdzenie pośrednie: opcje b i c są sprzeczne z katalogiem odpadów (17 02 04* to odpad niebezpieczny) i z art. 155 ustawy o odpadach; o objęciu ADR decydują kryteria klasyfikacyjne ADR, nie kod odpadu (art. 2 pkt 4 ustawy o przewozie towarów niebezpiecznych)"
+   "komentarz": "potwierdzenie pośrednie: opcje b i c są sprzeczne z katalogiem odpadów (17 02 04* to odpad niebezpieczny) i z art. 155 ustawy o odpadach; o objęciu ADR decydują kryteria klasyfikacyjne ADR, nie kod odpadu (art. 2 pkt 4 ustawy o przewozie towarów niebezpiecznych); prezentacja z kursu: „48. Kontrola środków transportu”, sl. 38 (17 02 04* – nie podlega przepisom ADR)."
   },
   {
    "id": 58,
@@ -749,7 +749,7 @@
     "c": "domniemanie na podstawie przedstawionej dokumentacji fotograficznej stanu faktycznego"
    },
    "poprawna": "b",
-   "komentarz": "eliminacja opcji oczywiście błędnych"
+   "komentarz": "eliminacja opcji oczywiście błędnych; prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 8."
   },
   {
    "id": 69,
@@ -760,7 +760,7 @@
     "c": "nie są określone zasady prowadzenia oględzin"
    },
    "poprawna": "b",
-   "komentarz": "potwierdzenie pośrednie: materiały Policji „Zasady i sposoby prowadzenia oględzin” wymieniają 10 z 12 zasad; opcje a i c oczywiście błędne"
+   "komentarz": "potwierdzenie pośrednie: materiały Policji „Zasady i sposoby prowadzenia oględzin” wymieniają 10 z 12 zasad; opcje a i c oczywiście błędne; prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 20–28 (12 zasad prowadzenia oględzin)."
   },
   {
    "id": 70,
@@ -771,7 +771,7 @@
     "c": "jest 9 najważniejszych zasad sporządzania protokołu oględzin\n1) zasada komunikatywności\n2) zasada stosowania odpowiednich form gramatycznych\n3) zasada dokładności\n4) zasada zwięzłości opisu\n5) zasada bezpośredniości\n6) zasada obiektywizmu\n7) zasada zgodności dokumentacyjnej\n8) zasada jednolitego nazewnictwa\n9) zasada systematyczności"
    },
    "poprawna": "c",
-   "komentarz": "materiały Policji „Zasady sporządzania protokołu oględzin” – 9 zasad"
+   "komentarz": "materiały Policji „Zasady sporządzania protokołu oględzin” – 9 zasad; prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 35–42 (zasady sporządzania protokołu oględzin)."
   },
   {
    "id": 71,
@@ -782,7 +782,7 @@
     "c": "protokół oględzin składa się z 3 części\n1) wstępnej\n2) opisowej\n3) końcowej"
    },
    "poprawna": "c",
-   "komentarz": "eliminacja opcji oczywiście błędnych"
+   "komentarz": "eliminacja opcji oczywiście błędnych; prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 43."
   },
   {
    "id": 72,
@@ -793,7 +793,7 @@
     "c": "naprzemienne stosowanie metody obiektywnej i subiektywnej w miejscu poddanym oględzinom"
    },
    "poprawna": "a",
-   "komentarz": "materiały Policji „Zasady i sposoby prowadzenia oględzin” – metoda obiektywna i subiektywna"
+   "komentarz": "materiały Policji „Zasady i sposoby prowadzenia oględzin” – metoda obiektywna i subiektywna; prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 52."
   },
   {
    "id": 73,
@@ -903,7 +903,7 @@
     "c": "Główny Inspektor Ochrony Środowiska"
    },
    "poprawna": "b",
-   "komentarz": "eliminacja opcji oczywiście błędnych; art. 150 ust. 1 POŚ – dodatkowe obowiązki pomiarowe może nałożyć organ ochrony środowiska (przepisu wprost o stanowisku pomiarowym brak)"
+   "komentarz": "eliminacja opcji oczywiście błędnych; art. 150 ust. 1 POŚ – dodatkowe obowiązki pomiarowe może nałożyć organ ochrony środowiska (przepisu wprost o stanowisku pomiarowym brak); prezentacja z kursu: „32. Powietrze cz. II”, sl. 37 (miejsce stanowiska pomiarowego wyznacza organ wydający pozwolenie)."
   },
   {
    "id": 83,
@@ -914,7 +914,7 @@
     "c": "źródła emisji opalane ekogroszkiem w zabudowie jednorodzinnej"
    },
    "poprawna": "a",
-   "komentarz": "LCP i MCP to skróty z dyrektyw 2010/75/UE (duże obiekty energetycznego spalania) i (UE) 2015/2193 (średnie obiekty energetycznego spalania); polskie rozporządzenie pomiarowe tych skrótów nie używa"
+   "komentarz": "LCP i MCP to skróty z dyrektyw 2010/75/UE (duże obiekty energetycznego spalania) i (UE) 2015/2193 (średnie obiekty energetycznego spalania); polskie rozporządzenie pomiarowe tych skrótów nie używa; prezentacja z kursu: „31. Powietrze cz. I”, sl. 69, 73, 75."
   },
   {
    "id": 84,
@@ -925,7 +925,7 @@
     "c": "podmiot nie posiada decyzji o dopuszczalnym poziomie hałasu, ale organ ochrony środowiska prowadzi postepowanie celem jego wydania"
    },
    "poprawna": "a",
-   "komentarz": "potwierdzenie pośrednie: art. 115a POŚ, lista kontrolna ISK 1.2.4; eliminacja opcji oczywiście błędnych"
+   "komentarz": "potwierdzenie pośrednie: art. 115a POŚ, lista kontrolna ISK 1.2.4; eliminacja opcji oczywiście błędnych; prezentacja z kursu: „35. Hałas”, sl. 29."
   },
   {
    "id": 85,
@@ -1145,7 +1145,7 @@
     "c": "wszystkie odpowiedzi są prawidłowe"
    },
    "poprawna": "c",
-   "komentarz": "wiedza ogólna"
+   "komentarz": "wiedza ogólna; prezentacja z kursu: „30b. Stosowanie urządzeń technicznych w pracy IOŚ, w tym rejestracja obrazu, dźwięku cz II”, sl. 19."
   },
   {
    "id": 105,
@@ -1156,7 +1156,7 @@
     "c": "wszystkie wskazane odpowiedzi są prawidłowe"
    },
    "poprawna": "a",
-   "komentarz": "materiały z kursu na inspektora IOŚ (prezentacja)"
+   "komentarz": "art. 49 ust. 3a i 3b Prawa przedsiębiorców (loty BSP bez okazania legitymacji, gdy operator znajduje się poza terenem, do którego przedsiębiorca ma tytuł prawny); prezentacja z kursu: „14. Zasady przeprowadzania kontroli – ogólne cz. IV”, sl. 12."
   },
   {
    "id": 106,
@@ -1167,7 +1167,7 @@
     "c": "wyłącznie pracownik będący Inspektorem Inspekcji Ochrony Środowiska"
    },
    "poprawna": "b",
-   "komentarz": "eliminacja opcji oczywiście błędnych"
+   "komentarz": "eliminacja opcji oczywiście błędnych; prezentacja z kursu: „14. Zasady przeprowadzania kontroli – ogólne cz. IV”, sl. 12 (art. 49 ust. 3a Pp – loty wykonują pracownicy z uprawnieniami)."
   },
   {
    "id": 107,
@@ -1420,7 +1420,7 @@
     "c": "Kodeksie karnym i ustawach administracyjnego prawa materialnego z zakresu ochrony środowiska"
    },
    "poprawna": "c",
-   "komentarz": "wiedza ogólna"
+   "komentarz": "wiedza ogólna; prezentacja z kursu: „54. Przestępstwa przeciwko środowisku”, sl. 15, 17."
   },
   {
    "id": 130,
@@ -2366,7 +2366,7 @@
     "c": "dobrowolne i o jego sporządzeniu decyduje inspektor przeprowadzający kontrolę"
    },
    "poprawna": "b",
-   "komentarz": "ISK 6 „Działania pokontrolne”: „Z narady pokontrolnej sporządza się protokół” (wzór – zał. I.6.1); ISK 5.1.3. Dobrowolne jest zwołanie narady, nie protokół. Uwaga: nieoficjalny klucz 2025 wskazywał c."
+   "komentarz": "ISK 6 „Działania pokontrolne”: „Z narady pokontrolnej sporządza się protokół” (wzór – zał. I.6.1); ISK 5.1.3. Dobrowolne jest zwołanie narady, nie protokół. Uwaga: nieoficjalny klucz 2025 wskazywał c. Prezentacja z kursu: „18. Działania pokontrolne podejmowane przez IOŚ cz. II”, sl. 5, 6, 8; „13. Zasady przeprowadzania kontroli – ogólne cz. III”, sl. 131."
   },
   {
    "id": 216,
@@ -2410,7 +2410,7 @@
     "c": "inspektor wykonujący kontrolę"
    },
    "poprawna": "c",
-   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 – inspektor wprowadza dane dotyczące kontroli do bazy ISK; eliminacja opcji oczywiście błędnych"
+   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 – inspektor wprowadza dane dotyczące kontroli do bazy ISK; eliminacja opcji oczywiście błędnych; prezentacja z kursu: „58. Obsługa Informatycznego Systemu Kontroli”, sl. 82 (pośrednio – po zakończeniu kontroli można dodawać wyniki badań z laboratorium)."
   },
   {
    "id": 220,
@@ -2432,7 +2432,7 @@
     "c": "wprowadzenie do ISK działań pokontrolnych"
    },
    "poprawna": "b",
-   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 – status kontroli („zakończona” / „w trakcie realizacji”); eliminacja opcji oczywiście błędnych"
+   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 – status kontroli („zakończona” / „w trakcie realizacji”); eliminacja opcji oczywiście błędnych; prezentacja z kursu: „58. Obsługa Informatycznego Systemu Kontroli”, sl. 82–85 (pośrednio – krok „Kończymy kontrolę”)."
   },
   {
    "id": 222,
@@ -2828,7 +2828,7 @@
     "c": "dokumenty załączane do protokołu kontroli mogą być dołączane w formie kserokopii, bez konieczności potwierdzania ich zgodności z oryginałem"
    },
    "poprawna": "b",
-   "komentarz": "eliminacja opcji oczywiście błędnych; wiedza ogólna"
+   "komentarz": "eliminacja opcji oczywiście błędnych; wiedza ogólna; prezentacja z kursu: „13. Zasady przeprowadzania kontroli – ogólne cz. III”, sl. 57–58; „23. Dokumentowanie czynności kontrolnych cz. I”, sl. 29."
   },
   {
    "id": 258,
@@ -2872,7 +2872,7 @@
     "c": "obie odpowiedzi są poprawne"
    },
    "poprawna": "c",
-   "komentarz": "art. 31c ust. 1 ustawy o IOŚ (kara 10 000–100 000 zł) oraz art. 225 § 1 KK i ISK 5.1.4 (zawiadomienie prokuratury) – obie odpowiedzi są prawdziwe. Uwaga: nieoficjalny klucz 2025 wskazywał a."
+   "komentarz": "art. 31c ust. 1 ustawy o IOŚ (kara 10 000–100 000 zł) oraz art. 225 § 1 KK i ISK 5.1.4 (zawiadomienie prokuratury) – obie odpowiedzi są prawdziwe. Uwaga: nieoficjalny klucz 2025 wskazywał a. Prezentacja z kursu: „50. Postępowanie inspektora w przypadku utrudniania lub udaremniania kontroli cz. I”, sl. 15–16 (część b – zawiadomienie o przestępstwie z art. 225 § 1 KK; kary z art. 31c ust. 1 w prezentacjach nie znaleziono)."
   },
   {
    "id": 262,
@@ -3136,7 +3136,7 @@
     "c": "nie musi posiadać załącznika w postaci wyników badań przeprowadzonych pomiarów, mimo że wynika z nich przekroczenie emisji zanieczyszczań. Krótka wzmianka w treści protokołu kontroli jest wystarczająca, by podjąć czynności pokontrolne (np. wymierzyć administracyjną karę pieniężną)"
    },
    "poprawna": "b",
-   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2; eliminacja opcji oczywiście błędnych"
+   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2; eliminacja opcji oczywiście błędnych; prezentacja z kursu: „23. Dokumentowanie czynności kontrolnych cz. I”, sl. 29."
   },
   {
    "id": 286,
@@ -3147,7 +3147,7 @@
     "c": "wpisanie w treść protokołu kontroli, że organ stwierdził, że kontrolowany podmiot przekształcał termicznie odpady tworzyw sztucznych w piecu centralnego ogrzewania, ponieważ w trakcie kontroli był wyczuwalny duszący zapach na terenie zakładu"
    },
    "poprawna": "a",
-   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2; eliminacja opcji oczywiście błędnych"
+   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2; eliminacja opcji oczywiście błędnych; prezentacja z kursu: „23. Dokumentowanie czynności kontrolnych cz. I”, sl. 29."
   },
   {
    "id": 287,
@@ -3191,7 +3191,7 @@
     "c": "planowany charakter kontroli"
    },
    "poprawna": "a",
-   "komentarz": "eliminacja opcji oczywiście błędnych; kierunek zgodny z ISK 5.1.2 i 5.2"
+   "komentarz": "eliminacja opcji oczywiście błędnych; kierunek zgodny z ISK 5.1.2 i 5.2; prezentacja z kursu: „49. Kontrola w terenie bez ustalonego podmiotu”, sl. 6–7."
   },
   {
    "id": 291,
@@ -3202,7 +3202,7 @@
     "c": "dane wymienione w ppkt a) i b) i inne informacje"
    },
    "poprawna": "c",
-   "komentarz": "wiedza ogólna"
+   "komentarz": "wiedza ogólna; prezentacja z kursu: „49. Kontrola w terenie bez ustalonego podmiotu”, sl. 8–15."
   },
   {
    "id": 292,
@@ -3235,7 +3235,7 @@
     "c": "prawidłowe są odpowiedzi a i b"
    },
    "poprawna": "a",
-   "komentarz": "art. 23 ust. 2 ustawy o odpadach – zakaz zbierania poza miejscem wytwarzania obejmuje komunalne osady ściekowe oraz pozostałości z sortowania odpadów komunalnych, ale te drugie tylko „o ile są przeznaczone do składowania”; stąd odpowiedź a. Uwaga: pytanie niejednoznaczne interpretacyjnie (odpowiedź c też da się obronić). Nieoficjalny klucz 2025 wskazywał a."
+   "komentarz": "art. 23 ust. 2 ustawy o odpadach – zakaz zbierania poza miejscem wytwarzania obejmuje komunalne osady ściekowe oraz pozostałości z sortowania odpadów komunalnych, ale te drugie tylko „o ile są przeznaczone do składowania”; stąd odpowiedź a. Uwaga: pytanie niejednoznaczne interpretacyjnie (odpowiedź c też da się obronić). Nieoficjalny klucz 2025 wskazywał a. Prezentacja z kursu: „45. Szczególne postępowanie z odpadami cz. III”, sl. 62 (wymienia tylko komunalne osady ściekowe)."
   },
   {
    "id": 295,
@@ -3301,7 +3301,7 @@
     "c": "przemieszczeniem legalnym, z naruszeniem warunków zezwolenia"
    },
    "poprawna": "c",
-   "komentarz": "odpowiedź jeszcze niepotwierdzona w źródłach – sporne: za c – art. 33 ust. 3 pkt 1 oraz art. 6 ust. 1 pkt 6 ustawy o międzynarodowym przemieszczaniu odpadów (GIOŚ określa w zezwoleniu trasę przewozu); za b – art. 3 pkt 26 lit. d rozporządzenia (UE) 2024/1157"
+   "komentarz": "art. 33 ust. 3 pkt 1 oraz art. 6 ust. 1 pkt 6 ustawy o międzynarodowym przemieszczaniu odpadów (GIOŚ określa w zezwoleniu trasę przewozu); prezentacja z kursu: „46. Szczególne postępowanie z odpadami cz. IV”, sl. 41 (przewóz legalny z naruszeniem warunków zezwolenia, np. zmiana trasy, odróżniony od nielegalnego – brak zgłoszenia i zezwolenia GIOŚ). Wcześniej sporne – za b przemawiał art. 3 pkt 26 lit. d rozporządzenia (UE) 2024/1157; kurs rozstrzyga na korzyść c."
   },
   {
    "id": 301,
@@ -3389,7 +3389,7 @@
     "c": "gdy miejsce pobrania próbek zostało wskazane w decyzji określającej warunki korzystania ze środowiska"
    },
    "poprawna": "b",
-   "komentarz": "art. 50 ust. 5 Prawa przedsiębiorców, ISK 5.1.2 i 5.1.4 – pod nieobecność kontrolowanego czynności wykonuje się przy przywołanym świadku, funkcjonariuszu publicznym niebędącym pracownikiem organu kontroli. Uwaga: nieoficjalny klucz 2025 wskazywał c (brak podstawy w ustawie o IOŚ)."
+   "komentarz": "art. 50 ust. 5 Prawa przedsiębiorców, ISK 5.1.2 i 5.1.4 – pod nieobecność kontrolowanego czynności wykonuje się przy przywołanym świadku, funkcjonariuszu publicznym niebędącym pracownikiem organu kontroli. Uwaga: nieoficjalny klucz 2025 wskazywał c (brak podstawy w ustawie o IOŚ). Prezentacja z kursu: „24. Dokumentowanie czynności kontrolnych cz. II”, sl. 84–92; „13. Zasady przeprowadzania kontroli – ogólne cz. III”, sl. 43–44."
   },
   {
    "id": 309,
@@ -3433,7 +3433,7 @@
     "c": "zasada rzetelności"
    },
    "poprawna": "a",
-   "komentarz": "nowe pytanie w 2026 – § 13 zarządzenia nr 70 PRM z 6.10.2011 (legalizm to zasada służby cywilnej z § 1, nie zasada etyki)"
+   "komentarz": "nowe pytanie w 2026 – § 13 zarządzenia nr 70 PRM z 6.10.2011 (legalizm to zasada służby cywilnej z § 1, nie zasada etyki); prezentacja z kursu: „62. Etyka w pracy inspektora IOŚ”, sl. 10–11; „02. Zadania uprawnienia i organizacja Inspekcji Ochrony Środowiska (IOŚ) cz I”, sl. 14–15."
   },
   {
    "id": 313,
@@ -3444,7 +3444,7 @@
     "c": "rzeczywisty, potencjalny, postrzegany"
    },
    "poprawna": "c",
-   "komentarz": "nowe pytanie w 2026 – rządowy poradnik „Konflikt interesów – czym jest i jak go unikać” (źródło pozaustawowe)"
+   "komentarz": "nowe pytanie w 2026 – rządowy poradnik „Konflikt interesów – czym jest i jak go unikać” (źródło pozaustawowe); prezentacja z kursu: „62. Etyka w pracy inspektora IOŚ”, sl. 20–23."
   },
   {
    "id": 314,
@@ -3455,7 +3455,7 @@
     "c": "Przed rozpoczęciem kontroli każda osoba biorąca udział kontroli jest zobowiązana do przekazania przedsiębiorcy oświadczenia o braku podstaw do wyłączenia z kontroli"
    },
    "poprawna": "a",
-   "komentarz": "nowe pytanie w 2026 – ISK 4.1 i załącznik 4.1.13"
+   "komentarz": "nowe pytanie w 2026 – ISK 4.1 i załącznik 4.1.13; prezentacja z kursu: „11. Zasady przeprowadzania kontroli – ogólne cz. I”, sl. 53–55."
   }
  ]
 }
