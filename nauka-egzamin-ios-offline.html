@@ -119,6 +119,9 @@ input[type=search] { width: 100%; }
 .tally { font-variant-numeric: tabular-nums; font-size: .9rem; }
 .prog { height: 5px; background: var(--line); border-radius: 3px; overflow: hidden; margin-bottom: 14px; }
 .prog i { display: block; height: 100%; background: var(--pri); }
+.qnav { display: flex; align-items: center; gap: 8px; margin: -4px 0 10px; }
+.qnav .sp { flex: 1; }
+.qnav .btn { min-height: 36px; padding: 4px 12px; font-size: .9rem; }
 .qtext { font-size: 1.1rem; font-weight: 600; margin: 0 0 14px; white-space: pre-line; overflow-wrap: anywhere; }
 .opt {
   display: flex; gap: 12px; width: 100%; text-align: left; align-items: flex-start; font: inherit; color: inherit;
@@ -225,7 +228,7 @@ table.t td.num { white-space: nowrap; font-variant-numeric: tabular-nums; }
 <script>
 'use strict';
 /* Egzamin IOŚ – aplikacja do nauki. Bez zależności, dane tylko lokalnie (localStorage). */
-const APP_VERSION = '1.0.9';
+const APP_VERSION = '1.1.0';
 
 /* ---------- narzędzia ---------- */
 const $ = (s, el = document) => el.querySelector(s);
@@ -400,16 +403,38 @@ function startSession(mode, opts = {}) {
   let reserve = [];
   if (mode !== 'one' && mode !== 'set' && settings.limit > 0) { reserve = queue.slice(settings.limit); queue = queue.slice(0, settings.limit); }
   if (!queue || !queue.length || !queue[0]) { toast('Brak pytań w tym trybie.'); return; }
-  session = { mode, queue, reserve, idx: 0, ok: 0, bad: 0, skipped: 0, wrongIds: [], returnTo: opts.returnTo || '#/', done: false };
+  // idx – pytanie „na froncie” (aktualne), view – pytanie wyświetlane (przy cofaniu view < idx), states – stan każdego odwiedzonego pytania,
+  // added – pytania dołożone z puli w miejsce pominiętych, target – zadana liczba pytań
+  session = { mode, queue, reserve, idx: 0, view: 0, states: [], added: new Set(), target: queue.length, ok: 0, bad: 0, skipped: 0, wrongIds: [], returnTo: opts.returnTo || '#/', done: false };
   showQuestion(0);
 }
 function showQuestion(i) {
-  session.idx = i;
+  session.idx = i; session.view = i;
   const p = session.queue[i];
-  cur = { p, wrong: new Set(), solved: false, revealed: false, first: true, unverified: false, picked: null, retrying: false };
+  cur = { p, wrong: new Set(), solved: false, revealed: false, first: true, unverified: false, picked: null, retrying: false, skipped: false, repl: null };
+  session.states[i] = cur;
   if (session.mode === 'seq') { state.seq = p.id; saveState(); }
   if (location.hash === '#/q') { drawQ(); window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); } else location.hash = '#/q';
 }
+/* Cofanie: wyświetla zapamiętany stan pytania nr v (pytania odpowiedziane – tylko do odczytu, pominięte – aktywne). */
+function goView(v) {
+  if (!session || v < 0 || v > session.idx) return;
+  session.view = v; cur = session.states[v];
+  drawQ(); window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+}
+const posOf = v => session.states.slice(0, v + 1).filter(st => st && !st.skipped).length;
+/* Pominięte pytanie dostało odpowiedź: przestaje być pominięte. Jeśli sesja miałaby teraz więcej odpowiedzi niż zadana długość,
+   usuwamy z kolejki jedno jeszcze niewyświetlone pytanie dołożone przy pominięciu (najpierw to dołożone za to pytanie). */
+function settleSkipped(st) {
+  if (!st.skipped) return;
+  st.skipped = false; session.skipped--;
+  if (session.queue.length - session.skipped <= session.target) return;
+  const unseen = q => session.added.has(q) && session.queue.indexOf(q) > session.idx;
+  const q = unseen(st.repl) ? st.repl : session.queue.slice().reverse().find(unseen);
+  if (!q) return;
+  session.queue.splice(session.queue.indexOf(q), 1); session.added.delete(q); session.reserve.unshift(q);
+}
+
 /* Kończy sesję i zapamiętuje jej błędne odpowiedzi do sekcji na ekranie głównym.
    Powtórka błędnych („set”) nie zastępuje sekcji – tylko ją uzupełnia (o poprawione pytania liczy pick()). */
 function endSession(s) {
@@ -443,11 +468,12 @@ const actions = {
   pick({ k }) {
     if (!cur || cur.solved || cur.revealed || cur.unverified || cur.wrong.has(k)) return;
     const p = cur.p;
-    if (!p.poprawna) { cur.unverified = true; cur.picked = k; drawQ(); return; }
+    if (!p.poprawna) { cur.unverified = true; cur.picked = k; settleSkipped(cur); drawQ(); return; }
     const ok = k === p.poprawna;
     record(p.id, ok, cur.first);
     if (cur.first) { if (ok) session.ok++; else { session.bad++; session.wrongIds.push(p.id); } }
     if (cur.first && ok && review && review.ids.includes(String(p.id))) review.fixed.add(String(p.id)); // poprawione w pierwszym podejściu
+    settleSkipped(cur);
     cur.first = false; cur.retrying = false;
     if (ok) cur.solved = true; else cur.wrong.add(k);
     drawQ(true);
@@ -456,12 +482,19 @@ const actions = {
   reveal() {
     if (!cur || cur.solved || cur.revealed || cur.unverified || !cur.p.poprawna) return;
     if (cur.first) { // podpowiedź bez własnej próby = pytanie, którego odpowiedzi użytkownik nie znał (błąd w statystykach)
-      record(cur.p.id, false, true); session.bad++; session.wrongIds.push(cur.p.id); cur.first = false; cur.hinted = true;
+      record(cur.p.id, false, true); session.bad++; session.wrongIds.push(cur.p.id); cur.first = false; cur.hinted = true; settleSkipped(cur);
     }
     cur.revealed = true; drawQ(true);
   },
-  next() { nextQuestion(); },
-  skip() { session.skipped++; if (session.reserve.length) session.queue.push(session.reserve.shift()); nextQuestion(); },
+  next() { if (session.view < session.idx) goView(session.view + 1); else nextQuestion(); },
+  prev() { if (session && session.mode !== 'one') goView(session.view - 1); },
+  fwd() { if (session && session.view < session.idx) goView(session.view + 1); },
+  skip() {
+    if (!cur || !cur.first || cur.skipped || cur.solved || cur.revealed || cur.unverified || cur.wrong.size || session.view !== session.idx) return;
+    cur.skipped = true; session.skipped++;
+    if (session.reserve.length) { const r = session.reserve.shift(); session.queue.push(r); session.added.add(r); cur.repl = r; }
+    nextQuestion();
+  },
   quit() {
     if (session.mode === 'one') { finishSession(); return; }
     confirmAbort();
@@ -547,7 +580,7 @@ function viewQuestion() {
   drawQ();
 }
 function drawQ(scroll) {
-  const s = session, p = cur.p, N = s.queue.length;
+  const s = session, p = cur.p, N = s.queue.length, atF = s.view === s.idx;
   const answered = cur.solved || cur.revealed;
   const keys = optKeys(p);
   const opts = keys.map(k => {
@@ -562,19 +595,21 @@ function drawQ(scroll) {
 
   let fb = '';
   const extra = (answered || cur.unverified) ? (p.komentarz ? `<div class="expl"><h3>Wyjaśnienie</h3>${esc(p.komentarz)}</div>` : '') + (p.uwaga ? `<div class="note"><b>Uwaga:</b> ${esc(p.uwaga)}</div>` : '') : '';
-  const nextLabel = s.mode === 'one' ? 'Zamknij' : (s.idx + 1 >= N ? 'Zakończ sesję' : 'Dalej');
+  const nextLabel = s.mode === 'one' ? 'Zamknij' : (atF && s.idx + 1 >= N ? 'Zakończ sesję' : 'Dalej');
+  const navRow = s.mode !== 'one' && (s.view > 0 || !atF) ? `<div class="qnav">${s.view > 0 ? '<button class="btn ghost" data-act="prev">‹ Poprzednie pytanie</button>' : ''}<span class="sp"></span>${!atF ? '<button class="btn ghost" data-act="fwd">Następne ›</button>' : ''}</div>` : '';
   if (cur.solved) fb = `<div class="fb ok"><div class="msg">✓ Dobra odpowiedź${cur.wrong.size ? ' (po ponownej próbie)' : ''}</div>${extra}<div class="btns"><button class="btn pri" data-act="next" id="nextBtn">${nextLabel}</button></div></div>`;
   else if (cur.revealed) fb = `<div class="fb info"><div class="msg">Właściwa odpowiedź: ${esc(p.poprawna.toUpperCase())}</div>${cur.hinted ? '<p class="small muted" style="margin:0 0 8px">Pokazano odpowiedź bez próby – w statystykach liczy się jako odpowiedź, której nie znałeś(aś).</p>' : ''}${extra}<div class="btns"><button class="btn pri" data-act="next" id="nextBtn">${nextLabel}</button></div></div>`;
   else if (cur.unverified) fb = `<div class="fb info"><div class="msg">Brak klucza odpowiedzi dla tego pytania – nie można sprawdzić.</div>${extra}<div class="btns"><button class="btn pri" data-act="next" id="nextBtn">${nextLabel}</button></div></div>`;
   else if (cur.wrong.size && cur.retrying) fb = `<div class="fb bad"><div class="msg">Spróbuj jeszcze raz – wybierz inną odpowiedź.</div><div class="btns"><button class="btn" data-act="reveal">Pokaż właściwą odpowiedź <span class="kh">(P)</span></button></div></div>`;
   else if (cur.wrong.size) fb = `<div class="fb bad"><div class="msg">✗ Błędna odpowiedź</div><div class="btns"><button class="btn pri" data-act="retry">Spróbuj ponownie <span class="kh">(R)</span></button><button class="btn" data-act="reveal">Pokaż właściwą odpowiedź <span class="kh">(P)</span></button></div></div>`;
-  else fb = `<div class="btns" style="margin-top:6px">${p.poprawna ? '<button class="btn ghost" data-act="reveal">Pokaż odpowiedź (liczy się jako błąd) <span class="kh">(P)</span></button>' : ''}${s.mode !== 'one' ? '<button class="btn ghost" data-act="skip">Pomiń pytanie <span class="kh">(S)</span></button>' : ''}</div>`;
+  else fb = `<div class="btns" style="margin-top:6px">${p.poprawna ? '<button class="btn ghost" data-act="reveal">Pokaż odpowiedź (liczy się jako błąd) <span class="kh">(P)</span></button>' : ''}${s.mode !== 'one' && atF && !cur.skipped ? '<button class="btn ghost" data-act="skip">Pomiń pytanie <span class="kh">(S)</span></button>' : ''}</div>${cur.skipped ? '<p class="small muted" style="margin:8px 0 0">Pytanie pominięte – możesz teraz na nie odpowiedzieć.</p>' : ''}`;
 
   view().innerHTML = `
     <div class="qhead"><span class="no">Pytanie nr ${esc(p.id)}</span><span class="sp"></span>
-      ${s.mode !== 'one' ? `<span class="tally muted">${s.idx + 1 - s.skipped}/${N - s.skipped} · <span class="good">✓ ${s.ok}</span> · <span class="badc">✗ ${s.bad}</span></span>` : ''}
+      ${s.mode !== 'one' ? `<span class="tally muted">${cur.skipped ? 'pominięte' : posOf(s.view) + '/' + (N - s.skipped)} · <span class="good">✓ ${s.ok}</span> · <span class="badc">✗ ${s.bad}</span></span>` : ''}
       <button class="btn ghost" data-act="quit" style="min-height:36px;padding:4px 12px" aria-label="Zakończ">✕</button></div>
     ${s.mode !== 'one' ? `<div class="prog"><i style="width:${pct(s.idx - s.skipped, N - s.skipped)}%"></i></div>` : '<div style="height:10px"></div>'}
+    ${navRow}
     <p class="qtext">${esc(p.pytanie)}</p>
     ${opts}${fb}
     <p class="kbd">Skróty: ${keys.map(k => esc(k)).join(' / ')} – wybór odpowiedzi · Enter – dalej · R – ponów (po błędnej odpowiedzi) · P – pokaż odpowiedź · S – pomiń</p>`;
@@ -768,6 +803,8 @@ document.addEventListener('keydown', e => {
   else if (k === 'r') actions.retry();
   else if (k === 'p') actions.reveal();
   else if (k === 's' && !answered && !cur.wrong.size && session.mode !== 'one') actions.skip();
+  else if (k === 'arrowleft') actions.prev();
+  else if (k === 'arrowright' && !answered) actions.fwd();
 });
 const sessionLive = () => !!(session && !session.done && session.mode !== 'one' && cur);
 /* Pasek nawigacji u dołu w trakcie sesji: pytamy, czy przerwać; po potwierdzeniu przechodzimy do wybranej zakładki. */
@@ -775,6 +812,18 @@ document.addEventListener('click', e => {
   const a = e.target.closest('#nav a');
   if (a && location.hash === '#/q' && sessionLive()) { e.preventDefault(); confirmAbort(a.getAttribute('href')); }
 }, true);
+/* Gest: przesunięcie palca w prawo (ekran „przewija się” w lewo) – poprzednie pytanie, w lewo – następne (tylko przy cofaniu). */
+let touch0 = null;
+document.addEventListener('touchstart', e => { const t = e.changedTouches[0]; touch0 = e.touches.length === 1 ? { x: t.clientX, y: t.clientY } : null; }, { passive: true });
+document.addEventListener('touchend', e => {
+  const a = touch0; touch0 = null;
+  if (!a || location.hash !== '#/q' || !session || session.mode === 'one' || !cur || $('#modal').childElementCount) return;
+  const t = e.changedTouches[0], dx = t.clientX - a.x, dy = t.clientY - a.y;
+  if (a.x < 24 || a.x > window.innerWidth - 24) return;                  // krawędzie ekranu – gest systemowy „cofnij”
+  if (Math.abs(dx) < 70 || Math.abs(dx) < 2 * Math.abs(dy)) return;       // za krótki albo zbyt pionowy
+  if (dx > 0) actions.prev(); else actions.fwd();
+}, { passive: true });
+
 /* „Cofnij” (gest/przycisk systemowy) w trakcie sesji: zostajemy na pytaniu i pytamy, czy przerwać sesję. */
 window.addEventListener('hashchange', e => {
   let from = ''; try { from = new URL(e.oldURL).hash; } catch (err) { /* ignore */ }
