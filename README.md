@@ -38,7 +38,7 @@ Działa offline, a dane (odpowiedzi, statystyki) zapisuje **tylko lokalnie** w u
 ### Jak zaktualizować pytania
 1. Wersja hostowana: podmień `data/questions.json` na serwerze (aplikacja pobiera go „najpierw z sieci”, więc po odświeżeniu będzie nowy).
 2. Bez serwera: w aplikacji *Ustawienia → Wczytaj plik z pytaniami (JSON)*. Plik zostaje zapamiętany na tym urządzeniu.
-3. Wersja jednoplikowa: uruchom `python3 build_offline.py`.
+3. Wersja jednoplikowa: uruchom `python3 build_offline.py` (ten skrypt wpisuje też numer wersji z `app.js` do adresów plików w `index.html`).
 
 ## Instalacja na telefonie – propozycja
 Aby aplikację można było zainstalować na telefonie, musi być udostępniona pod adresem **https://**. To jednorazowa, darmowa czynność:
@@ -69,11 +69,12 @@ Aby aplikację można było zainstalować na telefonie, musi być udostępniona 
 * Przycisk/skrót *Pokaż odpowiedź* (P) użyty **przed własną próbą** liczy się w statystykach jako błędna odpowiedź (pytanie, którego nie znałeś). Użyty po błędnej odpowiedzi nic nie zmienia (błąd już jest zapisany).
 * Po błędnej odpowiedzi: *Spróbuj ponownie* (błędnie wybrana opcja zostaje oznaczona) albo *Pokaż właściwą odpowiedź*.
 * Statystyki liczą **pierwszą odpowiedź** na pytanie w danej sesji – ponowne próby po błędzie nie zaniżają wyniku.
-* Status pytania: *Nowe*, *Do powtórki* (ostatnia pierwsza odpowiedź błędna), *W nauce*, *Opanowane* (dwie ostatnie pierwsze odpowiedzi poprawne).
+* Status pytania: *Niewyświetlone*, *Do powtórki* (ostatnia pierwsza odpowiedź błędna), *W nauce*, *Opanowane* (dwie ostatnie pierwsze odpowiedzi poprawne).
 * Skróty klawiszowe na komputerze: `a`/`b`/`c` – wybór, `Enter` – dalej, `R` – ponów, `P` – pokaż odpowiedź, `S` – pomiń.
 * Przerwanie sesji (✕, gest/przycisk „cofnij” w telefonie albo kliknięcie w pasku nawigacji) wymaga potwierdzenia; udzielone odpowiedzi są już zapisane, a po potwierdzeniu widać podsumowanie. Pojedyncze pytanie otwarte z listy zamyka się bez pytania.
 * Na ekranie głównym po sesji z błędami pojawia się sekcja *Błędne odpowiedzi z ostatniej sesji*. Pytanie szarzeje po poprawnej odpowiedzi **w pierwszym podejściu** (przy powtórce), sekcję można zamknąć przyciskiem ✕, znika też po poprawieniu wszystkich pytań. Nie jest zapamiętywana po zamknięciu aplikacji.
 * Gest „ściągnij w dół, aby odświeżyć” (Android) jest wyłączony.
 * Pominięcie pytania nie jest odpowiedzią (nie wpływa na statystyki). W sesjach o długości ustawionej w *Długość sesji* pominięte pytanie jest zastępowane kolejnym z puli, więc sesja kończy się po zadanej liczbie odpowiedzi; gdy pula jest mniejsza niż limit (albo „bez limitu”, powtórka błędnych), sesja jest po prostu krótsza. W podsumowaniu widać tylko liczbę pominiętych.
 * W trakcie sesji można wrócić do pytań, na które już odpowiedziałeś(aś): przycisk *Poprzednie pytanie*, przesunięcie palca w prawo (albo strzałka ←). Pytania z odpowiedzią są tylko do odczytu, pytanie pominięte jest aktywne (po odpowiedzi znika z pominiętych, a dołożone za nie, jeszcze niewyświetlone pytanie jest usuwane z sesji). *Następne* / przesunięcie w lewo wraca w stronę bieżącego pytania.
+* Przycisk *Odśwież* (pasek na komputerze) / *Ustawienia → Odśwież aplikację* zastępuje Ctrl+F5: pobiera najnowszą wersję z sieci i przeładowuje aplikację. Postęp i ustawienia zostają; bez sieci przycisk niczego nie zmienia.
 * Po zmianie plików aplikacji (nie danych) zwiększ numer wersji `CACHE` w `sw.js`, aby urządzenia pobrały nową wersję.

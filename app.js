@@ -1,6 +1,6 @@
 'use strict';
 /* Egzamin IOŚ – aplikacja do nauki. Bez zależności, dane tylko lokalnie (localStorage). */
-const APP_VERSION = '1.1.0';
+const APP_VERSION = '1.1.3';
 
 /* ---------- narzędzia ---------- */
 const $ = (s, el = document) => el.querySelector(s);
@@ -132,7 +132,7 @@ function statusOf(s) {
   if (s.n >= 2 && s.last.slice(-2).every(x => x === 1)) return 'mastered';
   return 'learning';
 }
-const STATUS = { new: 'Nowe', hard: 'Do powtórki', learning: 'W nauce', mastered: 'Opanowane' };
+const STATUS = { new: 'Niewyświetlone', hard: 'Do powtórki', learning: 'W nauce', mastered: 'Opanowane' };
 function firstTotals(from) {
   let n = 0, ok = 0;
   for (const [ts, id, o, first] of attempts) { if (first && byId.has(String(id)) && (!from || ts >= from)) { n++; ok += o; } }
@@ -272,6 +272,7 @@ const actions = {
     confirmAbort();
   },
   closeReview() { review = null; route(); },
+  refresh() { refreshApp(); },
   start({ mode }) { startSession(mode); },
   // z podsumowania sesji wracamy po odpowiedzi na ekran główny (tam jest sekcja z błędnymi odpowiedziami)
   open({ id }) { startSession('one', { id, returnTo: location.hash === '#/summary' ? '#/' : location.hash }); },
@@ -310,7 +311,6 @@ function reviewSection() {
 
 function viewHome() {
   const pq = perQuestion(); const sc = statusCounts(pq); const N = Q.length;
-  const withKey = Q.filter(p => p.poprawna).length;
   const today = firstTotals(new Date().setHours(0, 0, 0, 0));
   const cnt = {
     mix: pool().length,
@@ -325,7 +325,7 @@ function viewHome() {
   const bar = ['mastered', 'learning', 'hard', 'new'].map(k => `<i class="c-${k}" style="width:${pct(sc[k], N)}%" title="${STATUS[k]}: ${sc[k]}"></i>`).join('');
   view().innerHTML = `
     <h1>Egzamin IOŚ – nauka</h1>
-    <p class="muted small">${esc(DS.nazwa || '')} · ${N} pytań, w tym ${withKey} z kluczem odpowiedzi</p>
+    <p class="muted small">${esc(DS.nazwa || '')} · ${N} pytań</p>
     ${reviewSection()}
     <div class="card">
       <div class="bar" role="img" aria-label="Postęp nauki">${bar}</div>
@@ -335,14 +335,13 @@ function viewHome() {
     <h2>Wybierz tryb nauki</h2>
     <div class="row" style="margin-bottom:10px"><label class="small muted">Długość sesji
       <select id="limit">${[[10, '10 pytań'], [20, '20 pytań'], [50, '50 pytań'], [100, '100 pytań'], [0, 'bez limitu']].map(([v, l]) => `<option value="${v}" ${settings.limit === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label></div>
-    ${mode('mix', 'Mieszany (zalecany)', 'Nowe i trudne pytania pojawiają się częściej, opanowane rzadziej', true)}
+    ${mode('mix', 'Mieszany (zalecany)', 'Niewyświetlone i trudne pytania pojawiają się częściej, opanowane rzadziej', true)}
     ${mode('seq', 'Po kolei', `Wszystkie pytania w kolejności z pliku, od nr ${esc(seqAt)}`)}
-    ${mode('new', 'Jeszcze nieodpowiadane', 'Pytania, na które jeszcze nie odpowiadałeś(aś)')}
+    ${mode('new', 'Jeszcze niewyświetlone', 'Pytania, na które jeszcze nie odpowiadałeś(aś)')}
     ${mode('wrong', 'Do powtórki', 'Ostatnia odpowiedź na te pytania była błędna')}
     ${mode('hardest', 'Najtrudniejsze dla mnie', 'Pytania z najwyższym odsetkiem błędów')}
     <div class="card row" style="margin-top:14px"><label for="goto">Otwórz pytanie nr</label>
-      <input type="number" id="goto" min="1" inputmode="numeric" style="width:6.5rem"><button class="btn" data-act="goto">Otwórz</button></div>
-    ${withKey < N && !settings.withoutKey ? `<p class="small muted">${N - withKey} pytań nie ma jeszcze klucza odpowiedzi – tryby losowe je pomijają (tryb „Po kolei” i otwieranie po numerze je pokazują; można to zmienić w Ustawieniach).</p>` : ''}`;
+      <input type="number" id="goto" min="1" inputmode="numeric" style="width:6.5rem"><button class="btn" data-act="goto">Otwórz</button></div>`;
   $('#limit').onchange = e => { settings.limit = +e.target.value; saveSettings(); };
   $('#goto').onkeydown = e => { if (e.key === 'Enter') actions.goto(); };
 }
@@ -464,15 +463,14 @@ let listFilter = 'all', listText = '';
 function viewList() {
   view().innerHTML = `<h1>Pytania</h1>
     <input type="search" id="lq" placeholder="Szukaj po numerze lub treści…" value="${esc(listText)}">
-    <div class="chips" id="chips">${[['all', 'Wszystkie'], ['new', 'Nowe'], ['hard', 'Do powtórki'], ['learning', 'W nauce'], ['mastered', 'Opanowane'], ['nokey', 'Bez klucza']].map(([k, l]) => `<button class="chip ${listFilter === k ? 'on' : ''}" data-f="${k}">${l}</button>`).join('')}</div>
+    <div class="chips" id="chips">${[['all', 'Wszystkie'], ['new', 'Niewyświetlone'], ['hard', 'Do powtórki'], ['learning', 'W nauce'], ['mastered', 'Opanowane']].map(([k, l]) => `<button class="chip ${listFilter === k ? 'on' : ''}" data-f="${k}">${l}</button>`).join('')}</div>
     <p class="small muted" id="lcount"></p><div id="rows"></div>`;
   const pq = perQuestion();
   const draw = () => {
     const t = listText.trim().toLowerCase();
     const rows = Q.filter(p => {
       const st = statusOf(pq.get(String(p.id)));
-      if (listFilter === 'nokey') { if (p.poprawna) return false; }
-      else if (listFilter !== 'all' && st !== listFilter) return false;
+      if (listFilter !== 'all' && st !== listFilter) return false;
       if (!t) return true;
       return String(p.id) === t || p.pytanie.toLowerCase().includes(t) || Object.values(p.odpowiedzi).some(o => o.toLowerCase().includes(t));
     });
@@ -480,7 +478,7 @@ function viewList() {
     $('#rows').innerHTML = rows.map(p => {
       const s = pq.get(String(p.id)); const st = statusOf(s);
       return `<button class="qrow" data-act="open" data-id="${esc(p.id)}"><span class="id">${esc(p.id)}</span>
-        <span class="tx">${esc(snip(p.pytanie, 160))}<small>${s ? `Błędy: ${s.w}/${s.n}` : 'Nieodpowiadane'}${p.poprawna ? '' : ' · brak klucza'}</small></span>
+        <span class="tx">${esc(snip(p.pytanie, 160))}<small>${s ? `Błędy: ${s.w}/${s.n}` : 'Niewyświetlone'}</small></span>
         <span class="tag ${st}">${STATUS[st]}</span></button>`;
     }).join('');
   };
@@ -490,28 +488,27 @@ function viewList() {
 }
 
 function viewSettings() {
-  const withKey = Q.filter(p => p.poprawna).length;
   const sel = (id, val, items) => `<select id="${id}">${items.map(([v, l]) => `<option value="${v}" ${String(val) === String(v) ? 'selected' : ''}>${l}</option>`).join('')}</select>`;
   view().innerHTML = `<h1>Ustawienia</h1>
     <div class="card"><h3>Wygląd</h3><div class="row">
       <label class="small muted">Rozmiar tekstu<br>${sel('fs', settings.size, [['s', 'Mały'], ['m', 'Średni'], ['l', 'Duży'], ['xl', 'Bardzo duży']])}</label>
       <label class="small muted">Motyw<br>${sel('theme', settings.theme, [['auto', 'Automatyczny'], ['light', 'Jasny'], ['dark', 'Ciemny']])}</label></div></div>
-    <div class="card"><h3>Nauka</h3>
-      <label class="row"><input type="checkbox" id="wk" ${settings.withoutKey ? 'checked' : ''}> <span>Uwzględniaj pytania bez klucza odpowiedzi w trybach losowych</span></label></div>
     <div class="card"><h3>Pytania (dane wejściowe)</h3>
-      <p class="small muted">Aktywny zbiór: <b>${esc(DS.nazwa || DS.zbior)}</b><br>wersja ${esc(DS.wersja || '–')} · ${Q.length} pytań (${withKey} z kluczem) · źródło: ${esc(DS_SRC)}</p>
+      <p class="small muted">Aktywny zbiór: <b>${esc(DS.nazwa || DS.zbior)}</b><br>wersja ${esc(DS.wersja || '–')} · ${Q.length} pytań · źródło: ${esc(DS_SRC)}</p>
       <div class="btns"><button class="btn" id="impQ">Wczytaj plik z pytaniami (JSON)</button>
       <button class="btn ghost ${store.get('gios:override', null) ? '' : 'hidden'}" id="rstQ">Wróć do wbudowanych pytań</button></div>
       <p class="small muted" style="margin:8px 0 0">Wczytany plik jest zapamiętany w tym urządzeniu. Postęp jest przypisany do identyfikatora zbioru („zbior”) i numerów pytań – po dodaniu kluczy odpowiedzi lub komentarzy do tego samego zbioru postęp zostaje.</p></div>
     <div class="card"><h3>Kopia zapasowa postępu</h3>
       <p class="small muted">Dane są tylko w tej przeglądarce/aplikacji (${attempts.length} zapisanych odpowiedzi). Kopię można przenieść na inne urządzenie.</p>
       <div class="btns"><button class="btn" id="expP">Pobierz kopię postępu</button><button class="btn" id="impP">Wczytaj kopię postępu</button></div></div>
+    ${isWeb ? `<div class="card"><h3>Aplikacja</h3>
+      <p class="small muted">Pobiera najnowszą wersję aplikacji z sieci (jak Ctrl+F5). Postęp i ustawienia zostają.</p>
+      <button class="btn" data-act="refresh">Odśwież aplikację</button></div>` : ''}
     <div class="card"><h3>Usuwanie danych</h3>
       <button class="btn danger" id="rstP">Wyzeruj mój postęp</button></div>
     <p class="small muted">Wersja aplikacji ${APP_VERSION}</p>`;
   $('#fs').onchange = e => { settings.size = e.target.value; saveSettings(); applyLook(); };
   $('#theme').onchange = e => { settings.theme = e.target.value; saveSettings(); applyLook(); };
-  $('#wk').onchange = e => { settings.withoutKey = e.target.checked; saveSettings(); };
   $('#impQ').onclick = importQuestions;
   $('#rstQ').onclick = async () => { store.del('gios:override'); toast('Przywrócono wbudowane pytania.'); await initData(); route(); };
   $('#expP').onclick = () => { download(`postep-egzamin-ios-${DS.zbior}-${dayKey(Date.now())}.json`, { format: 'gios-postep', zbior: DS.zbior, attempts, state }); toast('Kopia postępu została pobrana.'); };
@@ -578,6 +575,21 @@ document.addEventListener('keydown', e => {
   else if (k === 'arrowleft') actions.prev();
   else if (k === 'arrowright' && !answered) actions.fwd();
 });
+const isWeb = /^https?:$/.test(location.protocol);
+/* Odświeżenie aplikacji (jak Ctrl+F5): pobiera pliki z sieci z pominięciem pamięci podręcznej, czyści cache aplikacji i przeładowuje.
+   Postęp i ustawienia (localStorage) zostają. Gdy nie ma sieci, nic nie zmienia. */
+async function refreshApp() {
+  if (sessionLive() && !(await modal('Odświeżyć aplikację?', 'Trwająca sesja zostanie przerwana. Udzielone odpowiedzi są już zapisane.',
+    [{ label: 'Anuluj', value: false }, { label: 'Odśwież', value: true, cls: 'pri' }]))) return;
+  toast('Pobieram najnowszą wersję…');
+  try {
+    const rs = await Promise.all(['./', 'index.html', 'style.css', 'app.js', 'sw.js', 'manifest.webmanifest', 'data/questions.json'].map(u => fetch(u, { cache: 'reload' })));
+    if (rs.some(r => !r.ok)) throw new Error('HTTP');
+  } catch (e) { toast('Nie udało się pobrać najnowszej wersji (brak połączenia?). Aplikacja działa bez zmian.'); return; }
+  try { const regs = await navigator.serviceWorker.getRegistrations(); await Promise.all(regs.map(r => r.unregister())); } catch (e) { /* ignore */ }
+  try { const ks = await caches.keys(); await Promise.all(ks.map(k => caches.delete(k))); } catch (e) { /* ignore */ }
+  location.reload();
+}
 const sessionLive = () => !!(session && !session.done && session.mode !== 'one' && cur);
 /* Pasek nawigacji u dołu w trakcie sesji: pytamy, czy przerwać; po potwierdzeniu przechodzimy do wybranej zakładki. */
 document.addEventListener('click', e => {
@@ -611,6 +623,7 @@ window.addEventListener('hashchange', e => {
 (async function main() {
   try {
     const s = store.get('gios:settings', null); if (s) settings = Object.assign(settings, s); applyLook();
+    if (!isWeb) { const r = $('#rfsh'); if (r) r.remove(); }
     await initData(); applyLook(); route();
     if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => { });
   } catch (e) {
