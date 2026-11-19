@@ -225,7 +225,7 @@ table.t td.num { white-space: nowrap; font-variant-numeric: tabular-nums; }
 <script>
 'use strict';
 /* Egzamin IOŚ – aplikacja do nauki. Bez zależności, dane tylko lokalnie (localStorage). */
-const APP_VERSION = '1.0.8';
+const APP_VERSION = '1.0.9';
 
 /* ---------- narzędzia ---------- */
 const $ = (s, el = document) => el.querySelector(s);
@@ -373,7 +373,7 @@ function statusCounts(pq) {
 const pool = () => Q.filter(p => p.poprawna || settings.withoutKey);
 function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
-function buildQueue(mode, limit) {
+function buildQueue(mode) {
   const pq = perQuestion(); const st = p => statusOf(pq.get(String(p.id)));
   let list;
   if (mode === 'seq') {
@@ -389,15 +389,18 @@ function buildQueue(mode, limit) {
     list = pool().filter(p => (pq.get(String(p.id)) || {}).w > 0)
       .sort((a, b) => { const x = pq.get(String(a.id)), y = pq.get(String(b.id)); return (y.w / y.n) - (x.w / x.n) || y.n - x.n; });
   } else list = [];
-  return limit > 0 ? list.slice(0, limit) : list;
+  return list;
 }
 function startSession(mode, opts = {}) {
   let queue;
   if (mode === 'one') queue = [byId.get(String(opts.id))];
   else if (mode === 'set') queue = opts.queue;
-  else queue = buildQueue(mode, settings.limit);
+  else queue = buildQueue(mode);
+  // „Długość sesji”: reszta puli (reserve) zastępuje pytania pominięte; tylko w sesjach o długości zadanej limitem
+  let reserve = [];
+  if (mode !== 'one' && mode !== 'set' && settings.limit > 0) { reserve = queue.slice(settings.limit); queue = queue.slice(0, settings.limit); }
   if (!queue || !queue.length || !queue[0]) { toast('Brak pytań w tym trybie.'); return; }
-  session = { mode, queue, idx: 0, ok: 0, bad: 0, skipped: 0, wrongIds: [], returnTo: opts.returnTo || '#/', done: false };
+  session = { mode, queue, reserve, idx: 0, ok: 0, bad: 0, skipped: 0, wrongIds: [], returnTo: opts.returnTo || '#/', done: false };
   showQuestion(0);
 }
 function showQuestion(i) {
@@ -458,7 +461,7 @@ const actions = {
     cur.revealed = true; drawQ(true);
   },
   next() { nextQuestion(); },
-  skip() { session.skipped++; nextQuestion(); },
+  skip() { session.skipped++; if (session.reserve.length) session.queue.push(session.reserve.shift()); nextQuestion(); },
   quit() {
     if (session.mode === 'one') { finishSession(); return; }
     confirmAbort();
@@ -569,9 +572,9 @@ function drawQ(scroll) {
 
   view().innerHTML = `
     <div class="qhead"><span class="no">Pytanie nr ${esc(p.id)}</span><span class="sp"></span>
-      ${s.mode !== 'one' ? `<span class="tally muted">${s.idx + 1}/${N} · <span class="good">✓ ${s.ok}</span> · <span class="badc">✗ ${s.bad}</span></span>` : ''}
+      ${s.mode !== 'one' ? `<span class="tally muted">${s.idx + 1 - s.skipped}/${N - s.skipped} · <span class="good">✓ ${s.ok}</span> · <span class="badc">✗ ${s.bad}</span></span>` : ''}
       <button class="btn ghost" data-act="quit" style="min-height:36px;padding:4px 12px" aria-label="Zakończ">✕</button></div>
-    ${s.mode !== 'one' ? `<div class="prog"><i style="width:${pct(s.idx, N)}%"></i></div>` : '<div style="height:10px"></div>'}
+    ${s.mode !== 'one' ? `<div class="prog"><i style="width:${pct(s.idx - s.skipped, N - s.skipped)}%"></i></div>` : '<div style="height:10px"></div>'}
     <p class="qtext">${esc(p.pytanie)}</p>
     ${opts}${fb}
     <p class="kbd">Skróty: ${keys.map(k => esc(k)).join(' / ')} – wybór odpowiedzi · Enter – dalej · R – ponów (po błędnej odpowiedzi) · P – pokaż odpowiedź · S – pomiń</p>`;
