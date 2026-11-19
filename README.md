@@ -71,4 +71,7 @@ Aby aplikację można było zainstalować na telefonie, musi być udostępniona 
 * Statystyki liczą **pierwszą odpowiedź** na pytanie w danej sesji – ponowne próby po błędzie nie zaniżają wyniku.
 * Status pytania: *Nowe*, *Do powtórki* (ostatnia pierwsza odpowiedź błędna), *W nauce*, *Opanowane* (dwie ostatnie pierwsze odpowiedzi poprawne).
 * Skróty klawiszowe na komputerze: `a`/`b`/`c` – wybór, `Enter` – dalej, `R` – ponów, `P` – pokaż odpowiedź, `S` – pomiń.
+* Przerwanie sesji (✕, gest/przycisk „cofnij” w telefonie albo kliknięcie w pasku nawigacji) wymaga potwierdzenia; udzielone odpowiedzi są już zapisane, a po potwierdzeniu widać podsumowanie. Pojedyncze pytanie otwarte z listy zamyka się bez pytania.
+* Na ekranie głównym po sesji z błędami pojawia się sekcja *Błędne odpowiedzi z ostatniej sesji*. Pytanie szarzeje po poprawnej odpowiedzi **w pierwszym podejściu** (przy powtórce), sekcję można zamknąć przyciskiem ✕, znika też po poprawieniu wszystkich pytań. Nie jest zapamiętywana po zamknięciu aplikacji.
+* Gest „ściągnij w dół, aby odświeżyć” (Android) jest wyłączony.
 * Po zmianie plików aplikacji (nie danych) zwiększ numer wersji `CACHE` w `sw.js`, aby urządzenia pobrały nową wersję.

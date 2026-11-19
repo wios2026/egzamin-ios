@@ -20,6 +20,8 @@ html[data-theme="dark"] {
   }
 }
 html { font-size: var(--fs); -webkit-text-size-adjust: 100%; }
+/* wyłącza gest „ściągnij w dół, aby odświeżyć” (Android/Chrome), który przerywał sesję */
+html, body { overscroll-behavior-y: none; }
 html.fs-s { --fs: 15px; } html.fs-l { --fs: 19px; } html.fs-xl { --fs: 21px; }
 * { box-sizing: border-box; }
 body {
@@ -157,6 +159,14 @@ input[type=search] { width: 100%; }
 .tag.mastered { color: var(--ok); border-color: var(--ok); } .tag.hard { color: var(--bad); border-color: var(--bad); }
 .tag.learning { color: var(--warn); border-color: var(--warn); }
 
+/* sekcja „Błędne odpowiedzi z ostatniej sesji” na ekranie głównym */
+.rvhead { display: flex; align-items: center; gap: 10px; }
+.rvhead h2 { flex: 1; margin: 0; font-size: 1.05rem; }
+.rvx { min-height: 36px; padding: 4px 12px; }
+.rvlist { max-height: 42vh; overflow-y: auto; overscroll-behavior: contain; margin-top: 8px; }
+.rvlist .qrow:last-child { margin-bottom: 0; }
+.qrow.done { opacity: .5; }
+
 svg.chart { width: 100%; height: auto; display: block; }
 svg.chart text { fill: var(--muted); font-size: 15px; }
 svg.chart .gl line { stroke: var(--line); }
@@ -168,6 +178,10 @@ svg.chart .pt { fill: var(--pri); stroke: var(--card); stroke-width: 2; }
 #toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--nav-h) + env(safe-area-inset-bottom) + 14px); z-index: 50; display: flex; flex-direction: column; gap: 8px; align-items: center; pointer-events: none; width: calc(100% - 24px); max-width: 520px; }
 #toast .t { pointer-events: auto; background: #26302b; color: #fff; padding: 11px 16px; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,.3); display: flex; gap: 14px; align-items: center; }
 #toast .t button { font: inherit; font-weight: 700; color: #9be3bc; background: none; border: 0; cursor: pointer; padding: 4px; }
+#toast .t.alert { background: #c62828; border: 2px solid #fff; padding: 14px 16px; font-weight: 600; box-shadow: 0 8px 28px rgba(0,0,0,.45); }
+#toast .t.alert span { flex: 1; }
+#toast .t.alert button { color: #c62828; background: #fff; border-radius: 10px; padding: 9px 14px; min-height: 40px; }
+#toast .t.alert button.x { color: #fff; background: transparent; padding: 4px 8px; min-height: 0; }
 .mback { position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 60; display: grid; place-items: center; padding: 16px; }
 .mbox { background: var(--card); color: var(--fg); border-radius: 16px; padding: 18px; max-width: 460px; width: 100%; max-height: 90vh; overflow: auto; }
 .mbody { margin: 0 0 14px; white-space: pre-line; }

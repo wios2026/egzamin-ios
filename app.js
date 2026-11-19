@@ -1,6 +1,6 @@
 'use strict';
 /* Egzamin IOŚ – aplikacja do nauki. Bez zależności, dane tylko lokalnie (localStorage). */
-const APP_VERSION = '1.0.6';
+const APP_VERSION = '1.0.8';
 
 /* ---------- narzędzia ---------- */
 const $ = (s, el = document) => el.querySelector(s);
@@ -19,10 +19,11 @@ const store = {
 
 function toast(msg, action) {
   const box = $('#toast'); const el = document.createElement('div'); el.className = 't';
-  el.innerHTML = `<span>${esc(msg)}</span>` + (action ? `<button>${esc(action.label)}</button>` : '');
-  if (action) el.querySelector('button').onclick = () => { action.fn(); el.remove(); };
+  if (action) el.classList.add('alert'); // okno z akcją (np. nowa wersja) – czerwone, nie znika samo
+  el.innerHTML = `<span>${esc(msg)}</span>` + (action ? `<button>${esc(action.label)}</button><button class="x" aria-label="Zamknij">✕</button>` : '');
+  if (action) { const [a, x] = el.querySelectorAll('button'); a.onclick = () => { action.fn(); el.remove(); }; x.onclick = () => el.remove(); }
   box.appendChild(el);
-  setTimeout(() => el.remove(), action ? 15000 : 3500);
+  if (!action) setTimeout(() => el.remove(), 3500);
 }
 
 function modal(title, body, buttons) {
@@ -57,6 +58,7 @@ let state = { seq: null };
 let settings = { size: 'm', theme: 'auto', withoutKey: false, limit: 20 };
 let session = null;       // bieżąca sesja nauki
 let cur = null;           // bieżące pytanie w sesji
+let review = null;        // sekcja „błędne odpowiedzi z ostatniej sesji” na ekranie głównym: { ids: [id], fixed: Set(id) } (tylko w pamięci, ginie po zamknięciu aplikacji)
 
 const K = n => 'gios:' + DS.zbior + ':' + n;
 const optKeys = p => Object.keys(p.odpowiedzi).sort();
@@ -180,10 +182,30 @@ function showQuestion(i) {
   if (session.mode === 'seq') { state.seq = p.id; saveState(); }
   if (location.hash === '#/q') { drawQ(); window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); } else location.hash = '#/q';
 }
+/* Kończy sesję i zapamiętuje jej błędne odpowiedzi do sekcji na ekranie głównym.
+   Powtórka błędnych („set”) nie zastępuje sekcji – tylko ją uzupełnia (o poprawione pytania liczy pick()). */
+function endSession(s) {
+  s.done = true;
+  if (s.mode === 'one') return;
+  const ids = s.wrongIds.map(String).filter(id => byId.has(id));
+  if (s.mode !== 'set') review = ids.length ? { ids, fixed: new Set() } : null;
+  else if (!review && ids.length) review = { ids, fixed: new Set() };
+}
 function finishSession() {
-  const s = session; s.done = true;
-  if (s.mode === 'one') { session = null; go(s.returnTo || '#/'); return; }
-  go('#/summary');
+  const s = session;
+  if (s.mode === 'one') { s.done = true; session = null; go(s.returnTo || '#/'); return; }
+  endSession(s); go('#/summary');
+}
+
+/* Pytanie o przerwanie sesji – po kliknięciu ✕ oraz po geście/przycisku „cofnij”. */
+let askingAbort = false;
+async function confirmAbort(target) {
+  if (askingAbort) return;
+  askingAbort = true;
+  const yes = await modal('Przerwać sesję?', 'Odpowiedzi udzielone do tej pory są już zapisane w statystykach. Zobaczysz podsumowanie sesji.',
+    [{ label: 'Wróć do pytań', value: false, cls: 'pri' }, { label: 'Przerwij sesję', value: true, cls: 'danger' }]);
+  askingAbort = false;
+  if (yes && session && !session.done) { endSession(session); go(target || '#/summary'); }
 }
 function nextQuestion() {
   if (session.idx + 1 >= session.queue.length) finishSession(); else showQuestion(session.idx + 1);
@@ -197,6 +219,7 @@ const actions = {
     const ok = k === p.poprawna;
     record(p.id, ok, cur.first);
     if (cur.first) { if (ok) session.ok++; else { session.bad++; session.wrongIds.push(p.id); } }
+    if (cur.first && ok && review && review.ids.includes(String(p.id))) review.fixed.add(String(p.id)); // poprawione w pierwszym podejściu
     cur.first = false; cur.retrying = false;
     if (ok) cur.solved = true; else cur.wrong.add(k);
     drawQ(true);
@@ -213,10 +236,12 @@ const actions = {
   skip() { session.skipped++; nextQuestion(); },
   quit() {
     if (session.mode === 'one') { finishSession(); return; }
-    session.done = true; go('#/summary');
+    confirmAbort();
   },
+  closeReview() { review = null; route(); },
   start({ mode }) { startSession(mode); },
-  open({ id }) { startSession('one', { id, returnTo: location.hash }); },
+  // z podsumowania sesji wracamy po odpowiedzi na ekran główny (tam jest sekcja z błędnymi odpowiedziami)
+  open({ id }) { startSession('one', { id, returnTo: location.hash === '#/summary' ? '#/' : location.hash }); },
   goto() {
     const v = $('#goto').value.trim(); const p = byId.get(v);
     if (!p) { toast('Nie ma pytania o numerze ' + (v || '…') + '.'); return; }
@@ -232,6 +257,23 @@ const actions = {
 /* ---------- widoki ---------- */
 const view = () => $('#view');
 function go(h) { if (location.hash === h) route(); else location.hash = h; }
+// przekierowanie bez nowego wpisu w historii (inaczej „cofnij” wpadałoby w pętlę)
+function redirect(h) { history.replaceState(null, '', h); route(); }
+
+function reviewSection() {
+  if (review) review.ids = review.ids.filter(id => byId.has(id));
+  if (review && review.ids.every(id => review.fixed.has(id))) review = null; // wszystko poprawione – sekcja znika
+  if (!review) return '';
+  const left = review.ids.filter(id => !review.fixed.has(id)).length;
+  const rows = review.ids.map(id => {
+    const done = review.fixed.has(id);
+    return `<button class="qrow ${done ? 'done' : ''}" data-act="open" data-id="${esc(id)}"><span class="id">${esc(id)}</span><span class="tx">${esc(snip(byId.get(id).pytanie, 110))}</span>${done ? '<span class="tag mastered">Poprawione</span>' : ''}</button>`;
+  }).join('');
+  return `<div class="card">
+    <div class="rvhead"><h2>Błędne odpowiedzi z ostatniej sesji</h2><button class="btn ghost rvx" data-act="closeReview" aria-label="Zamknij sekcję">✕</button></div>
+    <p class="small muted" style="margin:4px 0 0">Do poprawienia: ${left} z ${review.ids.length}. Pytanie szarzeje po poprawnej odpowiedzi w pierwszym podejściu.</p>
+    <div class="rvlist">${rows}</div></div>`;
+}
 
 function viewHome() {
   const pq = perQuestion(); const sc = statusCounts(pq); const N = Q.length;
@@ -251,6 +293,7 @@ function viewHome() {
   view().innerHTML = `
     <h1>Egzamin IOŚ – nauka</h1>
     <p class="muted small">${esc(DS.nazwa || '')} · ${N} pytań, w tym ${withKey} z kluczem odpowiedzi</p>
+    ${reviewSection()}
     <div class="card">
       <div class="bar" role="img" aria-label="Postęp nauki">${bar}</div>
       <div class="legend">${['mastered', 'learning', 'hard', 'new'].map(k => `<span><i class="dot c-${k}"></i>${STATUS[k]}: <b>${sc[k]}</b></span>`).join('')}</div>
@@ -272,7 +315,7 @@ function viewHome() {
 }
 
 function viewQuestion() {
-  if (!session || !cur || session.done) { go('#/'); return; }
+  if (!session || !cur || session.done) { redirect('#/'); return; }
   drawQ();
 }
 function drawQ(scroll) {
@@ -312,7 +355,7 @@ function drawQ(scroll) {
 
 function viewSummary() {
   const s = session;
-  if (!s) { go('#/'); return; }
+  if (!s || s.mode === 'one') { redirect('#/'); return; }
   const n = s.ok + s.bad;
   const wrong = s.wrongIds.map(id => byId.get(String(id))).filter(Boolean);
   view().innerHTML = `
@@ -486,6 +529,7 @@ document.addEventListener('click', e => {
   const f = actions[b.dataset.act]; if (f) f(b.dataset);
 });
 document.addEventListener('keydown', e => {
+  if ($('#modal').childElementCount) return; // okno dialogowe otwarte – skróty nie działają
   if (location.hash !== '#/q' || !cur || e.ctrlKey || e.metaKey || e.altKey) return;
   if (/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) return;
   const k = e.key.toLowerCase(); const keys = optKeys(cur.p);
@@ -497,7 +541,23 @@ document.addEventListener('keydown', e => {
   else if (k === 'p') actions.reveal();
   else if (k === 's' && !answered && !cur.wrong.size && session.mode !== 'one') actions.skip();
 });
-window.addEventListener('hashchange', route);
+const sessionLive = () => !!(session && !session.done && session.mode !== 'one' && cur);
+/* Pasek nawigacji u dołu w trakcie sesji: pytamy, czy przerwać; po potwierdzeniu przechodzimy do wybranej zakładki. */
+document.addEventListener('click', e => {
+  const a = e.target.closest('#nav a');
+  if (a && location.hash === '#/q' && sessionLive()) { e.preventDefault(); confirmAbort(a.getAttribute('href')); }
+}, true);
+/* „Cofnij” (gest/przycisk systemowy) w trakcie sesji: zostajemy na pytaniu i pytamy, czy przerwać sesję. */
+window.addEventListener('hashchange', e => {
+  let from = ''; try { from = new URL(e.oldURL).hash; } catch (err) { /* ignore */ }
+  if (from === '#/q' && location.hash !== '#/q' && session && session.mode === 'one') session = null; // porzucone pojedyncze pytanie nie wraca przy kolejnym „cofnij”
+  if (from === '#/q' && location.hash !== '#/q' && sessionLive()) {
+    location.hash = '#/q';
+    confirmAbort();
+    return;
+  }
+  route();
+});
 
 (async function main() {
   try {

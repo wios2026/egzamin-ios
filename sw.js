@@ -1,7 +1,7 @@
 // Service worker: działanie offline.
 // UWAGA: po zmianie plików aplikacji (app.js, style.css, index.html) zwiększ numer w CACHE.
 // Plik data/questions.json jest pobierany "najpierw z sieci" – jego podmiana na serwerze wystarcza.
-const CACHE = 'gios-nauka-v8';
+const CACHE = 'gios-nauka-v10';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest',
   'data/questions.json', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
