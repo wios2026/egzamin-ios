@@ -56,7 +56,7 @@
     "c": "tylko całodobowy pobór próbek ścieków"
    },
    "poprawna": "b",
-   "komentarz": "potwierdzenie pośrednie: lista kontrolna ISK 1.2.1"
+   "komentarz": "potwierdzenie pośrednie: ISK, Biblioteka – lista kontrolna horyzontalna 1.2.1 „Gospodarka wodno-ściekowa” (cz. I – zaopatrzenie w wodę, cz. II – odprowadzanie ścieków do wód lub do ziemi)"
   },
   {
    "id": 6,
@@ -408,7 +408,7 @@
     "c": "podejmowaniu kontroli tylko z udziałem pracownika CLB GIOŚ"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.2 (protokół podpisuje sam inspektor)"
+   "komentarz": "ISK 5.2 (rozpoznanie w terenie zgłoszenia z nieustalonym sprawcą w celu wykrycia sprawcy; protokół podpisuje sam inspektor); prezentacja z kursu: „49. Kontrola w terenie bez ustalonego podmiotu”, sl. 6 (czynności jednostronne, brak kontrolowanego)."
   },
   {
    "id": 38,
@@ -419,7 +419,7 @@
     "c": "odczynu"
    },
    "poprawna": "c",
-   "komentarz": "wiedza ogólna; prezentacja z kursu: „49. Kontrola w terenie bez ustalonego podmiotu”, sl. 32 (pH-metr – pomiar odczynu)."
+   "komentarz": "prezentacja z kursu: „49. Kontrola w terenie bez ustalonego podmiotu”, sl. 32 (pH-metr – pomiar odczynu); wiedza ogólna."
   },
   {
    "id": 39,
@@ -749,7 +749,7 @@
     "c": "domniemanie na podstawie przedstawionej dokumentacji fotograficznej stanu faktycznego"
    },
    "poprawna": "b",
-   "komentarz": "eliminacja opcji oczywiście błędnych; prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 8."
+   "komentarz": "prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 8; eliminacja opcji oczywiście błędnych."
   },
   {
    "id": 69,
@@ -760,7 +760,7 @@
     "c": "nie są określone zasady prowadzenia oględzin"
    },
    "poprawna": "b",
-   "komentarz": "potwierdzenie pośrednie: materiały Policji „Zasady i sposoby prowadzenia oględzin” wymieniają 10 z 12 zasad; opcje a i c oczywiście błędne; prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 20–28 (12 zasad prowadzenia oględzin)."
+   "komentarz": "potwierdzenie pośrednie: prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 20–28 (12 zasad prowadzenia oględzin); materiały Policji „Zasady i sposoby prowadzenia oględzin” wymieniają 10 z 12 zasad; eliminacja opcji oczywiście błędnych (a, c)."
   },
   {
    "id": 70,
@@ -771,7 +771,7 @@
     "c": "jest 9 najważniejszych zasad sporządzania protokołu oględzin\n1) zasada komunikatywności\n2) zasada stosowania odpowiednich form gramatycznych\n3) zasada dokładności\n4) zasada zwięzłości opisu\n5) zasada bezpośredniości\n6) zasada obiektywizmu\n7) zasada zgodności dokumentacyjnej\n8) zasada jednolitego nazewnictwa\n9) zasada systematyczności"
    },
    "poprawna": "c",
-   "komentarz": "materiały Policji „Zasady sporządzania protokołu oględzin” – 9 zasad; prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 35–42 (zasady sporządzania protokołu oględzin)."
+   "komentarz": "prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 35–42 (zasady sporządzania protokołu oględzin); materiały Policji „Zasady sporządzania protokołu oględzin” – 9 zasad."
   },
   {
    "id": 71,
@@ -782,7 +782,7 @@
     "c": "protokół oględzin składa się z 3 części\n1) wstępnej\n2) opisowej\n3) końcowej"
    },
    "poprawna": "c",
-   "komentarz": "eliminacja opcji oczywiście błędnych; prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 43."
+   "komentarz": "prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 43; eliminacja opcji oczywiście błędnych."
   },
   {
    "id": 72,
@@ -793,7 +793,7 @@
     "c": "naprzemienne stosowanie metody obiektywnej i subiektywnej w miejscu poddanym oględzinom"
    },
    "poprawna": "a",
-   "komentarz": "materiały Policji „Zasady i sposoby prowadzenia oględzin” – metoda obiektywna i subiektywna; prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 52."
+   "komentarz": "prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 52; materiały Policji „Zasady i sposoby prowadzenia oględzin” – metoda obiektywna i subiektywna."
   },
   {
    "id": 73,
@@ -815,7 +815,7 @@
     "c": "przed podpisaniem protokołu przesłuchania"
    },
    "poprawna": "c",
-   "komentarz": "art. 150 § 1 KPK; ISK 5.1.2"
+   "komentarz": "art. 150 § 1 KPK; ISK 5.1.2 (po zaprotokołowaniu zeznań składający je zapoznaje się z całością zapisu, a następnie podpisuje protokół)"
   },
   {
    "id": 75,
@@ -837,7 +837,7 @@
     "c": "informacji zamieszczonych w mediach społecznościowych"
    },
    "poprawna": "b",
-   "komentarz": "wzór protokołu przesłuchania (ISK)"
+   "komentarz": "ISK, zał. I.5.1.2.3 (protokół przesłuchania: tożsamość ustala się na podstawie dokumentu tożsamości – nazwa, seria, numer, organ wydający)"
   },
   {
    "id": 77,
@@ -903,7 +903,7 @@
     "c": "Główny Inspektor Ochrony Środowiska"
    },
    "poprawna": "b",
-   "komentarz": "eliminacja opcji oczywiście błędnych; art. 150 ust. 1 POŚ – dodatkowe obowiązki pomiarowe może nałożyć organ ochrony środowiska (przepisu wprost o stanowisku pomiarowym brak); prezentacja z kursu: „32. Powietrze cz. II”, sl. 37 (miejsce stanowiska pomiarowego wyznacza organ wydający pozwolenie)."
+   "komentarz": "art. 150 ust. 1 POŚ – dodatkowe obowiązki pomiarowe może nałożyć organ ochrony środowiska (przepisu wprost o stanowisku pomiarowym brak); prezentacja z kursu: „32. Powietrze cz. II”, sl. 37 (miejsce stanowiska pomiarowego wyznacza organ wydający pozwolenie); eliminacja opcji oczywiście błędnych."
   },
   {
    "id": 83,
@@ -925,7 +925,7 @@
     "c": "podmiot nie posiada decyzji o dopuszczalnym poziomie hałasu, ale organ ochrony środowiska prowadzi postepowanie celem jego wydania"
    },
    "poprawna": "a",
-   "komentarz": "potwierdzenie pośrednie: art. 115a POŚ, lista kontrolna ISK 1.2.4; eliminacja opcji oczywiście błędnych; prezentacja z kursu: „35. Hałas”, sl. 29."
+   "komentarz": "potwierdzenie pośrednie: art. 115a POŚ; ISK, lista kontrolna 1.2.4 „Ochrona przed hałasem” (warunki emisji hałasu w pozwoleniu zintegrowanym lub decyzji o dopuszczalnym poziomie hałasu); prezentacja z kursu: „35. Hałas”, sl. 29; eliminacja opcji oczywiście błędnych."
   },
   {
    "id": 85,
@@ -1057,7 +1057,7 @@
     "c": "Inspekcja Ochrony Środowiska nie ocenia wyników i badań przedkładanych przez podmioty"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.3"
+   "komentarz": "ISK 5.3 (wykaz dokumentów podlegających kontroli automonitoringowej: pomiary emisji do powietrza, ścieków, poboru wody, hałasu, pól elektromagnetycznych, badania stanu środowiska)"
   },
   {
    "id": 97,
@@ -1068,7 +1068,7 @@
     "c": "nie ma takiej możliwości"
    },
    "poprawna": "b",
-   "komentarz": "ISK 5.3"
+   "komentarz": "ISK 5.3 (adnotacji nie sporządza się jedynie przy decyzji o przeprowadzeniu kontroli w terenie – analiza dokumentacji jest wtedy przygotowaniem do kontroli)"
   },
   {
    "id": 98,
@@ -1112,7 +1112,7 @@
     "c": "protokół"
    },
    "poprawna": "b",
-   "komentarz": "ISK 5.3"
+   "komentarz": "ISK 5.3 (kontrolę dokumentacyjną dokumentuje się adnotacją sporządzaną w systemie ISK – zał. I.5.3.1 i I.5.3.2)"
   },
   {
    "id": 102,
@@ -1123,7 +1123,7 @@
     "c": "w przypadku gdy służby celne wytworzą w wyniku swojej działalności zużyte baterie i akumulatory"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.3 (zał. I.5.3.4)"
+   "komentarz": "art. 2 ust. 1 pkt 1 lit. k ustawy o IOŚ; ISK 5.3 (zał. I.5.3.4 – opinia dla służb celnych w sprawie baterii i akumulatorów)"
   },
   {
    "id": 103,
@@ -1145,7 +1145,7 @@
     "c": "wszystkie odpowiedzi są prawidłowe"
    },
    "poprawna": "c",
-   "komentarz": "wiedza ogólna; prezentacja z kursu: „30b. Stosowanie urządzeń technicznych w pracy IOŚ, w tym rejestracja obrazu, dźwięku cz II”, sl. 19."
+   "komentarz": "prezentacja z kursu: „30b. Stosowanie urządzeń technicznych w pracy IOŚ, w tym rejestracja obrazu, dźwięku cz II”, sl. 19; wiedza ogólna."
   },
   {
    "id": 105,
@@ -1167,7 +1167,7 @@
     "c": "wyłącznie pracownik będący Inspektorem Inspekcji Ochrony Środowiska"
    },
    "poprawna": "b",
-   "komentarz": "eliminacja opcji oczywiście błędnych; prezentacja z kursu: „14. Zasady przeprowadzania kontroli – ogólne cz. IV”, sl. 12 (art. 49 ust. 3a Pp – loty wykonują pracownicy z uprawnieniami)."
+   "komentarz": "art. 49 ust. 3a Prawa przedsiębiorców; prezentacja z kursu: „14. Zasady przeprowadzania kontroli – ogólne cz. IV”, sl. 12 (loty wykonują pracownicy z uprawnieniami); eliminacja opcji oczywiście błędnych."
   },
   {
    "id": 107,
@@ -1420,7 +1420,7 @@
     "c": "Kodeksie karnym i ustawach administracyjnego prawa materialnego z zakresu ochrony środowiska"
    },
    "poprawna": "c",
-   "komentarz": "wiedza ogólna; prezentacja z kursu: „54. Przestępstwa przeciwko środowisku”, sl. 15, 17."
+   "komentarz": "prezentacja z kursu: „54. Przestępstwa przeciwko środowisku”, sl. 15, 17; wiedza ogólna."
   },
   {
    "id": 130,
@@ -1904,7 +1904,7 @@
     "c": "rozpoznanie zanieczyszczenia w terenie, transport towarów lub odpadów"
    },
    "poprawna": "a",
-   "komentarz": "ISK 2.4"
+   "komentarz": "ISK 2.4 (rodzaje kontroli zakładu w terenie – pozaplanowych: na wniosek, interwencyjna, inwestycyjna, inna)"
   },
   {
    "id": 174,
@@ -1915,7 +1915,7 @@
     "c": "wyłącznie kontrole prowadzone w ramach cyku kontrolnego"
    },
    "poprawna": "a",
-   "komentarz": "ISK 1.2 Definicje: kontrola problemowa obejmuje jeden lub dwa cele kontroli (kompleksowa – więcej niż dwa)"
+   "komentarz": "ISK 1.2 Definicje (charakter kontroli): problemowa obejmuje jeden lub dwa cele kontroli (kompleksowa – więcej niż dwa)"
   },
   {
    "id": 175,
@@ -1926,7 +1926,7 @@
     "c": "jest możliwa tylko w przypadku kontroli pozaplanowej"
    },
    "poprawna": "b",
-   "komentarz": "ISK 5.1.2; art. 49 Prawa przedsiębiorców"
+   "komentarz": "art. 49 ust. 6 Prawa przedsiębiorców; ISK 5.1.2 (zmiana zakresu przedmiotowego wymaga odrębnego upoważnienia i nie może wydłużyć terminu zakończenia kontroli); prezentacja z kursu: „15. Zasady przeprowadzania kontroli cz. V”, sl. 82."
   },
   {
    "id": 176,
@@ -1937,7 +1937,7 @@
     "c": "przekazać sprawę organom ścigania"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.1.4 (zał. 4.1.2)"
+   "komentarz": "ISK 5.1.4 (wezwanie kontrolowanego do udziału w podejmowanych czynnościach kontrolnych – zał. I.4.1.3)"
   },
   {
    "id": 177,
@@ -2047,7 +2047,7 @@
     "c": "adnotacji z kontroli"
    },
    "poprawna": "b",
-   "komentarz": "ISK 5.1.2"
+   "komentarz": "ISK 5.1.2 (informację o wykonaniu oględzin i sporządzeniu protokołu oględzin zamieszcza się w protokole kontroli)"
   },
   {
    "id": 187,
@@ -2058,7 +2058,7 @@
     "c": "protokole przesłuchania"
    },
    "poprawna": "c",
-   "komentarz": "ISK 5.1.2 (wzór protokołu przesłuchania)"
+   "komentarz": "ISK 5.1.2 (zeznania zapisuje się w protokole przesłuchania – zał. I.5.1.2.3)"
   },
   {
    "id": 188,
@@ -2069,7 +2069,7 @@
     "c": "nałożyć na kontrolowanego sankcje karne"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.1.2 (instruktaż)"
+   "komentarz": "ISK 5.1.2 (instruktaż – wskazanie obowiązujących wymagań prawnych lub zmian przepisów)"
   },
   {
    "id": 189,
@@ -2080,7 +2080,7 @@
     "c": "pisemną zgodę wojewódzkiego inspektora ochrony środowiska"
    },
    "poprawna": "b",
-   "komentarz": "art. 23 ust. 1 i art. 29 ust. 1 ustawy o ochronie informacji niejawnych (poświadczenie wydaje pełnomocnik ochrony); ISK 5.1.1"
+   "komentarz": "art. 23 ust. 1 i art. 29 ust. 1 ustawy o ochronie informacji niejawnych (poświadczenie wydaje pełnomocnik ochrony); ISK 5.1.1 i 5.1.2 (imienne poświadczenie bezpieczeństwa)"
   },
   {
    "id": 190,
@@ -2091,7 +2091,7 @@
     "c": "posiadający specjalne upoważnienie wydane przez wojewodę"
    },
    "poprawna": "c",
-   "komentarz": "ISK 5.1.2 (upoważnienie wydaje wojewoda); art. 95 § 4–6 KPW"
+   "komentarz": "art. 95 § 4–6 KPW; ISK 5.1.2 (specjalne upoważnienie wydaje wojewoda)"
   },
   {
    "id": 191,
@@ -2124,7 +2124,7 @@
     "c": "czterostopniowa klasyfikacja naruszeń"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.4"
+   "komentarz": "ISK 5.4 (dwustopniowa klasyfikacja naruszeń: klasa 1 – najniższa, klasa 2 – najwyższa)"
   },
   {
    "id": 194,
@@ -2135,7 +2135,7 @@
     "c": "naruszenia w wyniku których może nastąpić lub nastąpiło zagrożenie lub zanieczyszczenie środowiska"
    },
    "poprawna": "c",
-   "komentarz": "ISK 5.4"
+   "komentarz": "ISK 5.4 (klasa 2 – naruszenia, w wyniku których może nastąpić lub nastąpiło zagrożenie lub zanieczyszczenie środowiska)"
   },
   {
    "id": 195,
@@ -2190,7 +2190,7 @@
     "c": "prowadzonej na podstawie ustawy z dnia 20 lipca 1991 r. o Inspekcji Ochrony Środowiska w zakresie gospodarki odpadami"
    },
    "poprawna": "a",
-   "komentarz": "ISK 4.2"
+   "komentarz": "ISK 4.2 (program kontroli sporządza się obowiązkowo dla zakładów z pozwoleniem zintegrowanym oraz ZDR i ZZR)"
   },
   {
    "id": 200,
@@ -2245,7 +2245,7 @@
     "c": "oceny sposobu eksploatacji instalacji lub urządzeń chroniących środowisko"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.1.2"
+   "komentarz": "ISK 5.1.2 (przerwanie kontroli na czas badań próbki, jeśli jedyną czynnością będzie sporządzenie protokołu – zał. I.5.1.2.10)"
   },
   {
    "id": 205,
@@ -2267,7 +2267,7 @@
     "c": "zawsze po wykonaniu oględzin przez inspektora Inspekcji Ochrony Środowiska"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.1.2"
+   "komentarz": "ISK 5.1.2 (protokół oględzin jest obowiązkowy, jeśli inspektor stwierdzi naruszenie wymagań ochrony środowiska)"
   },
   {
    "id": 207,
@@ -2278,7 +2278,7 @@
     "c": "mandatu karnego, pouczenia, administracyjnej kary pieniężnej"
    },
    "poprawna": "b",
-   "komentarz": "ISK 5.1.2"
+   "komentarz": "ISK 5.1.2 (sankcje za wykroczenia: mandat karny, pouczenie, wniosek o ukaranie do sądu rejonowego)"
   },
   {
    "id": 208,
@@ -2311,7 +2311,7 @@
     "c": "poinformować kontrolowanego, o jego prawach i obowiązkach w trakcie kontroli"
    },
    "poprawna": "c",
-   "komentarz": "ISK 5.1.1"
+   "komentarz": "ISK 5.1.1 (przed rozpoczęciem czynności inspektor informuje kontrolowanego o jego prawach i obowiązkach)"
   },
   {
    "id": 211,
@@ -2322,7 +2322,7 @@
     "c": "w zarządzeniu pokontrolnym"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.1.2"
+   "komentarz": "ISK 5.1.2 (informację o instruktażu umieszcza się w pkt 4 protokołu kontroli, ze wskazaniem osoby i jej stanowiska)"
   },
   {
    "id": 212,
@@ -2333,7 +2333,7 @@
     "c": "decyzję o zamieszczeniu zastrzeżonych załączników w ISK podejmuje wojewódzki inspektor ochrony środowiska"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.1.2"
+   "komentarz": "ISK 5.1.2 (do bazy ISK wprowadza się jawną część protokołu, z pominięciem zastrzeżonych załączników)"
   },
   {
    "id": 213,
@@ -2377,7 +2377,7 @@
     "c": "zależnie od wyniku analizy wielokryterialnej, ale nie niżej niż kategoria średniego ryzyka"
    },
    "poprawna": "c",
-   "komentarz": "ISK 2.3"
+   "komentarz": "ISK 2.3 (instalacje IED – ustawowy wymóg kontroli co najmniej raz na 3 lata, czyli co najmniej średnie ryzyko, chyba że analiza wykaże potrzebę częstszych kontroli)"
   },
   {
    "id": 217,
@@ -2388,7 +2388,7 @@
     "c": "nie częściej niż raz na 5 lat, decyzja o ujęciu w planie kontroli należy do wioś"
    },
    "poprawna": "a",
-   "komentarz": "ISK 2.3"
+   "komentarz": "art. 55a ust. 1 Prawa przedsiębiorców; ISK 2.3 (wysokie ryzyko – kontrola co roku)"
   },
   {
    "id": 218,
@@ -2410,7 +2410,7 @@
     "c": "inspektor wykonujący kontrolę"
    },
    "poprawna": "c",
-   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 – inspektor wprowadza dane dotyczące kontroli do bazy ISK; eliminacja opcji oczywiście błędnych; prezentacja z kursu: „58. Obsługa Informatycznego Systemu Kontroli”, sl. 82 (pośrednio – po zakończeniu kontroli można dodawać wyniki badań z laboratorium)."
+   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 (inspektor wprowadza do bazy ISK dane o kontrolach w przypisanym zakresie); prezentacja z kursu: „58. Obsługa Informatycznego Systemu Kontroli”, sl. 82 (pośrednio – po zakończeniu kontroli można dodawać wyniki badań z laboratorium); eliminacja opcji oczywiście błędnych."
   },
   {
    "id": 220,
@@ -2421,7 +2421,7 @@
     "c": "maksymalnie do trzech grup zakładów"
    },
    "poprawna": "a",
-   "komentarz": "ISK 2.1"
+   "komentarz": "ISK 2.1 (zakład można przyporządkować do dowolnej liczby grup – pola wielokrotnego wyboru)"
   },
   {
    "id": 221,
@@ -2432,7 +2432,7 @@
     "c": "wprowadzenie do ISK działań pokontrolnych"
    },
    "poprawna": "b",
-   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 – status kontroli („zakończona” / „w trakcie realizacji”); eliminacja opcji oczywiście błędnych; prezentacja z kursu: „58. Obsługa Informatycznego Systemu Kontroli”, sl. 82–85 (pośrednio – krok „Kończymy kontrolę”)."
+   "komentarz": "potwierdzenie pośrednie: ISK 1.3.2 (status kontroli „zakończona” / „w trakcie realizacji”); prezentacja z kursu: „58. Obsługa Informatycznego Systemu Kontroli”, sl. 82–85 (pośrednio – krok „Kończymy kontrolę”); eliminacja opcji oczywiście błędnych."
   },
   {
    "id": 222,
@@ -2443,7 +2443,7 @@
     "c": "niezależnie od wyniku analizy wielokryterialnej, ponieważ z uwagi na wymogi prawne zakłady te muszą być kontrolowane co roku, niezależnie od wyniku analizy wielokryterialnej"
    },
    "poprawna": "c",
-   "komentarz": "ISK 2.3"
+   "komentarz": "ISK 2.3 (ZDR – kategoria wysokiego ryzyka z uwagi na wymogi prawne, niezależnie od wyniku analizy wielokryterialnej)"
   },
   {
    "id": 223,
@@ -2454,7 +2454,7 @@
     "c": "umożliwia rejestrację zakładu bez konieczności przypisania go do podmiotu kontrolowanego korzystającego ze środowiska (pkzś)"
    },
    "poprawna": "a",
-   "komentarz": "ISK 2.1"
+   "komentarz": "ISK 2.1 (dwa stopnie hierarchii danych: podmioty korzystające ze środowiska i zakłady)"
   },
   {
    "id": 224,
@@ -2773,7 +2773,7 @@
     "c": "w celu prawidłowego opisu stanu faktycznego na oględzinach wskazane jest używanie sformułowań oceniających skalę stwierdzonego faktu w przybliżeniu (np. około, przypuszczalnie, prawdopodobnie, tuż obok, w pobliżu)"
    },
    "poprawna": "b",
-   "komentarz": "ISK 5.1.2 i wytyczne do art. 10b"
+   "komentarz": "prezentacja z kursu: „07. Metodologia prowadzenia oględzin”, sl. 36–39 (zasady sporządzania protokołu oględzin: dokładności, zwięzłości, bezpośredniości – protokół sporządza się na miejscu w obecności osób uczestniczących w oględzinach, obiektywizmu); zasada dokładności zakazuje słów nieostrych, np. „około”, „przypuszczalnie”, „w pobliżu”, „tuż”, „obok” – wyklucza to opcję c; opcję a wyklucza zasada bezpośredniości (protokół na miejscu, a nie w dowolnym czasie kontroli). Materiał prezentacji pochodzi z procedur Policji."
   },
   {
    "id": 253,
@@ -2784,7 +2784,7 @@
     "c": "zawiera informację o wykonanej dokumentacji zdjęciowej/audiowizualnej"
    },
    "poprawna": "c",
-   "komentarz": "wzór protokołu oględzin (ISK)"
+   "komentarz": "ISK, zał. I.5.1.2.2 (protokół oględzin zawiera informację o wykonanej dokumentacji fotograficznej lub audiowizualnej)"
   },
   {
    "id": 254,
@@ -2795,7 +2795,7 @@
     "c": "nie musi zawierać pouczenia o odpowiedzialności karnej za składanie fałszywych zeznań"
    },
    "poprawna": "b",
-   "komentarz": "ISK 5.1.2"
+   "komentarz": "ISK 5.1.2 i zał. I.5.1.2.3 (protokół przesłuchania służy ustaleniu stanu faktycznego; zawiera pouczenie o odpowiedzialności za fałszywe zeznania – art. 233 KK)"
   },
   {
    "id": 255,
@@ -2806,7 +2806,7 @@
     "c": "nigdy nie dotyczy kwestii przedłożonej dokumentacji, jak i stanu ujawnionego w trakcie oględzin"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.1.2"
+   "komentarz": "ISK 5.1.2 i zał. I.5.1.2.4 (protokół przyjęcia informacji – wzór, ale informacje mogą być też przedkładane w innej formie; wzór nie zawiera pouczenia o odpowiedzialności karnej)"
   },
   {
    "id": 256,
@@ -2817,7 +2817,7 @@
     "c": "żadna odpowiedź nie jest poprawna"
    },
    "poprawna": "c",
-   "komentarz": "ISK 5.1.2; art. 75 § 1 KPA"
+   "komentarz": "art. 75 § 1 KPA; ISK 5.1.2 (dowodami mogą być w szczególności dokumenty, protokoły sporządzone przez inspektora, sprawozdania z badań, dokumentacja fotograficzna, wyjaśnienia kontrolowanego, opinia rzeczoznawcy)"
   },
   {
    "id": 257,
@@ -2828,7 +2828,7 @@
     "c": "dokumenty załączane do protokołu kontroli mogą być dołączane w formie kserokopii, bez konieczności potwierdzania ich zgodności z oryginałem"
    },
    "poprawna": "b",
-   "komentarz": "eliminacja opcji oczywiście błędnych; wiedza ogólna; prezentacja z kursu: „13. Zasady przeprowadzania kontroli – ogólne cz. III”, sl. 57–58; „23. Dokumentowanie czynności kontrolnych cz. I”, sl. 29."
+   "komentarz": "prezentacja z kursu: „13. Zasady przeprowadzania kontroli – ogólne cz. III”, sl. 57–58; „23. Dokumentowanie czynności kontrolnych cz. I”, sl. 29; wiedza ogólna; eliminacja opcji oczywiście błędnych."
   },
   {
    "id": 258,
@@ -2861,7 +2861,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "a",
-   "komentarz": "ISK 5.1.4"
+   "komentarz": "art. 225 § 1 KK; ISK 5.1.4 (nieodbieranie korespondencji i uzasadnione niestawienie się na wezwanie wydłużają kontrolę, ale nie wypełniają znamion przestępstwa); prezentacja z kursu: „50. Postępowanie inspektora w przypadku utrudniania lub udaremniania kontroli cz. I”, sl. 15."
   },
   {
    "id": 261,
@@ -2883,7 +2883,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "b",
-   "komentarz": "ISK 5.1.4"
+   "komentarz": "ISK 5.1.4 (utrudnianie – m.in. niewpuszczenie inspektora na teren zakładu lub do wybranych pomieszczeń)"
   },
   {
    "id": 263,
@@ -3125,7 +3125,7 @@
     "c": "wszystkie odpowiedzi są poprawne"
    },
    "poprawna": "c",
-   "komentarz": "ISK 5.1.2"
+   "komentarz": "ISK 5.1.2 (protokół oględzin z dokumentacją foto/audiowizualną, protokół przesłuchania, protokół przyjęcia informacji – zał. I.5.1.2.2–I.5.1.2.4)"
   },
   {
    "id": 285,
@@ -3136,7 +3136,7 @@
     "c": "nie musi posiadać załącznika w postaci wyników badań przeprowadzonych pomiarów, mimo że wynika z nich przekroczenie emisji zanieczyszczań. Krótka wzmianka w treści protokołu kontroli jest wystarczająca, by podjąć czynności pokontrolne (np. wymierzyć administracyjną karę pieniężną)"
    },
    "poprawna": "b",
-   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2; eliminacja opcji oczywiście błędnych; prezentacja z kursu: „23. Dokumentowanie czynności kontrolnych cz. I”, sl. 29."
+   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2; prezentacja z kursu: „23. Dokumentowanie czynności kontrolnych cz. I”, sl. 29; eliminacja opcji oczywiście błędnych."
   },
   {
    "id": 286,
@@ -3147,7 +3147,7 @@
     "c": "wpisanie w treść protokołu kontroli, że organ stwierdził, że kontrolowany podmiot przekształcał termicznie odpady tworzyw sztucznych w piecu centralnego ogrzewania, ponieważ w trakcie kontroli był wyczuwalny duszący zapach na terenie zakładu"
    },
    "poprawna": "a",
-   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2; eliminacja opcji oczywiście błędnych; prezentacja z kursu: „23. Dokumentowanie czynności kontrolnych cz. I”, sl. 29."
+   "komentarz": "potwierdzenie pośrednie: ISK 5.1.2; prezentacja z kursu: „23. Dokumentowanie czynności kontrolnych cz. I”, sl. 29; eliminacja opcji oczywiście błędnych."
   },
   {
    "id": 287,
@@ -3158,7 +3158,7 @@
     "c": "udaremnianie przeprowadzenia kontroli oznacza odmowę podpisania protokołu kontroli"
    },
    "poprawna": "b",
-   "komentarz": "ISK 5.1.4"
+   "komentarz": "ISK 5.1.4 (udaremnienie – uniemożliwienie przeprowadzenia czynności kontrolnych, co czyni niemożliwe osiągnięcie celów kontroli)"
   },
   {
    "id": 288,
@@ -3169,7 +3169,7 @@
     "c": "złożyć wniosek do Głównego Inspektora Ochrony Środowiska o przejęcie sprawy"
    },
    "poprawna": "b",
-   "komentarz": "ISK 5.1.4"
+   "komentarz": "ISK 5.1.4 (czynne utrudnianie: ustne wezwanie do zaprzestania z informacją, że to przestępstwo, adnotacja w protokole, a przy braku reakcji pisemne wezwanie z pouczeniem o odpowiedzialności karnej); prezentacja z kursu: „50. Postępowanie inspektora w przypadku utrudniania lub udaremniania kontroli cz. I”, sl. 43."
   },
   {
    "id": 289,
@@ -3191,7 +3191,7 @@
     "c": "planowany charakter kontroli"
    },
    "poprawna": "a",
-   "komentarz": "eliminacja opcji oczywiście błędnych; kierunek zgodny z ISK 5.1.2 i 5.2; prezentacja z kursu: „49. Kontrola w terenie bez ustalonego podmiotu”, sl. 6–7."
+   "komentarz": "ISK 5.2 (rozpoznanie w terenie zgłoszenia z nieustalonym sprawcą); prezentacja z kursu: „49. Kontrola w terenie bez ustalonego podmiotu”, sl. 6–7 (brak kontrolowanego, ograniczona możliwość przygotowania, działanie bezzwłoczne, brak sankcji); eliminacja opcji oczywiście błędnych."
   },
   {
    "id": 291,
@@ -3202,7 +3202,7 @@
     "c": "dane wymienione w ppkt a) i b) i inne informacje"
    },
    "poprawna": "c",
-   "komentarz": "wiedza ogólna; prezentacja z kursu: „49. Kontrola w terenie bez ustalonego podmiotu”, sl. 8–15."
+   "komentarz": "prezentacja z kursu: „49. Kontrola w terenie bez ustalonego podmiotu”, sl. 8–15; wiedza ogólna."
   },
   {
    "id": 292,
@@ -3444,7 +3444,7 @@
     "c": "rzeczywisty, potencjalny, postrzegany"
    },
    "poprawna": "c",
-   "komentarz": "nowe pytanie w 2026 – rządowy poradnik „Konflikt interesów – czym jest i jak go unikać” (źródło pozaustawowe); prezentacja z kursu: „62. Etyka w pracy inspektora IOŚ”, sl. 20–23."
+   "komentarz": "nowe pytanie w 2026 – prezentacja z kursu: „62. Etyka w pracy inspektora IOŚ”, sl. 20–23; rządowy poradnik „Konflikt interesów – czym jest i jak go unikać” (źródło pozaustawowe)."
   },
   {
    "id": 314,
@@ -3455,7 +3455,7 @@
     "c": "Przed rozpoczęciem kontroli każda osoba biorąca udział kontroli jest zobowiązana do przekazania przedsiębiorcy oświadczenia o braku podstaw do wyłączenia z kontroli"
    },
    "poprawna": "a",
-   "komentarz": "nowe pytanie w 2026 – ISK 4.1 i załącznik 4.1.13; prezentacja z kursu: „11. Zasady przeprowadzania kontroli – ogólne cz. I”, sl. 53–55."
+   "komentarz": "nowe pytanie w 2026 – ISK 4.1 (oświadczenie o braku podstaw do wyłączenia z kontroli składa każda osoba biorąca udział w kontroli) i zał. I.4.1.13; prezentacja z kursu: „11. Zasady przeprowadzania kontroli – ogólne cz. I”, sl. 53–55."
   }
  ]
 }
