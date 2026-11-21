@@ -1,6 +1,6 @@
 'use strict';
 /* Egzamin IOŚ – aplikacja do nauki. Bez zależności, dane tylko lokalnie (localStorage). */
-const APP_VERSION = '1.1.3';
+const APP_VERSION = '1.1.5';
 
 /* ---------- narzędzia ---------- */
 const $ = (s, el = document) => el.querySelector(s);
@@ -58,6 +58,7 @@ let state = { seq: null };
 let settings = { size: 'm', theme: 'auto', withoutKey: false, limit: 20 };
 let session = null;       // bieżąca sesja nauki
 let cur = null;           // bieżące pytanie w sesji
+let lastStats = null;     // statystyki ostatniej sesji (sekcja na ekranie głównym): { ok, bad, skipped }
 let review = null;        // sekcja „błędne odpowiedzi z ostatniej sesji” na ekranie głównym: { ids: [id], fixed: Set(id) } (tylko w pamięci, ginie po zamknięciu aplikacji)
 
 const K = n => 'gios:' + DS.zbior + ':' + n;
@@ -207,19 +208,19 @@ function settleSkipped(st) {
   session.queue.splice(session.queue.indexOf(q), 1); session.added.delete(q); session.reserve.unshift(q);
 }
 
-/* Kończy sesję i zapamiętuje jej błędne odpowiedzi do sekcji na ekranie głównym.
-   Powtórka błędnych („set”) nie zastępuje sekcji – tylko ją uzupełnia (o poprawione pytania liczy pick()). */
+/* Kończy sesję: statystyki trafiają do sekcji „Statystyki z ostatniej sesji”, a błędne odpowiedzi do okna „Błędne odpowiedzi…” (review) na ekranie głównym.
+   Powtórka błędnych („set”) nie zastępuje listy – tylko ją uzupełnia (o poprawione pytania liczy pick()). */
 function endSession(s) {
   s.done = true;
   if (s.mode === 'one') return;
   const ids = s.wrongIds.map(String).filter(id => byId.has(id));
-  if (s.mode !== 'set') review = ids.length ? { ids, fixed: new Set() } : null;
-  else if (!review && ids.length) review = { ids, fixed: new Set() };
+  lastStats = { ok: s.ok, bad: s.bad, skipped: s.skipped };
+  if (s.mode !== 'set' || !review) review = ids.length ? { ids, fixed: new Set() } : null;
 }
 function finishSession() {
   const s = session;
   if (s.mode === 'one') { s.done = true; session = null; go(s.returnTo || '#/'); return; }
-  endSession(s); go('#/summary');
+  endSession(s); go('#/');
 }
 
 /* Pytanie o przerwanie sesji – po kliknięciu ✕ oraz po geście/przycisku „cofnij”. */
@@ -227,10 +228,10 @@ let askingAbort = false;
 async function confirmAbort(target) {
   if (askingAbort) return;
   askingAbort = true;
-  const yes = await modal('Przerwać sesję?', 'Odpowiedzi udzielone do tej pory są już zapisane w statystykach. Zobaczysz podsumowanie sesji.',
+  const yes = await modal('Przerwać sesję?', 'Odpowiedzi udzielone do tej pory są już zapisane w statystykach. Statystyki sesji zobaczysz na ekranie głównym.',
     [{ label: 'Wróć do pytań', value: false, cls: 'pri' }, { label: 'Przerwij sesję', value: true, cls: 'danger' }]);
   askingAbort = false;
-  if (yes && session && !session.done) { endSession(session); go(target || '#/summary'); }
+  if (yes && session && !session.done) { endSession(session); go(target || '#/'); }
 }
 function nextQuestion() {
   if (session.idx + 1 >= session.queue.length) finishSession(); else showQuestion(session.idx + 1);
@@ -272,19 +273,19 @@ const actions = {
     confirmAbort();
   },
   closeReview() { review = null; route(); },
+  closeStats() { lastStats = null; route(); },
   refresh() { refreshApp(); },
   start({ mode }) { startSession(mode); },
   // z podsumowania sesji wracamy po odpowiedzi na ekran główny (tam jest sekcja z błędnymi odpowiedziami)
-  open({ id }) { startSession('one', { id, returnTo: location.hash === '#/summary' ? '#/' : location.hash }); },
+  open({ id }) { startSession('one', { id, returnTo: location.hash }); },
   goto() {
     const v = $('#goto').value.trim(); const p = byId.get(v);
     if (!p) { toast('Nie ma pytania o numerze ' + (v || '…') + '.'); return; }
     startSession('one', { id: p.id, returnTo: '#/' });
   },
-  again() {
-    const ids = session ? session.wrongIds.slice() : [];
-    const queue = ids.map(id => byId.get(String(id))).filter(Boolean);
-    startSession('set', { queue });
+  again() { // powtórka jeszcze niepoprawionych pytań z okna „ostatnia sesja”
+    if (!review) return;
+    startSession('set', { queue: review.ids.filter(id => !review.fixed.has(id)).map(id => byId.get(id)).filter(Boolean) });
   },
 };
 
@@ -294,19 +295,35 @@ function go(h) { if (location.hash === h) route(); else location.hash = h; }
 // przekierowanie bez nowego wpisu w historii (inaczej „cofnij” wpadałoby w pętlę)
 function redirect(h) { history.replaceState(null, '', h); route(); }
 
+function statsSection() {
+  if (!lastStats) return '';
+  const { ok, bad, skipped } = lastStats, n = ok + bad;
+  return `<div class="card" id="lastStats">
+    <div class="rvhead"><h2>Statystyki z ostatniej sesji</h2><button class="btn ghost rvx" data-act="closeStats" aria-label="Zamknij sekcję">✕</button></div>
+    <div class="grid" style="margin:8px 0 0">
+      <div class="stat"><b>${n}</b><span>odpowiedzi (pierwsza próba)</span></div>
+      <div class="stat"><b class="good">${ok}</b><span>poprawnych</span></div>
+      <div class="stat"><b class="badc">${bad}</b><span>błędnych</span></div>
+      <div class="stat"><b>${pct(ok, n)}%</b><span>skuteczność</span></div>
+    </div>
+    ${skipped ? `<p class="muted small" style="margin:8px 0 0">Pominięte pytania: ${skipped}.</p>` : ''}
+    ${bad === 0 ? '<p style="margin:8px 0 0">Bez błędów w tej sesji – dobra robota.</p>' : ''}</div>`;
+}
+
 function reviewSection() {
   if (review) review.ids = review.ids.filter(id => byId.has(id));
-  if (review && review.ids.every(id => review.fixed.has(id))) review = null; // wszystko poprawione – sekcja znika
+  if (review && review.ids.every(id => review.fixed.has(id))) review = null; // wszystko poprawione – okno znika
   if (!review) return '';
   const left = review.ids.filter(id => !review.fixed.has(id)).length;
   const rows = review.ids.map(id => {
     const done = review.fixed.has(id);
     return `<button class="qrow ${done ? 'done' : ''}" data-act="open" data-id="${esc(id)}"><span class="id">${esc(id)}</span><span class="tx">${esc(snip(byId.get(id).pytanie, 110))}</span>${done ? '<span class="tag mastered">Poprawione</span>' : ''}</button>`;
   }).join('');
-  return `<div class="card">
-    <div class="rvhead"><h2>Błędne odpowiedzi z ostatniej sesji</h2><button class="btn ghost rvx" data-act="closeReview" aria-label="Zamknij sekcję">✕</button></div>
+  return `<div class="card" id="review">
+    <div class="rvhead"><h2>Błędne odpowiedzi z ostatniej sesji</h2><button class="btn ghost rvx" data-act="closeReview" aria-label="Zamknij okno">✕</button></div>
     <p class="small muted" style="margin:4px 0 0">Do poprawienia: ${left} z ${review.ids.length}. Pytanie szarzeje po poprawnej odpowiedzi w pierwszym podejściu.</p>
-    <div class="rvlist">${rows}</div></div>`;
+    <div class="rvlist">${rows}</div>
+    ${left ? '<div class="btns" style="margin-top:10px"><button class="btn pri" data-act="again">Powtórz niepoprawione</button></div>' : ''}</div>`;
 }
 
 function viewHome() {
@@ -326,6 +343,7 @@ function viewHome() {
   view().innerHTML = `
     <h1>Egzamin IOŚ – nauka</h1>
     <p class="muted small">${esc(DS.nazwa || '')} · ${N} pytań</p>
+    ${statsSection()}
     ${reviewSection()}
     <div class="card">
       <div class="bar" role="img" aria-label="Postęp nauki">${bar}</div>
@@ -385,28 +403,6 @@ function drawQ(scroll) {
     ${opts}${fb}
     <p class="kbd">Skróty: ${keys.map(k => esc(k)).join(' / ')} – wybór odpowiedzi · Enter – dalej · R – ponów (po błędnej odpowiedzi) · P – pokaż odpowiedź · S – pomiń</p>`;
   if (scroll) { const f = $('.fb'); if (f) f.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
-}
-
-function viewSummary() {
-  const s = session;
-  if (!s || s.mode === 'one') { redirect('#/'); return; }
-  const n = s.ok + s.bad;
-  const wrong = s.wrongIds.map(id => byId.get(String(id))).filter(Boolean);
-  view().innerHTML = `
-    <h1>Koniec sesji</h1>
-    <div class="grid">
-      <div class="stat"><b>${n}</b><span>odpowiedzi (pierwsza próba)</span></div>
-      <div class="stat"><b class="good">${s.ok}</b><span>poprawnych</span></div>
-      <div class="stat"><b class="badc">${s.bad}</b><span>błędnych</span></div>
-      <div class="stat"><b>${pct(s.ok, n)}%</b><span>skuteczność</span></div>
-    </div>
-    ${s.skipped ? `<p class="muted small">Pominięte pytania: ${s.skipped}.</p>` : ''}
-    ${wrong.length ? `<h2>Pytania do powtórki</h2>` + wrong.map(p => `<button class="qrow" data-act="open" data-id="${esc(p.id)}"><span class="id">${esc(p.id)}</span><span class="tx">${esc(snip(p.pytanie, 140))}</span></button>`).join('') : '<p>Bez błędów w tej sesji – dobra robota.</p>'}
-    <div class="btns" style="margin-top:12px">
-      ${wrong.length ? '<button class="btn pri" data-act="again">Powtórz błędne</button>' : ''}
-      <button class="btn ${wrong.length ? '' : 'pri'}" data-act="start" data-mode="${s.mode === 'set' || s.mode === 'one' ? 'mix' : s.mode}">Kolejna sesja</button>
-      <button class="btn" onclick="location.hash='#/'">Do menu</button>
-    </div>`;
 }
 
 function chartDaily(days) {
@@ -542,12 +538,12 @@ async function importProgress() {
 }
 
 /* ---------- routing i start ---------- */
-const routes = { home: viewHome, q: viewQuestion, stats: viewStats, list: viewList, settings: viewSettings, summary: viewSummary };
+const routes = { home: viewHome, q: viewQuestion, stats: viewStats, list: viewList, settings: viewSettings };
 function route() {
   if (!DS) return;
   const name = (location.hash || '#/').slice(2).split('?')[0] || 'home';
   const fn = routes[name] || viewHome;
-  document.querySelectorAll('#nav a').forEach(a => a.classList.toggle('on', a.dataset.r === (name === 'q' || name === 'summary' ? 'home' : name)));
+  document.querySelectorAll('#nav a').forEach(a => a.classList.toggle('on', a.dataset.r === (name === 'q' ? 'home' : name)));
   fn(); window.scrollTo(0, 0);
 }
 function applyLook() {
