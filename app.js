@@ -1,6 +1,6 @@
 'use strict';
 /* Egzamin IOŚ – aplikacja do nauki. Bez zależności, dane tylko lokalnie (localStorage). */
-const APP_VERSION = '1.1.5';
+const APP_VERSION = '1.1.6';
 
 /* ---------- narzędzia ---------- */
 const $ = (s, el = document) => el.querySelector(s);
@@ -326,6 +326,15 @@ function reviewSection() {
     ${left ? '<div class="btns" style="margin-top:10px"><button class="btn pri" data-act="again">Powtórz niepoprawione</button></div>' : ''}</div>`;
 }
 
+function limitOpts(N) {
+  const presets = [10, 20, 50, 100].filter(v => v < N);
+  const list = presets.map(v => [v, v + ' pytań']);
+  if (settings.limit > 0 && settings.limit < N && !presets.includes(settings.limit)) list.push([settings.limit, settings.limit + ' pytań (własna)']);
+  list.push([0, 'bez limitu']);
+  const sel = settings.limit >= N ? 0 : settings.limit;
+  return list.map(([v, l]) => `<option value="${v}" ${sel === v ? 'selected' : ''}>${l}</option>`).join('') + '<option value="custom">Inna liczba…</option>';
+}
+
 function viewHome() {
   const pq = perQuestion(); const sc = statusCounts(pq); const N = Q.length;
   const today = firstTotals(new Date().setHours(0, 0, 0, 0));
@@ -352,7 +361,8 @@ function viewHome() {
     </div>
     <h2>Wybierz tryb nauki</h2>
     <div class="row" style="margin-bottom:10px"><label class="small muted">Długość sesji
-      <select id="limit">${[[10, '10 pytań'], [20, '20 pytań'], [50, '50 pytań'], [100, '100 pytań'], [0, 'bez limitu']].map(([v, l]) => `<option value="${v}" ${settings.limit === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label></div>
+      <select id="limit">${limitOpts(N)}</select></label>
+      <span id="limitCustom" class="row" style="display:none;gap:6px"><input type="number" id="limitN" min="1" max="${N - 1}" inputmode="numeric" placeholder="1–${N - 1}" style="width:5.5rem"><button class="btn" id="limitOk">OK</button></span></div>
     ${mode('mix', 'Mieszany (zalecany)', 'Niewyświetlone i trudne pytania pojawiają się częściej, opanowane rzadziej', true)}
     ${mode('seq', 'Po kolei', `Wszystkie pytania w kolejności z pliku, od nr ${esc(seqAt)}`)}
     ${mode('new', 'Jeszcze niewyświetlone', 'Pytania, na które jeszcze nie odpowiadałeś(aś)')}
@@ -360,7 +370,18 @@ function viewHome() {
     ${mode('hardest', 'Najtrudniejsze dla mnie', 'Pytania z najwyższym odsetkiem błędów')}
     <div class="card row" style="margin-top:14px"><label for="goto">Otwórz pytanie nr</label>
       <input type="number" id="goto" min="1" inputmode="numeric" style="width:6.5rem"><button class="btn" data-act="goto">Otwórz</button></div>`;
-  $('#limit').onchange = e => { settings.limit = +e.target.value; saveSettings(); };
+  const limitSel = $('#limit'), limitBox = $('#limitCustom'), limitN = $('#limitN');
+  const applyCustom = () => {
+    const v = Math.floor(+limitN.value);
+    if (!(v >= 1 && v <= N - 1)) { toast(`Podaj liczbę od 1 do ${N - 1}`); limitN.focus(); return; }
+    settings.limit = v; saveSettings(); limitBox.style.display = 'none'; limitSel.innerHTML = limitOpts(N);
+  };
+  limitSel.onchange = e => {
+    if (e.target.value === 'custom') { limitBox.style.display = 'flex'; limitN.value = ''; limitN.focus(); return; }
+    limitBox.style.display = 'none'; settings.limit = +e.target.value; saveSettings();
+  };
+  $('#limitOk').onclick = applyCustom;
+  limitN.onkeydown = e => { if (e.key === 'Enter') applyCustom(); };
   $('#goto').onkeydown = e => { if (e.key === 'Enter') actions.goto(); };
 }
 
@@ -422,7 +443,7 @@ function chartDaily(days) {
 
 function viewStats() {
   const pq = perQuestion(); const sc = statusCounts(pq); const N = Q.length;
-  const all = firstTotals(); const wk = firstTotals(Date.now() - 7 * 864e5);
+  const all = firstTotals(); const wk = firstTotals(Date.now() - 2 * 864e5);
   const seen = N - sc.new;
   const byDay = new Map();
   for (const [ts, id, ok, first] of attempts) {
@@ -441,7 +462,7 @@ function viewStats() {
       <div class="stat"><b class="good">${all.ok}</b><span>poprawnych</span></div>
       <div class="stat"><b class="badc">${all.bad}</b><span>błędnych</span></div>
       <div class="stat"><b>${all.n ? pct(all.ok, all.n) + '%' : '–'}</b><span>skuteczność ogółem</span></div>
-      <div class="stat"><b>${wk.n ? pct(wk.ok, wk.n) + '%' : '–'}</b><span>skuteczność – ostatnie 7 dni (${wk.n} odp.)</span></div>
+      <div class="stat"><b>${wk.n ? pct(wk.ok, wk.n) + '%' : '–'}</b><span>skuteczność – ostatnie 2 dni (${wk.n} odp.)</span></div>
       <div class="stat"><b>${seen}/${N}</b><span>pytań, na które odpowiadano</span></div>
     </div>
     <div class="card"><h3>Stan opanowania pytań</h3>
