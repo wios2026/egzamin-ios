@@ -1,6 +1,6 @@
 'use strict';
 /* Egzamin IOŚ – aplikacja do nauki. Bez zależności, dane tylko lokalnie (localStorage). */
-const APP_VERSION = '1.1.6';
+const APP_VERSION = '1.1.7';
 
 /* ---------- narzędzia ---------- */
 const $ = (s, el = document) => el.querySelector(s);
@@ -155,7 +155,8 @@ function buildQueue(mode) {
   if (mode === 'seq') {
     list = Q.slice();
     let at = Math.max(0, list.findIndex(p => String(p.id) === String(state.seq)));
-    list = list.slice(at).concat(list.slice(0, at));
+    list = state.dir === 'desc' ? list.slice(0, at + 1).reverse().concat(list.slice(at + 1).reverse())
+      : list.slice(at).concat(list.slice(0, at));
   } else if (mode === 'mix') {
     const w = { new: 3, hard: 4, learning: 2, mastered: 0.5 };
     list = pool().map(p => ({ p, k: -Math.log(Math.random()) / w[st(p)] })).sort((a, b) => a.k - b.k).map(x => x.p);
@@ -364,12 +365,21 @@ function viewHome() {
       <select id="limit">${limitOpts(N)}</select></label>
       <span id="limitCustom" class="row" style="display:none;gap:6px"><input type="number" id="limitN" min="1" max="${N - 1}" inputmode="numeric" placeholder="1–${N - 1}" style="width:5.5rem"><button class="btn" id="limitOk">OK</button></span></div>
     ${mode('mix', 'Mieszany (zalecany)', 'Niewyświetlone i trudne pytania pojawiają się częściej, opanowane rzadziej', true)}
-    ${mode('seq', 'Po kolei', `Wszystkie pytania w kolejności z pliku, od nr ${esc(seqAt)}`)}
+    ${mode('seq', 'Po kolei', `Wszystkie pytania w kolejności ${state.dir === 'desc' ? 'malejącej' : 'rosnącej'}, od nr ${esc(seqAt)}`)}
+    <div class="row seqopt"><label class="small muted">Zacznij od nr <input type="number" id="seqStart" min="1" inputmode="numeric" value="${esc(seqAt)}" style="width:5.5rem"></label>
+      <label class="small muted">Kolejność <select id="seqDir"><option value="asc" ${state.dir === 'desc' ? '' : 'selected'}>rosnąca</option><option value="desc" ${state.dir === 'desc' ? 'selected' : ''}>malejąca</option></select></label></div>
     ${mode('new', 'Jeszcze niewyświetlone', 'Pytania, na które jeszcze nie odpowiadałeś(aś)')}
     ${mode('wrong', 'Do powtórki', 'Ostatnia odpowiedź na te pytania była błędna')}
     ${mode('hardest', 'Najtrudniejsze dla mnie', 'Pytania z najwyższym odsetkiem błędów')}
     <div class="card row" style="margin-top:14px"><label for="goto">Otwórz pytanie nr</label>
       <input type="number" id="goto" min="1" inputmode="numeric" style="width:6.5rem"><button class="btn" data-act="goto">Otwórz</button></div>`;
+  const subSeq = () => { const t = $('[data-mode=seq] .t span'); if (t) t.textContent = `Wszystkie pytania w kolejności ${state.dir === 'desc' ? 'malejącej' : 'rosnącej'}, od nr ${state.seq != null && byId.has(String(state.seq)) ? state.seq : Q[0].id}`; };
+  $('#seqStart').onchange = e => {
+    const v = String(Math.floor(+e.target.value));
+    if (!byId.has(v)) { toast('Nie ma pytania o takim numerze.'); e.target.value = seqAt; return; }
+    state.seq = byId.get(v).id; saveState(); subSeq();
+  };
+  $('#seqDir').onchange = e => { state.dir = e.target.value; saveState(); subSeq(); };
   const limitSel = $('#limit'), limitBox = $('#limitCustom'), limitN = $('#limitN');
   const applyCustom = () => {
     const v = Math.floor(+limitN.value);
