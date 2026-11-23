@@ -1,6 +1,6 @@
 'use strict';
 /* Egzamin IOŚ – aplikacja do nauki. Bez zależności, dane tylko lokalnie (localStorage). */
-const APP_VERSION = '1.1.7';
+const APP_VERSION = '1.1.8';
 
 /* ---------- narzędzia ---------- */
 const $ = (s, el = document) => el.querySelector(s);
@@ -187,7 +187,10 @@ function showQuestion(i) {
   const p = session.queue[i];
   cur = { p, wrong: new Set(), solved: false, revealed: false, first: true, unverified: false, picked: null, retrying: false, skipped: false, repl: null };
   session.states[i] = cur;
-  if (session.mode === 'seq') { state.seq = p.id; saveState(); }
+  if (session.mode === 'seq') { // domyślny start następnej sesji „po kolei” = pytanie po ostatnio wyświetlonym (w wybranym kierunku)
+    const k = Q.findIndex(x => String(x.id) === String(p.id)), L = Q.length;
+    state.seq = Q[((state.dir === 'desc' ? k - 1 : k + 1) + L) % L].id; saveState();
+  }
   if (location.hash === '#/q') { drawQ(); window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); } else location.hash = '#/q';
 }
 /* Cofanie: wyświetla zapamiętany stan pytania nr v (pytania odpowiedziane – tylko do odczytu, pominięte – aktywne). */
