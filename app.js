@@ -1,6 +1,6 @@
 'use strict';
 /* Egzamin IOŚ – aplikacja do nauki. Bez zależności, dane tylko lokalnie (localStorage). */
-const APP_VERSION = '1.1.8';
+const APP_VERSION = '1.1.9';
 
 /* ---------- narzędzia ---------- */
 const $ = (s, el = document) => el.querySelector(s);
@@ -420,9 +420,9 @@ function drawQ(scroll) {
   const extra = (answered || cur.unverified) ? (p.komentarz ? `<div class="expl"><h3>Wyjaśnienie</h3>${esc(p.komentarz)}</div>` : '') + (p.uwaga ? `<div class="note"><b>Uwaga:</b> ${esc(p.uwaga)}</div>` : '') : '';
   const nextLabel = s.mode === 'one' ? 'Zamknij' : (atF && s.idx + 1 >= N ? 'Zakończ sesję' : 'Dalej');
   const navRow = s.mode !== 'one' && (s.view > 0 || !atF) ? `<div class="qnav">${s.view > 0 ? '<button class="btn ghost" data-act="prev">‹ Poprzednie pytanie</button>' : ''}<span class="sp"></span>${!atF ? '<button class="btn ghost" data-act="fwd">Następne ›</button>' : ''}</div>` : '';
-  if (cur.solved) fb = `<div class="fb ok"><div class="msg">✓ Dobra odpowiedź${cur.wrong.size ? ' (po ponownej próbie)' : ''}</div>${extra}<div class="btns"><button class="btn pri" data-act="next" id="nextBtn">${nextLabel}</button></div></div>`;
-  else if (cur.revealed) fb = `<div class="fb info"><div class="msg">Właściwa odpowiedź: ${esc(p.poprawna.toUpperCase())}</div>${cur.hinted ? '<p class="small muted" style="margin:0 0 8px">Pokazano odpowiedź bez próby – w statystykach liczy się jako odpowiedź, której nie znałeś(aś).</p>' : ''}${extra}<div class="btns"><button class="btn pri" data-act="next" id="nextBtn">${nextLabel}</button></div></div>`;
-  else if (cur.unverified) fb = `<div class="fb info"><div class="msg">Brak klucza odpowiedzi dla tego pytania – nie można sprawdzić.</div>${extra}<div class="btns"><button class="btn pri" data-act="next" id="nextBtn">${nextLabel}</button></div></div>`;
+  if (cur.solved) fb = `<div class="fb ok${extra ? ' long' : ''}"><div class="msg">✓ Dobra odpowiedź${cur.wrong.size ? ' (po ponownej próbie)' : ''}</div>${extra}<div class="btns"><button class="btn pri" data-act="next" id="nextBtn">${nextLabel}</button></div></div>`;
+  else if (cur.revealed) fb = `<div class="fb info${extra ? ' long' : ''}"><div class="msg">Właściwa odpowiedź: ${esc(p.poprawna.toUpperCase())}</div>${cur.hinted ? '<p class="small muted" style="margin:0 0 8px">Pokazano odpowiedź bez próby – w statystykach liczy się jako odpowiedź, której nie znałeś(aś).</p>' : ''}${extra}<div class="btns"><button class="btn pri" data-act="next" id="nextBtn">${nextLabel}</button></div></div>`;
+  else if (cur.unverified) fb = `<div class="fb info${extra ? ' long' : ''}"><div class="msg">Brak klucza odpowiedzi dla tego pytania – nie można sprawdzić.</div>${extra}<div class="btns"><button class="btn pri" data-act="next" id="nextBtn">${nextLabel}</button></div></div>`;
   else if (cur.wrong.size && cur.retrying) fb = `<div class="fb bad"><div class="msg">Spróbuj jeszcze raz – wybierz inną odpowiedź.</div><div class="btns"><button class="btn" data-act="reveal">Pokaż właściwą odpowiedź <span class="kh">(P)</span></button></div></div>`;
   else if (cur.wrong.size) fb = `<div class="fb bad"><div class="msg">✗ Błędna odpowiedź</div><div class="btns"><button class="btn pri" data-act="retry">Spróbuj ponownie <span class="kh">(R)</span></button><button class="btn" data-act="reveal">Pokaż właściwą odpowiedź <span class="kh">(P)</span></button></div></div>`;
   else fb = `<div class="btns" style="margin-top:6px">${p.poprawna ? '<button class="btn ghost" data-act="reveal">Pokaż odpowiedź (liczy się jako błąd) <span class="kh">(P)</span></button>' : ''}${s.mode !== 'one' && atF && !cur.skipped ? '<button class="btn ghost" data-act="skip">Pomiń pytanie <span class="kh">(S)</span></button>' : ''}</div>${cur.skipped ? '<p class="small muted" style="margin:8px 0 0">Pytanie pominięte – możesz teraz na nie odpowiedzieć.</p>' : ''}`;

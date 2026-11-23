@@ -140,6 +140,10 @@ input[type=search] { width: 100%; }
   box-shadow: 0 6px 22px rgba(0,0,0,.14); z-index: 5;
 }
 @media (min-width: 760px) { .fb { bottom: 12px; } }
+/* z wyjaśnieniem: ramka płynie razem ze stroną (można przewinąć do pytania), przyklejony jest tylko przycisk „dalej” */
+.fb.long { position: static; box-shadow: none; }
+.fb.long .btns { position: sticky; bottom: calc(var(--nav-h) + env(safe-area-inset-bottom) + 8px); background: var(--card); padding: 8px 0 2px; margin-top: 4px; z-index: 5; }
+@media (min-width: 760px) { .fb.long .btns { bottom: 12px; } }
 .fb.ok { border-color: var(--ok); } .fb.bad { border-color: var(--bad); } .fb.info { border-color: var(--warn); }
 .fb .msg { font-weight: 700; margin-bottom: 8px; }
 .fb.ok .msg { color: var(--ok); } .fb.bad .msg { color: var(--bad); } .fb.info .msg { color: var(--warn); }
